@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-T480-16-256-i7",
+    "wpid": "48Y2TSME9HO9",
+    "upc": "789091944072",
+    "gtin": "00789091944072",
+    "productName": "Lenovo ThinkPad X1 Carbon Gen 6 14\" FHD Touchscreen Ultrabook - Intel Core i5-8300U | 16GB RAM | 256GB SSD | Windows 11 Pro - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 346.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

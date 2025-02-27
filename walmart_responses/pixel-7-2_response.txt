@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "pixel-7-2",
+    "wpid": "0WIHN3RS4THK",
+    "upc": "741527623241",
+    "gtin": "00741527623241",
+    "productName": "Google pixel 7 128GB Great condition Unlocked Smartphone Open Box",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 535.95
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED",
+    "variantGroupId": "Pixel7opn",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Obsidian"
+            }
+        ]
+    }
+}

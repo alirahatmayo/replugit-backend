@@ -1,0 +1,30 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S22U-128-g-OB",
+    "wpid": "4BCJ1B4I53Y8",
+    "upc": "647535893051",
+    "gtin": "00647535893051",
+    "productName": "Samsung Galaxy S22 Ultra 5G| 128GB ROM | 12 GB RAM |108 MP Camera - Factory Unlocked - Brand New Open Box",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1299.99
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED",
+    "variantGroupId": "S22Ultra-128-OB",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Green"
+            },
+            {
+                "name": "hard_drive_capacity",
+                "value": "128.00"
+            }
+        ]
+    }
+}

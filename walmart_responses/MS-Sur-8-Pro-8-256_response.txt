@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "MS-Sur-8-Pro-8-256",
+    "wpid": "6C7FCUNQL8HZ",
+    "upc": "647535928166",
+    "gtin": "00647535928166",
+    "productName": "Microsoft Surface Pro 8 13\" Laptop - Intel Core i5, 8GB RAM, 256GB SSD, Windows 11 Pro - Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1500.0
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

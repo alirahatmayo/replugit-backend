@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "s23+-246-WM-BLK",
+    "wpid": "6103Q4K8WRAC",
+    "upc": "400502014916",
+    "gtin": "00400502014916",
+    "productName": "Samsung Galaxy S23+",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1399.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "PRD-6000206141798",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Phantom Black"
+            }
+        ]
+    }
+}

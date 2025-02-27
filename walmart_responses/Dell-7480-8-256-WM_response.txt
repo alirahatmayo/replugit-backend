@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-7480-8-256-WM",
+    "wpid": "3JHTZX3P2BCK",
+    "upc": "840669007213",
+    "gtin": "00840669007213",
+    "productName": "Refurbished Dell Latitude 7480 Intel i5-7300U Laptop",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 449.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

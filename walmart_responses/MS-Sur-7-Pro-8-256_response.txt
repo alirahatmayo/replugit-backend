@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "MS-Sur-7-Pro-8-256",
+    "wpid": "5HOP7QEAI3VL",
+    "upc": "647535550459",
+    "gtin": "00647535550459",
+    "productName": "Microsoft Surface Pro 7 12.3\" Laptop - Intel Core i5, 8GB RAM, 256GB SSD, Windows 11 Pro - Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1500.0
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

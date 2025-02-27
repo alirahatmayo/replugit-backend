@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-X390-16-256",
+    "wpid": "6G3IVPJXWSF6",
+    "gtin": "09871115579634",
+    "productName": "Lenovo ThinkPad X390 Yoga 2 in 1 Touchscreen Business Laptop 13.3\" IPS FHD | Intel Core i5-8265U, 8GB RAM, 256GB NVMe PCIe SSD | Certified Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 599.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

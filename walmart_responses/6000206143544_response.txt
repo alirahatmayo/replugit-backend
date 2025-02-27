@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "6000206143544",
+    "wpid": "21DNLCUNADQP",
+    "upc": "887276718125",
+    "gtin": "00887276718125",
+    "productName": "RF SAM GAL S23 256",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 977.95
+    },
+    "publishedStatus": "SYSTEM_PROBLEM",
+    "lifecycleStatus": "RETIRED"
+}

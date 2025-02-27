@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S24U-512-YLW",
+    "wpid": "73WOXTPNC7T1",
+    "upc": "887276802411",
+    "gtin": "00887276802411",
+    "productName": "Samsung Galaxy S24 Ultra - 512GB - Titanium Yellow",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1999.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

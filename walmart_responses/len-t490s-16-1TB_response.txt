@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "len-t490s-16-1TB",
+    "wpid": "5I55UULKX5WP",
+    "upc": "647535688343",
+    "gtin": "00647535688343",
+    "productName": "Lenovo ThinkPad T490s | Intel i5 8365U | 16GB RAM | 1TB SSD | 14\" FHD Display | Windows 11 Pro - Refurbished Business Laptop - 1 Year Warranty",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 549.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "T490s",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "configuration",
+                "value": "16 GB RAM, 1 TB SSD"
+            }
+        ]
+    }
+}

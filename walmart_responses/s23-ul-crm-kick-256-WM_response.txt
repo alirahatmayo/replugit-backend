@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "s23-ul-crm-kick-256-WM",
+    "wpid": "247QL4FWQZ1F",
+    "gtin": "08806094733310",
+    "productName": "Samsung Galaxy S23 Ultra STANDARD EDITION Dual-SIM 256GB ROM + 8GB RAM (Only GSM | No CDMA) Factory Unlocked 5G Smartphone (Green) - International Version",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1999.99
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

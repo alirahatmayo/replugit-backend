@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S-Galaxy S23 -Ul-Lavender-M&Z-WM",
+    "wpid": "2DU85B3HK5OX",
+    "upc": "400501808271",
+    "gtin": "00400501808271",
+    "productName": "Samsung Galaxy S23 Ultra",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1849.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "PRD-6000206142599",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Lavender"
+            }
+        ]
+    }
+}

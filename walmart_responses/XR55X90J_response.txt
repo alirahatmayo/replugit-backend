@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "XR55X90J",
+    "wpid": "34GVYK1DD5BC",
+    "upc": "027242921917",
+    "gtin": "00027242921917",
+    "productName": "Sony XR-55X90J 55\u2033 Bravia XR Full Array 4K UHD HDR Smart TV",
+    "shelf": "[\"Root\",\"Electronics\",\"TV & Video\",\"TVs\",\"50 inch - 59 inch TVs\"]",
+    "productType": "Televisions",
+    "price": {
+        "currency": "CAD",
+        "amount": 1049.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

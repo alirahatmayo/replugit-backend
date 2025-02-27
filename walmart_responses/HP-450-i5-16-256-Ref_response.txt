@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "HP-450-i5-16-256-Ref",
+    "wpid": "44SW0SS1EL4O",
+    "upc": "789091943440",
+    "gtin": "00789091943440",
+    "productName": "HP ProBook 450 G3 Intel Core i5 Refurbished Laptop - 16GB RAM, 256GB SSD, Windows 10 Pro, 1-Year Warranty",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 500.0
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

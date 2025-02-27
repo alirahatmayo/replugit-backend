@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "MS-Sur-6-Pro-8-256",
+    "wpid": "0TIZK0485LP9",
+    "upc": "647535742762",
+    "gtin": "00647535742762",
+    "productName": "Microsoft Surface Pro 6 12.3\" Laptop - Intel Core i5-8350U | 8GB RAM |256GB SSD - Windows 11 Pro - Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1500.0
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "surface-pro-6",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "configuration",
+                "value": "Core i5 - 8 GB RAM - 256 GB SSD"
+            }
+        ]
+    }
+}

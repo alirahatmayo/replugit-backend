@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "ps5-Disk-1",
+    "wpid": "3ZX4JE26LEOL",
+    "gtin": "03803914152608",
+    "productName": "PlayStation 5 Console New 2023",
+    "shelf": "[\"Root\",\"Video Games\",\"PlayStation 5\",\"PS5 Consoles\"]",
+    "productType": "Video Game Consoles",
+    "price": {
+        "currency": "CAD",
+        "amount": 769.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

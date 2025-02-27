@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-5400-i5-8-256-T",
+    "wpid": "7JO2HQU0PM3K",
+    "upc": "789091943693",
+    "gtin": "00789091943693",
+    "productName": "Dell Latitude 5400 14\" FHD - Intel Core i5 8th Gen | 8GB RAM | 256GB SSD - Windows 11 Pro - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 300.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "AACB01",
+    "wpid": "52EO5OO0VH44",
+    "upc": "647535987729",
+    "gtin": "00647535987729",
+    "productName": "Adult Coloring Book 48 Sheets Stress Relieving Patterns Size 7 x 9.5 inch",
+    "shelf": "[\"Root\",\"Toys\",\"Arts & Crafts for Kids\",\"Drawing & Colouring\",\"Drawing Pads & Books\"]",
+    "productType": "Coloring Books",
+    "price": {
+        "currency": "CAD",
+        "amount": 1199.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

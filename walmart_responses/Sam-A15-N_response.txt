@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Sam-A15-N",
+    "wpid": "4127HL3BXT7Q",
+    "upc": "464890094608",
+    "gtin": "00464890094608",
+    "productName": "Samsung Galaxy A15 5G 128GB Unlocked Smartphone- New",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 236.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "A155G-2a",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Black/Blue"
+            }
+        ]
+    }
+}

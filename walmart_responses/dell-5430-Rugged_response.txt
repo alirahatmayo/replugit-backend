@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "dell-5430-Rugged",
+    "wpid": "5URRHSNNMJ8L",
+    "upc": "884116422464",
+    "gtin": "00884116422464",
+    "productName": "Dell Latitude 5430 Rugged - Rugged - Intel Core i5 - 1145G7 / up to 4 GHz - vPro - Win 10 Pro (includes Win 11 Pro License) - Intel Iris Xe Graphics - 16 GB RAM - 512 GB SSD NVMe, Class 40 - 14\" 1920 x 1080 (Full HD) - Gigabit Ethernet - Wi-Fi 6E - BTS - with 3 Years Limited Hardware Warranty with Mail-In Service (Customer supplies box, Dell pays shipping) - Disti SNS",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 2099.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

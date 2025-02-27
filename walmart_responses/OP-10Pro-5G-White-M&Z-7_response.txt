@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "OP-10Pro-5G-White-M&Z-7",
+    "wpid": "324VJ86GQ1SM",
+    "gtin": "06921815620327",
+    "productName": "OnePlus 10 Pro 5G NE2210 Dual SIM 512GB 12GB RAM GSM Unlocked  - White",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Other unlocked cell phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1037.05
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

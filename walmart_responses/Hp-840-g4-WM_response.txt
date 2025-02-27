@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Hp-840-g4-WM",
+    "wpid": "5OWH5QSS4F0I",
+    "upc": "840669006261",
+    "gtin": "00840669006261",
+    "productName": "Refurbished HP  EliteBook  Laptop Intel i5-7300U 840 G4",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 349.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

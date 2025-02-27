@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Samsung-G-A55-Iceblue",
+    "wpid": "1AG2HLSIY0SM",
+    "upc": "647535679242",
+    "gtin": "00647535679242",
+    "productName": "Samsung Galaxy A55 - Unlocked Smartphone with Quad Camera, AMOLED Display, and Long-lasting Battery",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 539.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "Sam-A55-128",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Awesome Iceblue"
+            }
+        ]
+    }
+}

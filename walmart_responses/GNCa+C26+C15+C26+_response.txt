@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "GNCa+C26+C15+C26+",
+    "wpid": "2PQRVDGRZT2Z",
+    "upc": "193575008158",
+    "gtin": "00193575008158",
+    "productName": "Google Nest Cam - Battery",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Surveillance Cameras",
+    "price": {
+        "currency": "CAD",
+        "amount": 268.99
+    },
+    "publishedStatus": "SYSTEM_PROBLEM",
+    "lifecycleStatus": "RETIRED"
+}

@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "dell-7620",
+    "wpid": "4KAKGX7X723R",
+    "upc": "884116394808",
+    "gtin": "00884116394808",
+    "productName": "Dell Inspiron 16' Touchscreen Laptop - Silver (Intel Core i7-1260P/1TB SSD/16GB RAM/Win 11) -English",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"2 in 1 Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 2299.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

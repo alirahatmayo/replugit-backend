@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "len-t480s-16-256",
+    "wpid": "2Q519PPM4P2A",
+    "upc": "647535876504",
+    "gtin": "00647535876504",
+    "productName": "Lenovo ThinkPad T480s | Intel i5 8365U | 16 GB RAM | 256 GB SSD | FHD Display | Windows 11 Pro - Refurbished Business Laptop - 1 Year Warranty",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 379.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "T480s-i5-16-256",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "resolution",
+                "value": "FHD"
+            }
+        ]
+    }
+}

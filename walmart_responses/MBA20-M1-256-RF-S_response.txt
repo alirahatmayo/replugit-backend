@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "MBA20-M1-256-RF-S",
+    "wpid": "0TZV354DAMTT",
+    "upc": "647535535685",
+    "gtin": "00647535535685",
+    "productName": "Apple MacBook Air 13.3\" - Apple M1 Chip | 256GB SSD | 8GB RAM - Fall 2020 - Space Grey - Refurbished Excellent",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1179.95
+    },
+    "publishedStatus": "SYSTEM_PROBLEM",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "MBA20-M1-256-RF",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Space Grey"
+            }
+        ]
+    }
+}

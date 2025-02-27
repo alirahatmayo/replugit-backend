@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Zflip3-Blk-128GB-WM",
+    "wpid": "5HMYOIQUUCNA",
+    "upc": "400312416184",
+    "gtin": "00400312416184",
+    "productName": "Samsung Galaxy Z Flip3 5G 128GB",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 799.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "PRD-6000204110292",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Black"
+            }
+        ]
+    }
+}

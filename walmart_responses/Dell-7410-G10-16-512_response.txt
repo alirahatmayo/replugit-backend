@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-7410-G10-16-512",
+    "wpid": "30QISRP4TFRC",
+    "upc": "647535737577",
+    "gtin": "00647535737577",
+    "productName": "Dell Latitude 7410 14\" FHD - Intel Core i5 10th Gen | 16GB RAM | 512GB SSD - Windows 11 Pro - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1000.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "Dell7410G10",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "configuration",
+                "value": "16GB RAM, 512GB SSD"
+            }
+        ]
+    }
+}

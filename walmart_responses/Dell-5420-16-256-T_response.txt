@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-5420-16-256-T",
+    "wpid": "1DC5YWG4PMTK",
+    "upc": "789091943563",
+    "gtin": "00789091943563",
+    "productName": "Dell Latitude 5000 5420 14\" FHD Touch Screen - Intel Core i5 11th Gen | 16GB RAM | 256GB SSD - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1500.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

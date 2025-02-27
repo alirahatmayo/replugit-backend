@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "bp03009-WHE",
+    "wpid": "468GQ0DC6I11",
+    "upc": "647535507064",
+    "gtin": "00647535507064",
+    "productName": "BESTOPE Makeup Vanity Mirror with 3 Color Lighting Modes, 72 LED Trifold Makeup Mirror with Touch Screen Adjustable Brightness, 3X 5X Magnification, 360 Degree Rotation, Light Up Makeup Mirror",
+    "shelf": "[\"Root\",\"Beauty\",\"Brushes, Tools & Accessories\",\"Cosmetic Mirrors\",\"Lighted Makeup Mirrors\"]",
+    "productType": "Face Mirrors",
+    "price": {
+        "currency": "CAD",
+        "amount": 49.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

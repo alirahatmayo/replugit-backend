@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-E7270-8-256",
+    "wpid": "55ITLCTYDAUQ",
+    "upc": "999003278922",
+    "gtin": "00999003278922",
+    "productName": "Dell Latitude E7270 Laptop- 12.5\" - Core i5 6300U - 8 GB RAM - 256 GB SSD-Win 10-Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 354.95
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

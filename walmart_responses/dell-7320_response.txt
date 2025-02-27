@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "dell-7320",
+    "wpid": "2GW0JX50RQ7U",
+    "upc": "884116384779",
+    "gtin": "00884116384779",
+    "productName": "Dell Latitude 7320 - Intel Core i7 - 1185G7 / up to 4.8 GHz - vPro - Win 10 Pro 64-bit - Intel Iris Xe Graphics - 16 GB RAM - 256 GB SSD NVMe, Class 40 - 13.3\" 1920 x 1080 (Full HD) - NFC, Wi-Fi 6 - with 3 Years Hardware Service with Onsite/In-Home Service After Remote Diagnosis - Disti SNS",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1749.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

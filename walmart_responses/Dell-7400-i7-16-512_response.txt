@@ -1,0 +1,34 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-7400-i7-16-512",
+    "wpid": "3GLNTP8NRW3Q",
+    "upc": "789091943723",
+    "gtin": "00789091943723",
+    "productName": "Dell Latitude 7400 14\" FHD Laptop - Intel Core i7 8th Gen | 16GB RAM | 512GB SSD | Windows 11 Pro - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 429.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "Dell 7400",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "configuration",
+                "value": "Intel\u00ae Core\u2122 i7"
+            },
+            {
+                "name": "hard_drive_capacity",
+                "value": "512"
+            },
+            {
+                "name": "ram_memory",
+                "value": "16"
+            }
+        ]
+    }
+}

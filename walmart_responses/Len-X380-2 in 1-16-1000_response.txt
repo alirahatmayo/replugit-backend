@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-X380-2 in 1-16-1000",
+    "wpid": "3GIHZDIADYLH",
+    "upc": "789091943488",
+    "gtin": "00789091943488",
+    "productName": "Lenovo ThinkPad X380 Yoga 2-in-1 Convertible Laptop - Intel Core i5 8th Gen| 16GB RAM - 1 TB SSD | 13.3\" FHD Display - Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 549.0
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "Len-X380 2 in 1",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "hard_drive_capacity",
+                "value": "1000"
+            }
+        ]
+    }
+}

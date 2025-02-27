@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S24-256-BLK",
+    "wpid": "1KMYKILUNXUC",
+    "upc": "887276802497",
+    "gtin": "00887276802497",
+    "productName": "RF SAM S24 256G BLK",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1179.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

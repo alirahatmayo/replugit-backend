@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "GNCam2Pack -4",
+    "wpid": "12CNNFSE6154",
+    "upc": "193575008264",
+    "gtin": "00193575008264",
+    "productName": "Google Nest Cam - 2 pack",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Surveillance Cameras",
+    "price": {
+        "currency": "CAD",
+        "amount": 438.98
+    },
+    "publishedStatus": "SYSTEM_PROBLEM",
+    "lifecycleStatus": "RETIRED"
+}

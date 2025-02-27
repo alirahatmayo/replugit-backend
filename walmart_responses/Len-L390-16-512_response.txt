@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-L390-16-512",
+    "wpid": "4J7D6NNYWGI2",
+    "upc": "840384900783",
+    "gtin": "00840384900783",
+    "productName": "Lenovo ThinkPad L390 Yoga 13.3\" FHD Touchscreen 2-in-1 Laptop - Intel Core i5-8365U, 16GB RAM, 512GB SSD, Windows 11 Pro - Refurbished with 1 Year Warranty",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 499.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

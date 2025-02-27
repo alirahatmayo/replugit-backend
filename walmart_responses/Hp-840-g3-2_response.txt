@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Hp-840-g3-2",
+    "wpid": "62Z7H2FS7MO0",
+    "upc": "628110294654",
+    "gtin": "00628110294654",
+    "productName": "HP EliteBook 840 G3, 14\" Touchscreen Laptop, Intel Core i5, 16GB RAM, 240GB SSD, Windows 10 Pro, Certified Refurbished, 1 Year Warranty",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 303.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

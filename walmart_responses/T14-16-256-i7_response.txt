@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "T14-16-256-i7",
+    "wpid": "51W8ZCC0DV9H",
+    "upc": "789091944027",
+    "gtin": "00789091944027",
+    "productName": "Lenovo ThinkPad T14 14\" FHD Ultrabook - Intel Core i7 10th Gen | 16GB RAM | 256GB SSD | Windows 11 Pro - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 649.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

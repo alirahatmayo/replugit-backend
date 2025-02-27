@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Sam-A35-navy-GS",
+    "wpid": "5N3YSBRVKF1H",
+    "upc": "769165429995",
+    "gtin": "00769165429995",
+    "productName": "Samsung Galaxy A35 5G 128GB + 6GB Unlocked Smartphone -Brand New",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 479.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "SamsungA35",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Navy"
+            }
+        ]
+    }
+}

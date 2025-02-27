@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "ps5-SM",
+    "wpid": "5OYRMUG59XOP",
+    "upc": "711719573036",
+    "gtin": "00711719573036",
+    "productName": "PlayStation\u00ae5 Console \u2013 Marvel\u2019s Spider-Man 2 Bundle with Bonus Game (Model Group - Slim)",
+    "shelf": "[\"Root\",\"Video Games\",\"PlayStation 5\",\"PS5 Consoles\"]",
+    "productType": "Video Game Consoles",
+    "price": {
+        "currency": "CAD",
+        "amount": 769.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

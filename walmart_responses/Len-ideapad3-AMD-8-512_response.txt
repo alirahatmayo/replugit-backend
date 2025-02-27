@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-ideapad3-AMD-8-512",
+    "wpid": "2PHQRNOD4L89",
+    "upc": "197529632529",
+    "gtin": "00197529632529",
+    "productName": "Lenovo IdeaPad Slim 3 15.6\" Full HD Laptop AMD Ryzen 5 7520U 8GB RAM 512GB SSD Windows 11 Home",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 659.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "ideaPad3",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "configuration",
+                "value": "AMD Ryzen 5 7520U"
+            }
+        ]
+    }
+}

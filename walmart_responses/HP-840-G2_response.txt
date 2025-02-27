@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "HP-840-G2",
+    "wpid": "5T744R1GM42V",
+    "upc": "369639975067",
+    "gtin": "00369639975067",
+    "productName": "HP EliteBook 840 G2 Laptop 14\" | Certified Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 314.95
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED",
+    "variantGroupId": "HP840G2",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "hard_drive_capacity",
+                "value": "128.00"
+            }
+        ]
+    }
+}

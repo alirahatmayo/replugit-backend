@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "HP-840-G6-16512-Touch",
+    "wpid": "4UMHRBIDJVJA",
+    "upc": "789091943747",
+    "gtin": "00789091943747",
+    "productName": "Lenovo ThinkPad P43s 14\", Intel Core i7-8565U Quad-Core 1.80 GHz ,24GB RAM - 512GB SSD-Refurbished (Excellent)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 800.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

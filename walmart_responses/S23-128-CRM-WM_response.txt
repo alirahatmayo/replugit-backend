@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S23-128-CRM-WM",
+    "wpid": "3NL8KG1LQYRS",
+    "upc": "400501808073",
+    "gtin": "00400501808073",
+    "productName": "Samsung Galaxy S23",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1099.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "PRD-6000206141311",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Cream"
+            }
+        ]
+    }
+}

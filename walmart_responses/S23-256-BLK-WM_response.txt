@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S23-256-BLK-WM",
+    "wpid": "62I3FW27YVFS",
+    "upc": "400501808103",
+    "gtin": "00400501808103",
+    "productName": "Samsung Galaxy S23",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1649.0
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "PRD-6000206143543",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Phantom Black"
+            }
+        ]
+    }
+}

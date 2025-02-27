@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "G pixel 7 Pro- 128-HZL-M&Z",
+    "wpid": "4GNH1PTGGRVK",
+    "upc": "999003284046",
+    "gtin": "00999003284046",
+    "productName": "Google Pixel 7 Pro 128GB - Hazel - Unlocked",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 999.99
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

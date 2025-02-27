@@ -1,0 +1,25 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "pixel-7-1",
+    "wpid": "5C2W10FHDPYX",
+    "gtin": "09871115577180",
+    "productName": "Google Pixel 7 128GB | Brand New Factory Unlocked Smartphone",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 533.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "googlepixel7128gbbnxx",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Obsidian"
+            }
+        ]
+    }
+}

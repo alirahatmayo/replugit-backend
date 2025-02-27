@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-X1-Carb-16-512-3Gen",
+    "wpid": "13KVF17LUT2N",
+    "upc": "789091943457",
+    "gtin": "00789091943457",
+    "productName": "Lenovo ThinkPad X1 Yoga 2-in-1 3rd Gen | Intel Core i5 8th Gen Intel Core i5, 16GB RAM, 512GB SSD | Windows 11 Pro - Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 499.0
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "iPhone-13-128-wht-R",
+    "wpid": "1NSPX7YBZ7MR",
+    "upc": "647535962313",
+    "gtin": "00647535962313",
+    "productName": "Apple iPhone 13 128GB - Unlocked - Refurbished Excellent - Starlight",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked iPhones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 509.95
+    },
+    "publishedStatus": "SYSTEM_PROBLEM",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "iphone13-128",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "White"
+            }
+        ]
+    }
+}

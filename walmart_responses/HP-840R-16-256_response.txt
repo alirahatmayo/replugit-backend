@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "HP-840R-16-256",
+    "wpid": "26Z5LKVQWUW4",
+    "upc": "789091943631",
+    "gtin": "00789091943631",
+    "productName": "HP EliteBook 840R G4 14\" Full HD Touch Screen Laptop - Core i5 8th Gen - up to 3.6GHz | 16GB RAM - 256GB SSD | Windows 11 Pro 64Bit - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 500.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "840 G4",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "edition",
+                "value": "Elitebook 840r G4"
+            }
+        ]
+    }
+}

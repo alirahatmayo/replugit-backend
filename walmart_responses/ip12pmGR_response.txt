@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "ip12pmGR",
+    "wpid": "1D8ME7I5TOC0",
+    "upc": "901047789128",
+    "gtin": "00901047789128",
+    "productName": "Apple iPhone 12 Pro Max 128GB | Certified Refurbished Grade A Like New",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Refurbished Cell Phones\",\"Refurbished iPhones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1499.99
+    },
+    "publishedStatus": "SYSTEM_PROBLEM",
+    "lifecycleStatus": "ACTIVE"
+}

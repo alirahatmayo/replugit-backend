@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-7430-G12-16-256",
+    "wpid": "73WNPZ1N9CQS",
+    "upc": "647535840550",
+    "gtin": "00647535840550",
+    "productName": "DELL Latitude 7430 2-in-1 Laptop - 14'' FHD Display - Intel Core i5 12th Gen 16 GB RAM | 256GB SSD - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 0.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

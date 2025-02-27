@@ -1,0 +1,10 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "MBA20-M1-256-RF-G",
+    "price": {
+        "currency": "CAD",
+        "amount": 1179.95
+    },
+    "publishedStatus": "SYSTEM_PROBLEM",
+    "lifecycleStatus": "ACTIVE"
+}

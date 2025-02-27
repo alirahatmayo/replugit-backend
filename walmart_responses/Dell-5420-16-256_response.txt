@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-5420-16-256",
+    "wpid": "7C3QO8J6ACPT",
+    "upc": "196105544508",
+    "gtin": "00196105544508",
+    "productName": "Certified Refurbished Dell Latitude 5000 5420 Laptop (2021) | 14\" FHD Touch | Core i5 - 256GB SSD - 16GB RAM | 4 Cores @ 4.4 GHz - 11th Gen CPU",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1399.95
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

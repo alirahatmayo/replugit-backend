@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-7470-i7-16-256",
+    "wpid": "69MAIJVENZWK",
+    "upc": "789091944423",
+    "gtin": "00789091944423",
+    "productName": "Dell Latitude E7470 14\" Ultrabook - Intel Core i7 6600U | 16GB RAM | 256GB SSD | Windows 10 - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 279.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

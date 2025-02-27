@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "ipad-9-64-g-1",
+    "wpid": "1Q5K1XXCEXCO",
+    "upc": "194252515761",
+    "gtin": "00194252515761",
+    "productName": "10.2\" iPad WiFi 64GB (9th generation)",
+    "shelf": "[\"Root\",\"Electronics\",\"iPad & Tablets\",\"Apple iPads\",\"iPad\"]",
+    "productType": "Tablet Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 470.0
+    },
+    "publishedStatus": "SYSTEM_PROBLEM",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "9041417142590",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Space Gray"
+            }
+        ]
+    }
+}

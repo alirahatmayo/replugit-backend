@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "ipad-10Gen-64-Blu",
+    "wpid": "1S87X3VSYRT1",
+    "upc": "194253387824",
+    "gtin": "00194253387824",
+    "productName": "Apple 10.9\" iPad (10th generation) 64GB WIFI",
+    "shelf": "[\"Root\",\"Electronics\",\"iPad & Tablets\",\"Apple iPads\",\"iPad\"]",
+    "productType": "Tablet Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 539.95
+    },
+    "publishedStatus": "SYSTEM_PROBLEM",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "00194253388098",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Blue"
+            }
+        ]
+    }
+}

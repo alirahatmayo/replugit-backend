@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "len-T470-i5-16-256-WFS",
+    "wpid": "6OK15QY8476S",
+    "upc": "999003942816",
+    "gtin": "00999003942816",
+    "productName": "Lenovo ThinkPad T470 14\" Full HD Laptop Intel i5-6300U 16GB 256GB Windows 10 Pro Certified Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 269.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

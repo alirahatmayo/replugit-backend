@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "G-Thermo-Snow",
+    "wpid": "0ZZOND6FWN46",
+    "upc": "193575007649",
+    "gtin": "00193575007649",
+    "productName": "Google Nest Thermostat - Smart Thermostat for Home - Programmable Wifi Thermostat - Snow",
+    "shelf": "[\"Root\",\"Electronics\",\"Smart Home\",\"Smart Heating & Cooling\",\"Smart Thermostats\"]",
+    "productType": "Thermostats",
+    "price": {
+        "currency": "CAD",
+        "amount": 179.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

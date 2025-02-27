@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "samA53-128-5g-blk-WM",
+    "wpid": "0WUDGF1GMMEX",
+    "upc": "683346605308",
+    "gtin": "00683346605308",
+    "productName": "Samsung Galaxy A53 5G Dual sim",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 474.99
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

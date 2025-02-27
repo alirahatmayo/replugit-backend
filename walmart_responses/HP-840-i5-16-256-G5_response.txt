@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "HP-840-i5-16-256-G5",
+    "wpid": "0Z5QWWKHR7TT",
+    "upc": "789091943730",
+    "gtin": "00789091943730",
+    "productName": "Certified Refurbished Lenovo ThinkPad P52s 15.6\"Laptop|Intel Core i7-8650U Quad-Core 1.90 GHz|16GB RAM - 256GB SSD|UHD Screen| NVIDIA Quadro P500|Win 10 Pro",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 700.95
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED",
+    "variantGroupId": "LenThinkpadP52s",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "hard_drive_capacity",
+                "value": "256"
+            }
+        ]
+    }
+}

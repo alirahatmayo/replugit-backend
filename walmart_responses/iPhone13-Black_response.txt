@@ -1,0 +1,30 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "iPhone13-Black",
+    "wpid": "5LZ8GW8VY9I9",
+    "upc": "814561002225",
+    "gtin": "00814561002225",
+    "productName": "Apple iPhone 13 128GB - Midnight - Unlocked - Open Box",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked iPhones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 0.0
+    },
+    "publishedStatus": "SYSTEM_PROBLEM",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "iPhone13",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "hard_drive_capacity",
+                "value": "128.00"
+            },
+            {
+                "name": "actual_color",
+                "value": "Midnight"
+            }
+        ]
+    }
+}

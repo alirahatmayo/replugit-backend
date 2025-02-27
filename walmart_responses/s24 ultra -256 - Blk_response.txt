@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "s24 ultra -256 - Blk",
+    "wpid": "2TFUSTX2DMC8",
+    "upc": "887276820392",
+    "gtin": "00887276820392",
+    "productName": "Samsung Galaxy S24 Ultra 256 GB",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1557.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

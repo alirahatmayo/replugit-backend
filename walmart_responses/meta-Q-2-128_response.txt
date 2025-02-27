@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "meta-Q-2-128",
+    "wpid": "6DV1MPH8JY1T",
+    "upc": "815820022749",
+    "gtin": "00815820022749",
+    "productName": "Meta Quest 2 128GB",
+    "shelf": "[\"Root\",\"Video Games\",\"Virtual Reality\",\"Virtual Reality Headsets\"]",
+    "productType": "VR Headsets",
+    "price": {
+        "currency": "CAD",
+        "amount": 449.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

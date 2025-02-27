@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Hp-840-G3-AG",
+    "wpid": "1E1NLCTBMFAJ",
+    "gtin": "09871115565620",
+    "productName": "HP ProBook 430 G3 13.3\" Touchscreen Laptop |Intel Core i5 6th Gen 8GB RAM 256GB SSD | Certified Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 376.95
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

@@ -1,0 +1,30 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-T490-16-1TB",
+    "wpid": "2CZHFJAPB711",
+    "upc": "647535865409",
+    "gtin": "00647535865409",
+    "productName": "Lenovo ThinkPad T490 14\" Ultrabook - Intel Core i5 8300U | 16GB RAM | 1TB SSD | Windows 11 Pro - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 611.08
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "T490-16GB",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "hard_drive_capacity",
+                "value": "1000"
+            },
+            {
+                "name": "edition",
+                "value": "Intel\u00ae Core\u2122 i5-8365U"
+            }
+        ]
+    }
+}

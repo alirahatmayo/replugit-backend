@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-7390-i5-16-512",
+    "wpid": "20EQ2OIS1OKK",
+    "upc": "647535889801",
+    "gtin": "00647535889801",
+    "productName": "Dell Latitude 7390 Business Laptop, 13.3in FHD (1920 x 1080) - Intel Core 8th Gen i5-730U, 16GB DDR4 Ram, 512 GB SSD, Windows 11 Pro - Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 399.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "DELL7390i5",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "ram_memory",
+                "value": "16"
+            }
+        ]
+    }
+}

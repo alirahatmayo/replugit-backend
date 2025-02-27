@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "lenovo-t590-8gb-256gb",
+    "wpid": "3ZBXFKY73JHY",
+    "upc": "193386023227",
+    "gtin": "00193386023227",
+    "productName": "Lenovo ThinkPad T490 Laptop, 14.0\" FHD IPS  250 nits, 8th Generation Intel Core i5-8265U, 8GB, 256GB SSD",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 899.99
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

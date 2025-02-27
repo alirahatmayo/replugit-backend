@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "ps5-MW3-1",
+    "wpid": "4ACJNMQYEZ7A",
+    "gtin": "03803914162362",
+    "productName": "Sony PlayStation 5 1TB SSD Console Call of Duty Modern Warfare III Bundle",
+    "shelf": "[\"Root\",\"Video Games\",\"Retro Gaming\",\"Retro Gaming Consoles\"]",
+    "productType": "Video Game Consoles",
+    "price": {
+        "currency": "CAD",
+        "amount": 859.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

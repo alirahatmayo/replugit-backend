@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "len-t480s-24-512",
+    "wpid": "2VI54MN4AVHU",
+    "upc": "647535554433",
+    "gtin": "00647535554433",
+    "productName": "Lenovo ThinkPad T480s | Intel i5 8665U |24 GB RAM | 512 GB SSD | FHD Display | Windows 11 Pro - Refurbished Business Laptop - 1 Year Warranty",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 439.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

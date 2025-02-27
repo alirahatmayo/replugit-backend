@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "XBR48A9S-1",
+    "wpid": "0T1U3EEOXPHQ",
+    "upc": "400101325062",
+    "gtin": "00400101325062",
+    "productName": "Sony 48\" Class A9S 4K HDR OLED with Android TV (XBR48A9S) - Open Box",
+    "shelf": "[\"Root\",\"Electronics\",\"TV & Video\",\"TVs\",\"40 inch - 49 inch TVs\"]",
+    "productType": "Televisions",
+    "price": {
+        "currency": "CAD",
+        "amount": 1299.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

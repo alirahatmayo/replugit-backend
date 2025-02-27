@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S23-Ultra-256GB-CRM-WM-7",
+    "wpid": "6G9W3WU1S4O6",
+    "upc": "400501808257",
+    "gtin": "00400501808257",
+    "productName": "Samsung Galaxy S23 Ultra",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1499.95
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED",
+    "variantGroupId": "PRD-6000206142599",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Cream"
+            }
+        ]
+    }
+}

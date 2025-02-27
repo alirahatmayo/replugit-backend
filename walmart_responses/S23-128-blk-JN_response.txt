@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S23-128-blk-JN",
+    "wpid": "22VHFLNEZ315",
+    "upc": "887276718132",
+    "gtin": "00887276718132",
+    "productName": "Samsung Galaxy S23 128GB",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 898.95
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED",
+    "variantGroupId": "PB",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Phantom Black"
+            }
+        ]
+    }
+}

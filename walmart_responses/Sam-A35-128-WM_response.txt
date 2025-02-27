@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Sam-A35-128-WM",
+    "wpid": "10CVGQEQ8L8C",
+    "upc": "400504858259",
+    "gtin": "00400504858259",
+    "productName": "Samsung Galaxy A35 5G 2024",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 479.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

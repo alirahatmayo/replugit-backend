@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "s23Ultra-CRM-256-AB",
+    "wpid": "3E6OZWKTOTZ5",
+    "upc": "814561005875",
+    "gtin": "00814561005875",
+    "productName": "Brand New - Samsung Galaxy S23 Ultra 256GB - Cream - Unlocked",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1399.99
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

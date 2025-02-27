@@ -1,0 +1,25 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S23U-512GB-Blk-3",
+    "wpid": "66QXACWLJHNN",
+    "gtin": "09871115568553",
+    "productName": "Samsung Galaxy S23 Ultra 512GB (2023) | With 2 years of Samsung Care+ warranty | Factory unlocked Smartphone | Brand new",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1814.0
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED",
+    "variantGroupId": "S23ULTRACN",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Phantom Black"
+            }
+        ]
+    }
+}

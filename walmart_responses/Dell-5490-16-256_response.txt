@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-5490-16-256",
+    "wpid": "279T6JRIIPV8",
+    "upc": "628110299192",
+    "gtin": "00628110299192",
+    "productName": "Dell Latitude 5490 Laptop - 14\" Display, Intel Core i5-8th Gen, 16GB RAM, 256GB SSD, Windows 11 Pro - Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 349.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

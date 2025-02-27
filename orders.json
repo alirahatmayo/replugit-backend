@@ -1,0 +1,634 @@
+[
+  {
+    "purchaseOrderId": "Y42594632",
+    "customerOrderId": "6242573000648",
+    "customerEmailId": "7D5FD9001DD5444788867A5626DC4323@relay.walmart.ca",
+    "orderDate": 1740634003000,
+    "shippingInfo": {
+      "phone": "8736656234",
+      "estimatedDeliveryDate": 1741806000000,
+      "estimatedShipDate": 1741060800000,
+      "methodCode": "Standard",
+      "postalAddress": {
+        "name": "RICHARD EVOE NDONGO",
+        "address1": "10 Rue Rubin",
+        "address2": "Apt 2",
+        "city": "Victoriaville",
+        "state": "QC",
+        "postalCode": "G6P2P6",
+        "country": "CA",
+        "addressType": "RESIDENTIAL"
+      }
+    },
+    "orderLines": {
+      "orderLine": [
+        {
+          "lineNumber": "1",
+          "item": {
+            "productName": "Dell Latitude 5400 Laptop   14  HD Display   Core i5   16GB RAM   256GB SSD",
+            "sku": "DELL-5400-i5-16-256"
+          },
+          "charges": {
+            "charge": [
+              {
+                "chargeType": "PRODUCT",
+                "chargeName": "ItemPrice",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 299.95
+                },
+                "tax": {
+                  "taxName": "GST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 44.94
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              },
+              {
+                "chargeType": "SHIPPING",
+                "chargeName": "SHIPPING",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 20.0
+                },
+                "tax": {
+                  "taxName": "GST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 3.0
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              }
+            ]
+          },
+          "orderLineQuantity": {
+            "unitOfMeasurement": "EACH",
+            "amount": "1"
+          },
+          "orderLineStatuses": {
+            "orderLineStatus": [
+              {
+                "status": "Created",
+                "statusQuantity": {
+                  "unitOfMeasurement": "EACH",
+                  "amount": "1"
+                },
+                "cancellationReason": null,
+                "trackingInfo": null,
+                "sellerOrderId": null,
+                "shipmentPackages": null
+              }
+            ]
+          },
+          "refund": null,
+          "fulfillment": {
+            "fulfillmentOption": "S2H",
+            "shipMethod": "STANDARD",
+            "storeId": null,
+            "offerId": "209D9D0FC5513A68A23BAE1383C55154",
+            "pickUpDateTime": null,
+            "pickUpBy": null,
+            "predictedShipNodeId": "10001255918",
+            "predictedShipNodeName": "12530937 Canada Inc. - 10001255918 - MP"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "purchaseOrderId": "309005952794743",
+    "customerOrderId": "600000004932056",
+    "customerEmailId": "40CD069833EB4A059714518B5D3BE530@relay.walmart.ca",
+    "orderDate": 1740619604829,
+    "shippingInfo": {
+      "estimatedDeliveryDate": 1741806000000,
+      "estimatedShipDate": 1741060800000,
+      "methodCode": "Standard",
+      "postalAddress": {
+        "name": "raghava vaddipati ",
+        "address1": "4050 BOUL JOSAPHAT-RANCOURT",
+        "address2": null,
+        "city": "Sherbrooke",
+        "state": "QC",
+        "postalCode": "J1L 3C6",
+        "country": "CA",
+        "addressType": "OFFICE"
+      }
+    },
+    "orderLines": {
+      "orderLine": [
+        {
+          "lineNumber": "1",
+          "item": {
+            "productName": "HP EliteBook 840 G3 14\" FHD - Intel Core i5-6300U | 16GB RAM | 256GB SSD | Windows 10 Pro - (Refurbished)",
+            "sku": "HP-840G3-i5-16-256"
+          },
+          "charges": {
+            "charge": [
+              {
+                "chargeType": "PRODUCT",
+                "chargeName": "ItemPrice",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 237.95
+                },
+                "tax": {
+                  "taxName": "GST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 35.64
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              },
+              {
+                "chargeType": "SHIPPING",
+                "chargeName": "SHIPPING",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 20.0
+                },
+                "tax": {
+                  "taxName": "QST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 2.99
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              },
+              {
+                "chargeType": "TAX",
+                "chargeName": "TAX",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 38.63
+                },
+                "tax": {
+                  "taxAmount": {
+                    "currency": "CLP",
+                    "amount": 0
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              }
+            ]
+          },
+          "orderLineQuantity": {
+            "unitOfMeasurement": "EACH",
+            "amount": "1"
+          },
+          "orderLineStatuses": {
+            "orderLineStatus": [
+              {
+                "status": "Created",
+                "statusQuantity": {
+                  "unitOfMeasurement": "EACH",
+                  "amount": "1"
+                },
+                "cancellationReason": null,
+                "trackingInfo": null,
+                "sellerOrderId": null,
+                "shipmentPackages": null
+              }
+            ]
+          },
+          "refund": null,
+          "fulfillment": {
+            "fulfillmentOption": "S2S",
+            "shipMethod": null,
+            "storeId": null,
+            "offerId": "CA0C0C3EEB3E356999E3292BCC2D3B4E",
+            "pickUpDateTime": null,
+            "pickUpBy": null,
+            "predictedShipNodeId": "10001255918",
+            "predictedShipNodeName": "12530937 Canada Inc. - 10001255918 - MP"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "purchaseOrderId": "Y42590548",
+    "customerOrderId": "6232591001265",
+    "customerEmailId": "3B822BBB712C4C25BEB2EACDCE32D9CF@relay.walmart.ca",
+    "orderDate": 1740604991000,
+    "shippingInfo": {
+      "phone": "7059704726",
+      "estimatedDeliveryDate": 1741291200000,
+      "estimatedShipDate": 1740715200000,
+      "methodCode": "Standard",
+      "postalAddress": {
+        "name": "Natasha Fiorino",
+        "address1": "205-4 Brandy Lane Dr",
+        "address2": null,
+        "city": "Collingwood",
+        "state": "ON",
+        "postalCode": "L9Y0X4",
+        "country": "CA",
+        "addressType": "RESIDENTIAL"
+      }
+    },
+    "orderLines": {
+      "orderLine": [
+        {
+          "lineNumber": "1",
+          "item": {
+            "productName": "Samsung Galaxy A35 5G 2024",
+            "sku": "Sam-A35-128-WM"
+          },
+          "charges": {
+            "charge": [
+              {
+                "chargeType": "PRODUCT",
+                "chargeName": "ItemPrice",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 449.95
+                },
+                "tax": {
+                  "taxName": "HST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 58.49
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              }
+            ]
+          },
+          "orderLineQuantity": {
+            "unitOfMeasurement": "EACH",
+            "amount": "1"
+          },
+          "orderLineStatuses": {
+            "orderLineStatus": [
+              {
+                "status": "Created",
+                "statusQuantity": {
+                  "unitOfMeasurement": "EACH",
+                  "amount": "1"
+                },
+                "cancellationReason": null,
+                "trackingInfo": null,
+                "sellerOrderId": null,
+                "shipmentPackages": null
+              }
+            ]
+          },
+          "refund": null,
+          "fulfillment": {
+            "fulfillmentOption": "S2H",
+            "shipMethod": "STANDARD",
+            "storeId": null,
+            "offerId": "3605AF93DE2F35D19532A7FC3A2DBA66",
+            "pickUpDateTime": null,
+            "pickUpBy": null,
+            "predictedShipNodeId": "10001255918",
+            "predictedShipNodeName": "12530937 Canada Inc. - 10001255918 - MP"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "purchaseOrderId": "Y42588250",
+    "customerOrderId": "6232586001502",
+    "customerEmailId": "B7DBD0391C6E4C799765A4E6C7705464@relay.walmart.ca",
+    "orderDate": 1740589830000,
+    "shippingInfo": {
+      "phone": "6479987136",
+      "estimatedDeliveryDate": 1741118400000,
+      "estimatedShipDate": 1740801600000,
+      "methodCode": "Standard",
+      "postalAddress": {
+        "name": "Fernon Wilson",
+        "address1": "5393 Easton Rd",
+        "address2": null,
+        "city": "BURLINGTON",
+        "state": "ON",
+        "postalCode": "L7L7G6",
+        "country": "CA",
+        "addressType": "RESIDENTIAL"
+      }
+    },
+    "orderLines": {
+      "orderLine": [
+        {
+          "lineNumber": "1",
+          "item": {
+            "productName": "Dell Latitude 5400 Laptop   14  HD Display   Core i5   16GB RAM   256GB SSD",
+            "sku": "DELL-5400-i5-16-256"
+          },
+          "charges": {
+            "charge": [
+              {
+                "chargeType": "PRODUCT",
+                "chargeName": "ItemPrice",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 299.95
+                },
+                "tax": {
+                  "taxName": "HST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 38.99
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              }
+            ]
+          },
+          "orderLineQuantity": {
+            "unitOfMeasurement": "EACH",
+            "amount": "1"
+          },
+          "orderLineStatuses": {
+            "orderLineStatus": [
+              {
+                "status": "Created",
+                "statusQuantity": {
+                  "unitOfMeasurement": "EACH",
+                  "amount": "1"
+                },
+                "cancellationReason": null,
+                "trackingInfo": null,
+                "sellerOrderId": null,
+                "shipmentPackages": null
+              }
+            ]
+          },
+          "refund": null,
+          "fulfillment": {
+            "fulfillmentOption": "S2H",
+            "shipMethod": "STANDARD",
+            "storeId": null,
+            "offerId": "209D9D0FC5513A68A23BAE1383C55154",
+            "pickUpDateTime": null,
+            "pickUpBy": null,
+            "predictedShipNodeId": "10001255918",
+            "predictedShipNodeName": "12530937 Canada Inc. - 10001255918 - MP"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "purchaseOrderId": "309005752633682",
+    "customerOrderId": "600000002241691",
+    "customerEmailId": "EF32A9D28D86427288397CC1171C1528@relay.walmart.ca",
+    "orderDate": 1740500275997,
+    "shippingInfo": {
+      "phone": "6475208630",
+      "estimatedDeliveryDate": 1741032000000,
+      "estimatedShipDate": 1740715200000,
+      "methodCode": "Standard",
+      "postalAddress": {
+        "name": "MIRIAM ARRIAGA NIETO",
+        "address1": "2034 Cavendish Drive",
+        "address2": null,
+        "city": "Burlington",
+        "state": "ON",
+        "postalCode": "L7P 1Y7",
+        "country": "CA",
+        "addressType": "RESIDENTIAL"
+      }
+    },
+    "orderLines": {
+      "orderLine": [
+        {
+          "lineNumber": "1",
+          "item": {
+            "productName": "Lenovo ThinkPad X13 Yoga Gen 2 13.3\" FHD Convertible Laptop - Intel Core i5-1135G7 | 16GB RAM | 256GB SSD | Windows 11 Pro - (Refurbished)",
+            "sku": "Len-X13-Gen2-16-256"
+          },
+          "charges": {
+            "charge": [
+              {
+                "chargeType": "PRODUCT",
+                "chargeName": "ItemPrice",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 475.95
+                },
+                "tax": {
+                  "taxName": "HST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 61.87
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              },
+              {
+                "chargeType": "TAX",
+                "chargeName": "TAX",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 61.87
+                },
+                "tax": {
+                  "taxAmount": {
+                    "currency": "CLP",
+                    "amount": 0
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              }
+            ]
+          },
+          "orderLineQuantity": {
+            "unitOfMeasurement": "EACH",
+            "amount": "1"
+          },
+          "orderLineStatuses": {
+            "orderLineStatus": [
+              {
+                "status": "Created",
+                "statusQuantity": {
+                  "unitOfMeasurement": "EACH",
+                  "amount": "1"
+                },
+                "cancellationReason": null,
+                "trackingInfo": null,
+                "sellerOrderId": null,
+                "shipmentPackages": null
+              }
+            ]
+          },
+          "refund": null,
+          "fulfillment": {
+            "fulfillmentOption": "S2H",
+            "shipMethod": "STANDARD",
+            "storeId": null,
+            "offerId": "E5EDBA2DF10C3B8EB415C3156CF95CEB",
+            "pickUpDateTime": null,
+            "pickUpBy": null,
+            "predictedShipNodeId": "10001255918",
+            "predictedShipNodeName": "12530937 Canada Inc. - 10001255918 - MP"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "purchaseOrderId": "Y42567993",
+    "customerOrderId": "6212573002410",
+    "customerEmailId": "4D610D2AC4BF4752A5F98A06F5842BBA@relay.walmart.ca",
+    "orderDate": 1740369968000,
+    "shippingInfo": {
+      "phone": "8257603612",
+      "estimatedDeliveryDate": 1741377600000,
+      "estimatedShipDate": 1740628800000,
+      "methodCode": "Standard",
+      "postalAddress": {
+        "name": "Victor Lavao",
+        "address1": "402 2nd Avenue Northeast",
+        "address2": "108",
+        "city": "Calgary",
+        "state": "AB",
+        "postalCode": "T2E0E6",
+        "country": "CA",
+        "addressType": "RESIDENTIAL"
+      }
+    },
+    "orderLines": {
+      "orderLine": [
+        {
+          "lineNumber": "1",
+          "shipFromCountry": "CA",
+          "item": {
+            "productName": "Lenovo ThinkPad T14 Gen 1 14  FHD   Intel Core i5 10th Gen   16GB RAM   512",
+            "sku": "Lenovo-T14-i5-16-512-G10"
+          },
+          "charges": {
+            "charge": [
+              {
+                "chargeType": "PRODUCT",
+                "chargeName": "ItemPrice",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 424.95
+                },
+                "tax": {
+                  "taxName": "GST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 21.25
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              },
+              {
+                "chargeType": "FEE",
+                "chargeName": "Eco handling fees",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 0.0
+                },
+                "tax": {
+                  "taxName": "Eco handling fees",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 0.8
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              },
+              {
+                "chargeType": "SHIPPING",
+                "chargeName": "SHIPPING",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 30.0
+                },
+                "tax": {
+                  "taxName": "GST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 1.5
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              }
+            ]
+          },
+          "orderLineQuantity": {
+            "unitOfMeasurement": "EACH",
+            "amount": "1"
+          },
+          "orderLineStatuses": {
+            "orderLineStatus": [
+              {
+                "status": "Shipped",
+                "statusQuantity": {
+                  "unitOfMeasurement": "EACH",
+                  "amount": "1"
+                },
+                "cancellationReason": null,
+                "trackingInfo": {
+                  "shipDateTime": 1740623469000,
+                  "carrierName": {
+                    "otherCarrier": "OTHER-ST",
+                    "carrier": null
+                  },
+                  "methodCode": "Standard",
+                  "trackingNumber": "ESIG50011000155755",
+                  "trackingURL": "https://www.walmart.ca/en/orders/6212573002410/track/ESIG50011000155755",
+                  "packageStatus": "Shipped",
+                  "shipmentNo": "140997472",
+                  "actualDeliveryDateTime": null
+                },
+                "sellerOrderId": null,
+                "shipmentPackages": {
+                  "shipmentPackage": [
+                    {
+                      "shipDateTime": 1740623469000,
+                      "carrierName": {
+                        "otherCarrier": "OTHER-ST",
+                        "carrier": null
+                      },
+                      "methodCode": "Standard",
+                      "trackingNumber": "ESIG50011000155755",
+                      "trackingURL": "https://www.walmart.ca/en/orders/6212573002410/track/ESIG50011000155755",
+                      "packageStatus": "Shipped",
+                      "shipmentNo": "140997472",
+                      "actualDeliveryDateTime": null
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "refund": null,
+          "fulfillment": {
+            "fulfillmentOption": "S2H",
+            "shipMethod": "STANDARD",
+            "storeId": null,
+            "offerId": "EF8CC1B25F5D31F58C6F04132DA67DFD",
+            "pickUpDateTime": null,
+            "pickUpBy": null,
+            "predictedShipNodeId": "10001255918",
+            "predictedShipNodeName": "12530937 Canada Inc. - 10001255918 - MP"
+          }
+        }
+      ]
+    }
+  }
+]

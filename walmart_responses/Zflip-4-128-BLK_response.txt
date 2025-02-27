@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Zflip-4-128-BLK",
+    "wpid": "5Z0C8R6MWPNL",
+    "upc": "400501018373",
+    "gtin": "00400501018373",
+    "productName": "Samsung Galaxy Z Flip4",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 849.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "PRD-6000205693266",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Graphite"
+            }
+        ]
+    }
+}

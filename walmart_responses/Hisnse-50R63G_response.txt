@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Hisnse-50R63G",
+    "wpid": "54XA93O33XJ8",
+    "upc": "888143010243",
+    "gtin": "00888143010243",
+    "productName": "Hisense 50\" Roku 4K ULTRA HD TV",
+    "shelf": "[\"Root\",\"Electronics\",\"TV & Video\",\"TVs\",\"50 inch - 59 inch TVs\"]",
+    "productType": "Televisions",
+    "price": {
+        "currency": "CAD",
+        "amount": 377.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

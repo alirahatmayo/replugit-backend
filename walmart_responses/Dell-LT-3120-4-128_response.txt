@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-LT-3120-4-128",
+    "wpid": "3QNK6IKGRMAT",
+    "upc": "647535647333",
+    "gtin": "00647535647333",
+    "productName": "Dell Latitude 11 - 3120 | Intel Celeron N5100 | 11.6\" 2-in-1 Touch Display | 4GB RAM | 128GB SSD | Windows 11 Pro | Refurbished By Dell with 1-Year Official Warranty - Like New",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 249.93
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

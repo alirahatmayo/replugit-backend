@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Lenovo-M720Q-i5-G8-PC",
+    "wpid": "6RB3S8ZMKQJQ",
+    "upc": "789091943525",
+    "gtin": "00789091943525",
+    "productName": "Lenovo M720Q i5 8th Generation Desktop Computer |  Core i5 8th Gen | 8 GB RAM | 256 SSD - Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Desktop Computers\",\"Desktop PC Towers\"]",
+    "productType": "Desktop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 300.0
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

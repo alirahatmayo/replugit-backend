@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "sony-KD65x85K",
+    "wpid": "5HEH003FDCSO",
+    "upc": "027242924628",
+    "gtin": "00027242924628",
+    "productName": "Sony X85K 65\" 4K UHD HDR LED Smart Google TV",
+    "shelf": "[\"Root\",\"Electronics\",\"TV & Video\",\"TVs\",\"60 inch - 69 inch TVs\"]",
+    "productType": "Televisions",
+    "price": {
+        "currency": "CAD",
+        "amount": 1299.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

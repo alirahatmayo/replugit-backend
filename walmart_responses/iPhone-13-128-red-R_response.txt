@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "iPhone-13-128-red-R",
+    "wpid": "6S4CIXUB95ZB",
+    "upc": "647535664538",
+    "gtin": "00647535664538",
+    "productName": "Apple iPhone 13 128GB - Unlocked - Refurbished Excellent - Product Red",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked iPhones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 509.95
+    },
+    "publishedStatus": "SYSTEM_PROBLEM",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "iphone13-128",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Red"
+            }
+        ]
+    }
+}

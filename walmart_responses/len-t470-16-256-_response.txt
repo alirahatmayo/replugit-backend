@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "len-t470-16-256-",
+    "wpid": "38CLUV9MJAFT",
+    "gtin": "09871115579641",
+    "productName": "Lenovo Thinkpad T470 TouchScreen  14\u201d IPS Full HD Business Laptop | Intel Core i5-6300U, 16GB DDR4 RAM, 256GB PCIe NVMe M.2 SSD | Certified Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 329.95
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

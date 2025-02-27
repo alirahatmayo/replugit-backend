@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-T490-16-256-T",
+    "wpid": "5BJO3OX0BFV4",
+    "upc": "647535664323",
+    "gtin": "00647535664323",
+    "productName": "Lenovo Thinkpad T490 Touchscreen 14\" FHD (1920x1080) Laptop | Intel Core i5-8365U, 16GB DDR4 RAM, 256GB SSD | Windows 11 Pro - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 499.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

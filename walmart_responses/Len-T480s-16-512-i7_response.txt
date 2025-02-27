@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-T480s-16-512-i7",
+    "wpid": "5FO7KQLZE91X",
+    "upc": "789091944089",
+    "gtin": "00789091944089",
+    "productName": "Lenovo ThinkPad T480s 14\" FHD (Touch Screen) Ultrabook - Intel Core i7 8665U | 16GB RAM | 512GB SSD | Windows 11 Pro - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 450.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

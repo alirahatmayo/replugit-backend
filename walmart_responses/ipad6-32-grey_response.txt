@@ -1,0 +1,25 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "ipad6-32-grey",
+    "wpid": "3S4NWALSXJLX",
+    "gtin": "09010477889283",
+    "productName": "Apple iPad 6 (6th Gen) 9.7\" 32GB WiFi Only Certified Refurbished | Like New",
+    "shelf": "[\"Root\",\"Electronics\",\"iPad & Tablets\",\"Apple iPads\",\"iPad\"]",
+    "productType": "Tablet Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 209.95
+    },
+    "publishedStatus": "SYSTEM_PROBLEM",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "Ipad63232gb",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Space Gray"
+            }
+        ]
+    }
+}

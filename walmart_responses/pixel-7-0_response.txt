@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "pixel-7-0",
+    "wpid": "5VM2W8KUQLWL",
+    "upc": "416007442048",
+    "gtin": "00416007442048",
+    "productName": "Google Pixel 7 5G | 8GB-RAM 128GB | 50MP Camera | Andriod 13 | Unlocked | Brand-New",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 556.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Asus-FA506NC",
+    "wpid": "3EEJTBGOXTH3",
+    "upc": "197105462632",
+    "gtin": "00197105462632",
+    "productName": "ASUS TUF Gaming Laptop, 15.6\u201d FHD, GeForce RTX 3050-4GB GDDR6, AMD Ryzen\u2122 5 7535HS Processor, 8GB DDR5, 512GB G4 PCIe SSD, FA506NC-DS51-CA",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Gaming Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1159.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

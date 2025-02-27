@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Sony-M5-Silver-OB",
+    "wpid": "2ENZ2NKD7U1Q",
+    "upc": "814561004151",
+    "gtin": "00814561004151",
+    "productName": "Sony WH-1000XM5 Wireless Industry Leading Noise Cancelling Headphones with Auto Noise Cancelling Optimizer, Crystal Clear Hands-Free Calling - Silver - Open Box - 10/10 Condition",
+    "shelf": "[\"Root\",\"Electronics\",\"Headphones\",\"Over-Ear Headphones\"]",
+    "productType": "Headphones",
+    "price": {
+        "currency": "CAD",
+        "amount": 419.95
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED",
+    "variantGroupId": "SonyWH-1000XM5OverEarBTOB",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Silver"
+            }
+        ]
+    }
+}

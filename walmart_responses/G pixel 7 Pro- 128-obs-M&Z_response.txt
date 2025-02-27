@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "G pixel 7 Pro- 128-obs-M&Z",
+    "wpid": "2WRDM5IF8WIB",
+    "upc": "999003831677",
+    "gtin": "00999003831677",
+    "productName": "Google Pixel 7 Pro 128GB Unlocked - Black - Refurbished, Mint Condition",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1079.99
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

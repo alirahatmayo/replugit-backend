@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S23U-256-BLK-CO",
+    "wpid": "3NCVLJ9M3U11",
+    "upc": "400502014923",
+    "gtin": "00400502014923",
+    "productName": "Samsung Galaxy S23 Ultra",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1405.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "PRD-6000206142599",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Phantom Black"
+            }
+        ]
+    }
+}

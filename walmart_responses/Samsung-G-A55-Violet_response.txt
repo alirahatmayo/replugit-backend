@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Samsung-G-A55-Violet",
+    "wpid": "5CLWDIPAWX6F",
+    "upc": "647535892160",
+    "gtin": "00647535892160",
+    "productName": "Samsung Galaxy A55 - Unlocked Smartphone with Quad Camera, AMOLED Display, and Long-lasting Battery",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 549.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

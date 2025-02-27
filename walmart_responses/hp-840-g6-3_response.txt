@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "hp-840-g6-3",
+    "wpid": "5A0WUG6ONMZE",
+    "upc": "194441409017",
+    "gtin": "00194441409017",
+    "productName": "HP EliteBook 840 G6 Notebook - Intel Core i5 - 8265U / up to 3.9 GHz - Win 10 Pro 64-bit - UHD Graphics 620 - 8 GB RAM - 256 GB SSD (32 GB SSD cache) NVMe, TLC, HP Value - 14\" IPS touchscreen 1920 x 1080 (Full HD) - Gigabit Ethernet - NFC, Wi-Fi 6",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"2 in 1 Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 899.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

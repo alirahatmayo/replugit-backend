@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S23-256crm-JN",
+    "wpid": "36DVHYGX96GG",
+    "upc": "887276718187",
+    "gtin": "00887276718187",
+    "productName": "Samsung Galaxy S23 - 256 GB - Cream",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1179.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

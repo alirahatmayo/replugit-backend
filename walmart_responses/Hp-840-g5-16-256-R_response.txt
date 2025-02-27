@@ -1,0 +1,30 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Hp-840-g5-16-256-R",
+    "wpid": "3MAAHX8HO35V",
+    "upc": "628110299482",
+    "gtin": "00628110299482",
+    "productName": "HP EliteBook 840 G5 14\" Laptop, Intel Core i5, 16GB, 256GB SSD, Win11 Pro, Certified Refurbished, 1 Year Warranty",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 599.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "Hp 840 G5",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "hard_drive_capacity",
+                "value": "256"
+            },
+            {
+                "name": "resolution",
+                "value": "1920 x 1080 (FHD)"
+            }
+        ]
+    }
+}

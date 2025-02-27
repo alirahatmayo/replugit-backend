@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "SAM-VM46B-U",
+    "wpid": "4V9ZL7DUDXJP",
+    "gtin": "08806094366082",
+    "productName": "SAMSUNG 46IN VIDEO WALL 24/7",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Computer Monitors",
+    "price": {
+        "currency": "CAD",
+        "amount": 1999.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

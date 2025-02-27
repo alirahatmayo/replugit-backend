@@ -1,0 +1,25 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "SAM-A54-128GB-5G-BLK",
+    "wpid": "4FCBG7R8FZ14",
+    "gtin": "09871115575117",
+    "productName": "Samsung Galaxy A54 5G 128GB 6GB Ram | Brand New Factory Unlocked Smartphone (Canadian Version)",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 435.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "samsunga54128GB8BNCN1109xx",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Graphite"
+            }
+        ]
+    }
+}

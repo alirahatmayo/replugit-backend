@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "ASUS TUF-A17-5",
+    "wpid": "5KVTJ2Y6JVD3",
+    "gtin": "01955535698705",
+    "productName": "ASUS TUF Gaming A17 (2022) Gaming Laptop",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Gaming Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 0.0
+    },
+    "publishedStatus": "IN_PROGRESS",
+    "lifecycleStatus": "ACTIVE"
+}

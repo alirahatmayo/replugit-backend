@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Hp-840-g4-7",
+    "wpid": "2BKI4NWLNFCQ",
+    "gtin": "09010477888927",
+    "productName": "HP EliteBook 840 G4 Full HD Corning Gorilla Glass Touch Screen | Core i5-7300U 2.4GHz up to 3.9GHz | 16GB RAM 256GB SSD | Webcam | Windows 10 Pro 64Bit | Refurbished Excellent Condition",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 549.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

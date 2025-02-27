@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-T490-8-256",
+    "wpid": "6VJ4SUX2DDMU",
+    "upc": "647535829548",
+    "gtin": "00647535829548",
+    "productName": "Lenovo ThinkPad T490 14\" Ultrabook - Intel Core i5 8300U | 8GB RAM | 256GB SSD | Windows 11 Pro - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 407.36
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

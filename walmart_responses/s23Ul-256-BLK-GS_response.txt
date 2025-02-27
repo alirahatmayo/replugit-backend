@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "s23Ul-256-BLK-GS",
+    "wpid": "4JGDTMQW0C36",
+    "upc": "741527622459",
+    "gtin": "00741527622459",
+    "productName": "Samsung Galaxy S23 Ultra 256GB Unlocked Smartphone Brand New",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1407.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "s23ultra",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Black"
+            }
+        ]
+    }
+}

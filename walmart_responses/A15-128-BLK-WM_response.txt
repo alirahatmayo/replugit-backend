@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "A15-128-BLK-WM",
+    "wpid": "4SL9RMRX7BMQ",
+    "upc": "400504122299",
+    "gtin": "00400504122299",
+    "productName": "Samsung  Galaxy A15 5G",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 248.55
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

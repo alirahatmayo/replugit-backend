@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S23U-256GB-Green-3",
+    "wpid": "6WBFMKL58K01",
+    "gtin": "08806094705539",
+    "productName": "Samsung Galaxy S23 Ultra 5G Dual S9180 256GB 12GB RAM GSM Unlocked \u2013 Black",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1599.99
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

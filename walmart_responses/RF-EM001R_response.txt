@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "RF-EM001R",
+    "wpid": "2524H5LIOW5S",
+    "upc": "647535512341",
+    "gtin": "00647535512341",
+    "productName": "RENPHO Eye Mask with Heat, Rechargeable Eye Mask with Bluetooth Music for Relax and Reduce Eye Strain Dark Circles Eye Bags Dry Eye Improve Sleep",
+    "shelf": "[\"Root\",\"Beauty\",\"Skin Care\",\"Eye Creams\",\"Eye Mask\"]",
+    "productType": "Eye Masks",
+    "price": {
+        "currency": "CAD",
+        "amount": 69.99
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "ARCHIVED"
+}

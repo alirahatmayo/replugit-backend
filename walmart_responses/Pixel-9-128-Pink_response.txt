@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Pixel-9-128-Pink",
+    "wpid": "3HRTIM4C5OVW",
+    "upc": "647535654522",
+    "gtin": "00647535654522",
+    "productName": "Google Pixel 9 128GB Smartphone - AI-Powered - Porcelaine - 50MP Camera - 24+ Hrs Battery - Android 14 - 1 Year Warranty",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 799.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "pixel-9-128",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Porcelaine"
+            }
+        ]
+    }
+}

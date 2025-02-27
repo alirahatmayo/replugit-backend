@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-7420-G11-16-256",
+    "wpid": "1XCG7WJ9HF32",
+    "upc": "647535742717",
+    "gtin": "00647535742717",
+    "productName": "DELL Latitude 7420 2-in-1 Laptop - 14\" FHD Display - Intel Core i5 11th Gen| 16GB RAM | 256GB SSD - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1900.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

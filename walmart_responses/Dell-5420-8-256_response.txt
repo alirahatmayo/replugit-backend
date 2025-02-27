@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-5420-8-256",
+    "wpid": "3LOVNEKXA1DH",
+    "upc": "196105045128",
+    "gtin": "00196105045128",
+    "productName": "Dell Latitude 5000 5420 Laptop (2021) | 14\" HD | Core i3 - 128GB SSD - 4GB RAM | 4 Cores @ 3.7 GHz - 11th Gen CPU",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1249.95
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

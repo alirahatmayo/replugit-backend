@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Sam-Q80B-65-WFS",
+    "wpid": "2GBRUZOG2EH3",
+    "upc": "887276639529",
+    "gtin": "00887276639529",
+    "productName": "Samsung Direct Full Array QLED Display 4K UltraHD Smart TV - Q80B",
+    "shelf": "[\"Root\",\"Electronics\",\"TV & Video\",\"TVs\",\"60 inch - 69 inch TVs\"]",
+    "productType": "Televisions",
+    "price": {
+        "currency": "CAD",
+        "amount": 1488.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "QN43Q60BAFXZC",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "screen_size",
+                "value": "65"
+            }
+        ]
+    }
+}

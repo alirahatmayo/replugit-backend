@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "s23Ultra-BLK-256-AB-1",
+    "wpid": "2U7PB0W5ZZJC",
+    "upc": "814561005851",
+    "gtin": "00814561005851",
+    "productName": "Brand New - Samsung Galaxy S23 Ultra 256GB - Phantom Black - Unlocked",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1399.99
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

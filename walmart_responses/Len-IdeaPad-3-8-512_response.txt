@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-IdeaPad-3-8-512",
+    "wpid": "7BHVNSF93M6F",
+    "upc": "789091943846",
+    "gtin": "00789091943846",
+    "productName": "Lenovo IdeaPad 3 15.6\" Laptop - Intel Core i3-1115G4 3GHz | 8GB RAM | 512GB SSD | Windows 11 - Abyss Blue - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 379.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "ideaPad3",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "configuration",
+                "value": "Intel Core i3-1115G4 3GHz"
+            }
+        ]
+    }
+}

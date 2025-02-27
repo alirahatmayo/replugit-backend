@@ -1,0 +1,4732 @@
+{
+  "products": [
+    {
+      "wpid": "7AKIKNU27HIC",
+      "price": 449.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3XU2U602ZAO2",
+      "price": 400.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6RB3S8ZMKQJQ",
+      "price": 300.0,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Desktop Computers\",\"Desktop PC Towers\"]",
+      "productType": "Desktop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4VCV62TX36YR",
+      "price": 1348.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6NSKJZXBW800",
+      "price": 1099.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3TE2OAKMDZ1G",
+      "price": 379.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4FCBG7R8FZ14",
+      "price": 435.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "66YBD2UVFCMF",
+      "price": 550.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3JHTZX3P2BCK",
+      "price": 449.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2U7PB0W5ZZJC",
+      "price": 1399.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4ACJNMQYEZ7A",
+      "price": 859.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Video Games\",\"Retro Gaming\",\"Retro Gaming Consoles\"]",
+      "productType": "Video Game Consoles",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "27H5LT55CM14",
+      "price": 299.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "416ICBSMEUO1",
+      "price": 329.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "73WNPZ1N9CQS",
+      "price": 1499.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "44IQWV8MCLND",
+      "price": 117.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Headphones\",\"Over-Ear Headphones\"]",
+      "productType": "Headphones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "77S0Q3GZ1AW4",
+      "price": 1399.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6RFJOVTEOCO8",
+      "price": 651.82,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "51K0EG4S0X2G",
+      "price": 1788.98,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5DG0IEYHI08W",
+      "price": 299.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Computer Monitors & Accessories\",\"PC Gaming Monitors\"]",
+      "productType": "Computer Monitors",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3KUPQ98BGIQ9",
+      "price": 600.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3ZX4JE26LEOL",
+      "price": 769.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Video Games\",\"PlayStation 5\",\"PS5 Consoles\"]",
+      "productType": "Video Game Consoles",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4BCJ1B4I53Y8",
+      "price": 1299.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6LV37RXZNKXP",
+      "price": 579.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3QZ5YIQIWDZK",
+      "price": 1799.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6YK4OQ61OW3T",
+      "price": 1500.0,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4SYJRO2XMNFA",
+      "price": 1499.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "76DB07MTVNI8",
+      "price": 1819.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "73WOXTPNC7T1",
+      "price": 1999.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "55LZGKQX6DHW",
+      "price": 449.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6G3IVPJXWSF6",
+      "price": 599.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6JMGEB5046A0",
+      "price": 1449.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1SL8ETXTJB8V",
+      "price": 999.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Video Games\",\"Retro Gaming\",\"Retro Gaming Consoles\"]",
+      "productType": "Video Game Consoles",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3SGP43XHYQ9G",
+      "price": 1949.99,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ARCHIVED",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6BLTYR2FMK81",
+      "price": 1500.0,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2524H5LIOW5S",
+      "price": 69.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "ARCHIVED",
+      "shelf": "[\"Root\",\"Beauty\",\"Skin Care\",\"Eye Creams\",\"Eye Mask\"]",
+      "productType": "Eye Masks",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "25STDS6F84SV",
+      "price": 1369.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1XCG7WJ9HF32",
+      "price": 1900.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2VJ1LQFC96CG",
+      "price": 1400.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "66QXACWLJHNN",
+      "price": 1814.0,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "30QISRP4TFRC",
+      "price": 1000.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5BJO3OX0BFV4",
+      "price": 499.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5Q5X4RR19BL1",
+      "price": 117.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Headphones\",\"Over-Ear Headphones\"]",
+      "productType": "Headphones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "54CN1XKGSXQP",
+      "price": 449.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3E6OZWKTOTZ5",
+      "price": 1399.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "66HA7KW7UX3D",
+      "price": 800.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "217EM9A9DETO",
+      "price": 699.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5K0T0UU8SK04",
+      "price": 499.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "48ZN18QMJULX",
+      "price": 1399.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6SPTQGE8Y9XG",
+      "price": 475.27,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "51W8ZCC0DV9H",
+      "price": 649.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6G3IVPJXWSF6",
+      "price": 599.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6LV37RXZNKXP",
+      "price": 579.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3QZ5YIQIWDZK",
+      "price": 1799.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4SYJRO2XMNFA",
+      "price": 1499.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1SL8ETXTJB8V",
+      "price": 999.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Video Games\",\"Retro Gaming\",\"Retro Gaming Consoles\"]",
+      "productType": "Video Game Consoles",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6YK4OQ61OW3T",
+      "price": 1500.0,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "73WOXTPNC7T1",
+      "price": 1999.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "55LZGKQX6DHW",
+      "price": 449.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "76DB07MTVNI8",
+      "price": 1819.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6JMGEB5046A0",
+      "price": 1449.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "43U7DAA3QLYU",
+      "price": 449.0,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "592RCFLWLDD2",
+      "price": 1299.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "32EV28IZWFBD",
+      "price": 829.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Video Games\",\"PlayStation 5\",\"PS5 Consoles\"]",
+      "productType": "Video Game Consoles",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4JGDTMQW0C36",
+      "price": 1407.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4VJ3MMXRDCML",
+      "price": 549.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5T744R1GM42V",
+      "price": 314.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "7JO2HQU0PM3K",
+      "price": 300.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "45ZTFX0N5FDT",
+      "price": 279.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6PL574A87PGI",
+      "price": 499.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4GNH1PTGGRVK",
+      "price": 999.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6WGKW37L4LEW",
+      "price": 1179.95,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4CO44P3FVGIQ",
+      "price": 117.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Headphones\",\"Over-Ear Headphones\"]",
+      "productType": "Headphones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "119TLXTKWB31",
+      "price": 350.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2VI54MN4AVHU",
+      "price": 439.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6LAPZ8TDBJNK",
+      "price": 1149.93,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "32YASJCF0ZRN",
+      "price": 797.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Video Games\",\"PlayStation 5\",\"PS5 Consoles\"]",
+      "productType": "Video Game Consoles",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2YS1OK3UJOK8",
+      "price": 324.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3NM9LA6YKR4L",
+      "price": 549.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "24HD72Q0GUWG",
+      "price": 1049.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2GW0JX50RQ7U",
+      "price": 1749.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "69OMQLTIBLEV",
+      "price": 449.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6D811RLZMOIO",
+      "price": 1899.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6PKUWA9DAJVT",
+      "price": 1179.95,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "55YRR5AXVZYQ",
+      "price": 1799.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1H7YYG61MSBZ",
+      "price": 529.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6WBFMKL58K01",
+      "price": 1599.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "19YBC5OGAFKY",
+      "price": 1589.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5NQRRWK2ABC6",
+      "price": 349.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3U0FQ0XEGLRN",
+      "price": 500.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "0WB9A54HN0ZA",
+      "price": 549.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6RAPQHT08NHC",
+      "price": 769.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Video Games\",\"PlayStation 5\",\"PS5 Consoles\"]",
+      "productType": "Video Game Consoles",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "615VP31EZRHS",
+      "price": 549.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1059UI2E8G5C",
+      "price": 1599.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4DE0AGQQ3XXJ",
+      "price": 1600.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4V9ZL7DUDXJP",
+      "price": 1999.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Computer Monitors",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "69MAIJVENZWK",
+      "price": 279.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3W1ZI90N8XW4",
+      "price": 55.0,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Health\",\"Diffusers, Massagers & Spa\",\"Massage Accessories\",\"Other Massage Accessories\"]",
+      "productType": "Massagers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1Y7VSURH9I0A",
+      "price": 15.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Cellphone Cases\",\"Samsung phone cases\"]",
+      "productType": "Cell Phone Cases",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5HMYOIQUUCNA",
+      "price": 799.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "70G7NA63VGP1",
+      "price": 1799.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "60CXWVBDDWW9",
+      "price": 179.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Smart Home\",\"Smart Heating & Cooling\",\"Smart Thermostats\"]",
+      "productType": "Thermostats",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "13PGEF7S6KU0",
+      "price": 509.95,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked iPhones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "468GQ0DC6I11",
+      "price": 49.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Beauty\",\"Brushes, Tools & Accessories\",\"Cosmetic Mirrors\",\"Lighted Makeup Mirrors\"]",
+      "productType": "Face Mirrors",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "48RB2A1ESYPP",
+      "price": 399.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6V5OJL4BUFUV",
+      "price": 1299.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "0RPG3XJ5IJBT",
+      "price": 338.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "279T6JRIIPV8",
+      "price": 349.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4L8TD3EFY4K1",
+      "price": 399.98,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3R8JKGQQS3AS",
+      "price": 345.0,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6ZCY7KHGVXHC",
+      "price": 1099.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3EEJTBGOXTH3",
+      "price": 1159.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Gaming Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6ZQWDVKID3WO",
+      "price": 1299.93,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4U9B29UTBKV6",
+      "price": 1908.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1ZP1BAT5XENT",
+      "price": 1200.0,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked iPhones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "7JFQ4I0KUQDK",
+      "price": 899.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Video Game Consoles",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3FKUJWFSLK9W",
+      "price": 949.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3ZPQYO7JC8C6",
+      "price": 1589.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4KAKGX7X723R",
+      "price": 2299.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"2 in 1 Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "24L0665B15X4",
+      "price": 1309.95,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "74GQ7A06MSO8",
+      "price": 479.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "20EQ2OIS1OKK",
+      "price": 399.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6G9W3WU1S4O6",
+      "price": 1499.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3HFGFPKYXDCW",
+      "price": 319.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "0RIU0CJNF7NJ",
+      "price": 367.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4LRVNU1TALPU",
+      "price": 3499.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Gaming Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5HEH003FDCSO",
+      "price": 1299.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"TV & Video\",\"TVs\",\"60 inch - 69 inch TVs\"]",
+      "productType": "Televisions",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "62Z7H2FS7MO0",
+      "price": 303.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5BXLLV1E8ZDG",
+      "price": 399.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "42C5D9XGM9XC",
+      "price": 1399.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "32HWI8I8TQSG",
+      "price": 414.0,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5BFVV2C3E47R",
+      "price": 1150.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "7HV7B8Q0XJ55",
+      "price": 300.0,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Computer Monitors",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2GDGYG51G8R5",
+      "price": 1199.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2WRDM5IF8WIB",
+      "price": 1079.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3HRTIM4C5OVW",
+      "price": 799.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5FO7KQLZE91X",
+      "price": 450.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "7AJSIQN4CNXE",
+      "price": 349.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "12CNNFSE6154",
+      "price": 438.98,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Surveillance Cameras",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1NSPX7YBZ7MR",
+      "price": 509.95,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked iPhones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1GK9WKB48KLV",
+      "price": 1889.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3DTIVFKNCEND",
+      "price": 570.34,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "0WUDGF1GMMEX",
+      "price": 474.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "62I3FW27YVFS",
+      "price": 1649.0,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5C6R7QOFIGJS",
+      "price": 1200.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6MV1KHC21GN9",
+      "price": 999.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "324VJ86GQ1SM",
+      "price": 1037.05,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Other unlocked cell phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "71V0GDVTGU51",
+      "price": 769.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Video Games\",\"PlayStation 5\",\"PS5 Consoles\"]",
+      "productType": "Video Game Consoles",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "36DVHYGX96GG",
+      "price": 1179.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "266GMM7O0YWS",
+      "price": 299.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2ENZ2NKD7U1Q",
+      "price": 419.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Headphones\",\"Over-Ear Headphones\"]",
+      "productType": "Headphones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6V5OJL4BUFUV",
+      "price": 1299.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6ZQWDVKID3WO",
+      "price": 1299.93,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4L8TD3EFY4K1",
+      "price": 399.98,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3R8JKGQQS3AS",
+      "price": 345.0,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "279T6JRIIPV8",
+      "price": 349.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "468GQ0DC6I11",
+      "price": 49.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Beauty\",\"Brushes, Tools & Accessories\",\"Cosmetic Mirrors\",\"Lighted Makeup Mirrors\"]",
+      "productType": "Face Mirrors",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "0RPG3XJ5IJBT",
+      "price": 338.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6ZCY7KHGVXHC",
+      "price": 1099.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "48RB2A1ESYPP",
+      "price": 399.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3EEJTBGOXTH3",
+      "price": 1159.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Gaming Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4U9B29UTBKV6",
+      "price": 1908.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5KVTJ2Y6JVD3",
+      "price": 0.0,
+      "currency": "CAD",
+      "publishedStatus": "IN_PROGRESS",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Gaming Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "76IGE1Z6N9XG",
+      "price": 1739.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"iPad & Tablets\",\"Samsung Tablets\"]",
+      "productType": "Tablet Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3MM6F41W7QW5",
+      "price": 1000.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "0WIHN3RS4THK",
+      "price": 535.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "15MRUHI3W7W3",
+      "price": 1579.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "0ZZOND6FWN46",
+      "price": 179.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Smart Home\",\"Smart Heating & Cooling\",\"Smart Thermostats\"]",
+      "productType": "Thermostats",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4VTZ4EY9IKC1",
+      "price": 1889.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3KL4JWZJDWW9",
+      "price": 499.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "0RN3KIVAI3C7",
+      "price": 599.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "32ZZ0471ON7V",
+      "price": 117.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Headphones\",\"Over-Ear Headphones\"]",
+      "productType": "Headphones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "28M2JGC3NSK8",
+      "price": 1799.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "44SW0SS1EL4O",
+      "price": 500.0,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4M0IT443BO2P",
+      "price": 1899.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4MGSKOVUUQO9",
+      "price": 2699.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2WDG1NLSNMHK",
+      "price": 1496.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "21DNLCUNADQP",
+      "price": 977.95,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ARCHIVED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1D8ME7I5TOC0",
+      "price": 1499.99,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Refurbished Cell Phones\",\"Refurbished iPhones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2CAEBD9ZMMYO",
+      "price": 1499.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6S72MLC0R66B",
+      "price": 299.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Automotive\",\"Car Safety & Car Security\",\"Remote Car Starters\"]",
+      "productType": "Automotive Remote Starters",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1E1NLCTBMFAJ",
+      "price": 376.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2BO1D1B84GRI",
+      "price": 349.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4E2AJBV2GNQ1",
+      "price": 1869.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2BVS8RP9OVN3",
+      "price": 749.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1XXV8HXKJFPN",
+      "price": 1399.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"iPad & Tablets\",\"Microsoft Surface & Windows Tablets\"]",
+      "productType": "Tablet Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3GLNTP8NRW3Q",
+      "price": 429.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6OC7Z9HAOUG3",
+      "price": 406.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Headphones\",\"Over-Ear Headphones\"]",
+      "productType": "Headphones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "10CVGQEQ8L8C",
+      "price": 449.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6S4CIXUB95ZB",
+      "price": 509.95,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked iPhones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "51PO19BH68JA",
+      "price": 800.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "79ZGPY0P8ZDY",
+      "price": 249.0,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Desktop Computers\",\"Desktop PC Towers\"]",
+      "productType": "Desktop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5CTB4MKZPHFM",
+      "price": 549.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "60SCWY1U24EH",
+      "price": 599.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2PHQRNOD4L89",
+      "price": 399.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "41VYC3NXNI3Q",
+      "price": 399.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "60CXWVBDDWW9",
+      "price": 179.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Smart Home\",\"Smart Heating & Cooling\",\"Smart Thermostats\"]",
+      "productType": "Thermostats",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1XHJ0HH9WPWV",
+      "price": 349.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5IZ6PC0BBD48",
+      "price": 677.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4127HL3BXT7Q",
+      "price": 236.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2BO1D1B84GRI",
+      "price": 349.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1XXV8HXKJFPN",
+      "price": 1399.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"iPad & Tablets\",\"Microsoft Surface & Windows Tablets\"]",
+      "productType": "Tablet Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "21DNLCUNADQP",
+      "price": 977.95,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ARCHIVED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6OC7Z9HAOUG3",
+      "price": 406.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Headphones\",\"Over-Ear Headphones\"]",
+      "productType": "Headphones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "10CVGQEQ8L8C",
+      "price": 449.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5MWOG9SNSTD2",
+      "price": 1299.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4L7ICPTWU3JS",
+      "price": 899.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6MSGLSA30BOG",
+      "price": 1681.21,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1DC5YWG4PMTK",
+      "price": 1500.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1XHJ0HH9WPWV",
+      "price": 349.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5IZ6PC0BBD48",
+      "price": 677.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "0Z5QWWKHR7TT",
+      "price": 700.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3S5S5YT0SDPH",
+      "price": 399.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6QNDLJ5FD5Z7",
+      "price": 1999.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4UMHRBIDJVJA",
+      "price": 800.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4127HL3BXT7Q",
+      "price": 236.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6S4CIXUB95ZB",
+      "price": 509.95,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked iPhones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "79ZGPY0P8ZDY",
+      "price": 249.0,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Desktop Computers\",\"Desktop PC Towers\"]",
+      "productType": "Desktop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "51PO19BH68JA",
+      "price": 800.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "41VYC3NXNI3Q",
+      "price": 399.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "60SCWY1U24EH",
+      "price": 599.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5CTB4MKZPHFM",
+      "price": 549.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2PHQRNOD4L89",
+      "price": 399.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "60CXWVBDDWW9",
+      "price": 179.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Smart Home\",\"Smart Heating & Cooling\",\"Smart Thermostats\"]",
+      "productType": "Thermostats",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "69MC7EMIR9UP",
+      "price": 394.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6JHROZJTL32B",
+      "price": 1799.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "471BIZFUIOZJ",
+      "price": 1400.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "357UA4GNNC3C",
+      "price": 800.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3LOVNEKXA1DH",
+      "price": 1249.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5BLSALHR12W8",
+      "price": 1689.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1YVDRUMPWXGJ",
+      "price": 1999.98,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5BG8HG1WWQG0",
+      "price": 329.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5XZK9ID8AITJ",
+      "price": 1299.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "13KVF17LUT2N",
+      "price": 499.0,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6DV1MPH8JY1T",
+      "price": 449.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Video Games\",\"Virtual Reality\",\"Virtual Reality Headsets\"]",
+      "productType": "VR Headsets",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4ESMJ07PBEOY",
+      "price": 359.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6VS00P6NBTIE",
+      "price": 297.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "20RG8Y8Y7WFD",
+      "price": 1099.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5KVTJ2Y6JVD3",
+      "price": 0.0,
+      "currency": "CAD",
+      "publishedStatus": "IN_PROGRESS",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Gaming Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "76IGE1Z6N9XG",
+      "price": 1739.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"iPad & Tablets\",\"Samsung Tablets\"]",
+      "productType": "Tablet Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "15MRUHI3W7W3",
+      "price": 1579.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3MM6F41W7QW5",
+      "price": 1000.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "0WIHN3RS4THK",
+      "price": 535.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "0ZZOND6FWN46",
+      "price": 179.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Smart Home\",\"Smart Heating & Cooling\",\"Smart Thermostats\"]",
+      "productType": "Thermostats",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5IT19VH1QN2E",
+      "price": 399.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "22VHFLNEZ315",
+      "price": 898.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2BOFN4IFIS8S",
+      "price": 748.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4KZYI7NKFOI0",
+      "price": 99.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Baby\",\"Baby Health & Safety\",\"Baby Health Care\",\"Baby Humidifiers & Air Purifiers\"]",
+      "productType": "Humidifiers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "685ZK5UKSQRK",
+      "price": 1099.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6JHROZJTL32B",
+      "price": 1799.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5BG8HG1WWQG0",
+      "price": 329.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5BLSALHR12W8",
+      "price": 1689.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "69MC7EMIR9UP",
+      "price": 394.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "357UA4GNNC3C",
+      "price": 800.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "13KVF17LUT2N",
+      "price": 499.0,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "471BIZFUIOZJ",
+      "price": 1400.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5XZK9ID8AITJ",
+      "price": 1299.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4ESMJ07PBEOY",
+      "price": 359.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6VS00P6NBTIE",
+      "price": 297.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6DV1MPH8JY1T",
+      "price": 449.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Video Games\",\"Virtual Reality\",\"Virtual Reality Headsets\"]",
+      "productType": "VR Headsets",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "20RG8Y8Y7WFD",
+      "price": 1099.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "685ZK5UKSQRK",
+      "price": 1099.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2BOFN4IFIS8S",
+      "price": 748.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "22VHFLNEZ315",
+      "price": 898.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4T4TRG1E2FD5",
+      "price": 499.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2BMF70JZ2CGQ",
+      "price": 999.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5IT19VH1QN2E",
+      "price": 399.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6FC8311BL4CH",
+      "price": 949.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "64C4V2141X7K",
+      "price": 399.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4WVCMC3TCQL2",
+      "price": 149.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Chromebooks\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4KZYI7NKFOI0",
+      "price": 99.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Baby\",\"Baby Health & Safety\",\"Baby Health Care\",\"Baby Humidifiers & Air Purifiers\"]",
+      "productType": "Humidifiers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4Q3WEB0GJ1D0",
+      "price": 237.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "0TZV354DAMTT",
+      "price": 1179.95,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6SDDVCANS4IR",
+      "price": 25.0,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Cell Phone Chargers & Power Banks\",\"USB-C Chargers\"]",
+      "productType": "Computer Cables",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2XSFGK5DVPTU",
+      "price": 1899.93,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "0T1U3EEOXPHQ",
+      "price": 1299.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"TV & Video\",\"TVs\",\"40 inch - 49 inch TVs\"]",
+      "productType": "Televisions",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "247QL4FWQZ1F",
+      "price": 1999.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3FZIDOXDWHGJ",
+      "price": 1999.93,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2CZHFJAPB711",
+      "price": 611.08,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5600M14FWPDL",
+      "price": 769.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Video Game Consoles",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1DQOF0OKG74L",
+      "price": 739.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1AG2HLSIY0SM",
+      "price": 539.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1S87X3VSYRT1",
+      "price": 539.95,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"iPad & Tablets\",\"Apple iPads\",\"iPad\"]",
+      "productType": "Tablet Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3S4NWALSXJLX",
+      "price": 209.95,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"iPad & Tablets\",\"Apple iPads\",\"iPad\"]",
+      "productType": "Tablet Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "7JT0R1FEF1GH",
+      "price": 1500.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2DU85B3HK5OX",
+      "price": 1849.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6FUQNOSH3R53",
+      "price": 899.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "54XA93O33XJ8",
+      "price": 377.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"TV & Video\",\"TVs\",\"50 inch - 59 inch TVs\"]",
+      "productType": "Televisions",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4Z8IWDY16NVN",
+      "price": 41.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Laptop Batteries & Adapters\"]",
+      "productType": "Device-Specific Electronics Batteries",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2LTXI6N8HCZ0",
+      "price": 349.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3K96WXISBU06",
+      "price": 1799.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1JFJUZS0H4N6",
+      "price": 799.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "340F88JCV3L3",
+      "price": 549.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5D1DG4ORPHFO",
+      "price": 379.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1UKP0DPCEZCF",
+      "price": 399.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "55ITLCTYDAUQ",
+      "price": 354.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4BMXONE47QN8",
+      "price": 792.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Video Games\",\"PlayStation 5\",\"PS5 Consoles\"]",
+      "productType": "Video Game Consoles",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "7BHVNSF93M6F",
+      "price": 379.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2UXF0UXSNMCZ",
+      "price": 1150.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6FUQNOSH3R53",
+      "price": 899.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "54XA93O33XJ8",
+      "price": 377.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"TV & Video\",\"TVs\",\"50 inch - 59 inch TVs\"]",
+      "productType": "Televisions",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "55ITLCTYDAUQ",
+      "price": 354.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3P1NCTR5QBLH",
+      "price": 499.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5I55UULKX5WP",
+      "price": 549.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1UKP0DPCEZCF",
+      "price": 399.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4BMXONE47QN8",
+      "price": 792.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Video Games\",\"PlayStation 5\",\"PS5 Consoles\"]",
+      "productType": "Video Game Consoles",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5OYRMUG59XOP",
+      "price": 769.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Video Games\",\"PlayStation 5\",\"PS5 Consoles\"]",
+      "productType": "Video Game Consoles",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4SL9RMRX7BMQ",
+      "price": 248.55,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "0TZV354DAMTT",
+      "price": 1179.95,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "0T1U3EEOXPHQ",
+      "price": 1299.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"TV & Video\",\"TVs\",\"40 inch - 49 inch TVs\"]",
+      "productType": "Televisions",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6SDDVCANS4IR",
+      "price": 25.0,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Cell Phone Chargers & Power Banks\",\"USB-C Chargers\"]",
+      "productType": "Computer Cables",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "247QL4FWQZ1F",
+      "price": 1999.99,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2CZHFJAPB711",
+      "price": 611.08,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3FZIDOXDWHGJ",
+      "price": 1999.93,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2XSFGK5DVPTU",
+      "price": 1899.93,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1DQOF0OKG74L",
+      "price": 739.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1AG2HLSIY0SM",
+      "price": 539.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5600M14FWPDL",
+      "price": 769.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Video Game Consoles",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1S87X3VSYRT1",
+      "price": 539.95,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"iPad & Tablets\",\"Apple iPads\",\"iPad\"]",
+      "productType": "Tablet Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "3S4NWALSXJLX",
+      "price": 209.95,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"iPad & Tablets\",\"Apple iPads\",\"iPad\"]",
+      "productType": "Tablet Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2MYFCZ00TE23",
+      "price": 424.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1PMBL1DTWW70",
+      "price": 1734.95,
+      "currency": "CAD",
+      "publishedStatus": "UNPUBLISHED",
+      "lifecycleStatus": "RETIRED",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "0X1E4JCKRGNN",
+      "price": 1349.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6A00DWY2BGBT",
+      "price": 1599.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"iPad & Tablets\",\"Samsung Tablets\"]",
+      "productType": "Tablet Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4ERZWPSJK5MR",
+      "price": 394.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5LZ8GW8VY9I9",
+      "price": 0.0,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked iPhones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "34088S8Y6LA8",
+      "price": 699.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "5BMW3XOV5RW1",
+      "price": 901.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"UNNAV\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "62FN1CJX2DUW",
+      "price": 1299.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"TV & Video\",\"TVs\",\"40 inch - 49 inch TVs\"]",
+      "productType": "Televisions",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "31RXP27CFLZ8",
+      "price": 399.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "41YSWTJJ3IYP",
+      "price": 229.93,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4FO1Z72D7TNL",
+      "price": 399.99,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "4OENI8QZVCOO",
+      "price": 435.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "2M9C5VL1ID8F",
+      "price": 284.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Computer Monitors & Accessories\",\"IPS Monitors\"]",
+      "productType": "Computer Monitors",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1Q5K1XXCEXCO",
+      "price": 470.0,
+      "currency": "CAD",
+      "publishedStatus": "SYSTEM_PROBLEM",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"iPad & Tablets\",\"Apple iPads\",\"iPad\"]",
+      "productType": "Tablet Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "1S67MI32NFK4",
+      "price": 776.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Video Games\",\"PlayStation 5\",\"PS5 Consoles\"]",
+      "productType": "Video Game Consoles",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "49FM03PGD610",
+      "price": 438.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    },
+    {
+      "wpid": "6OK15QY8476S",
+      "price": 269.95,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+      "productType": "Laptop Computers",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    }
+  ],
+  "errors": [
+    {
+      "sku": "MBA20-M1-256-RF-G",
+      "error": "Error processing [MBA20-M1-256-RF-G]: NOT NULL constraint failed: products_product.name"
+    },
+    {
+      "sku": "MBA20-M1-256-RF-G",
+      "error": "Error processing [MBA20-M1-256-RF-G]: NOT NULL constraint failed: products_product.name"
+    }
+  ]
+}

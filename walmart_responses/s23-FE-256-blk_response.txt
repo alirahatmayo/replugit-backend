@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "s23-FE-256-blk",
+    "wpid": "5XVFXT3DZZNP",
+    "upc": "400503633222",
+    "gtin": "00400503633222",
+    "productName": "Samsung Galaxy S23 FE 5G 256GB",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 829.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "PRD-6000207098017",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Graphite"
+            }
+        ]
+    }
+}

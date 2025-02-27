@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "s22-Ul-256-In-WM",
+    "wpid": "24L0665B15X4",
+    "upc": "999003255688",
+    "gtin": "00999003255688",
+    "productName": "Samsung Galaxy S22 Ultra 256GB Smartphone | Brand New | Phantom Black | International Model | SM-S908U1",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1309.95
+    },
+    "publishedStatus": "SYSTEM_PROBLEM",
+    "lifecycleStatus": "RETIRED"
+}

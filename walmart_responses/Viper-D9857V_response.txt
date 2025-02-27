@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Viper-D9857V",
+    "wpid": "6S72MLC0R66B",
+    "upc": "093207102301",
+    "gtin": "00093207102301",
+    "productName": "Viper D9857V 2-Way LED Remote Starter",
+    "shelf": "[\"Root\",\"Automotive\",\"Car Safety & Car Security\",\"Remote Car Starters\"]",
+    "productType": "Automotive Remote Starters",
+    "price": {
+        "currency": "CAD",
+        "amount": 299.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

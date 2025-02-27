@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-7400-G8-16-256",
+    "wpid": "2LTXI6N8HCZ0",
+    "upc": "840669007848",
+    "gtin": "00840669007848",
+    "productName": "Refurbished Dell Latitude 7400 Intel i5-8350U Laptop",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 349.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

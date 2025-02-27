@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "eyemassager",
+    "wpid": "3W1ZI90N8XW4",
+    "upc": "647535660448",
+    "gtin": "00647535660448",
+    "productName": "RENPHO - Eye Massager with Remote Control & Heat, Compression, Wireless Music Rechargeable Eye Therapy Massager for Relieve Eye Strain Dark Circles Eye Bags Dry Eye Improve Sleep",
+    "shelf": "[\"Root\",\"Health\",\"Diffusers, Massagers & Spa\",\"Massage Accessories\",\"Other Massage Accessories\"]",
+    "productType": "Massagers",
+    "price": {
+        "currency": "CAD",
+        "amount": 55.0
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "5VZRYUFWHVWJ",
+    "wpid": "5LTUZSYW8SV8",
+    "upc": "027242924840",
+    "gtin": "00027242924840",
+    "productName": "Sony X75K 4K HDR LED TV with Google TV",
+    "shelf": "[\"Root\",\"Electronics\",\"TV & Video\",\"TVs\",\"60 inch - 69 inch TVs\"]",
+    "productType": "Televisions",
+    "price": {
+        "currency": "CAD",
+        "amount": 749.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

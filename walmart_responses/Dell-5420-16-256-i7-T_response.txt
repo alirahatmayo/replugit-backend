@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-5420-16-256-i7-T",
+    "wpid": "4DE0AGQQ3XXJ",
+    "upc": "789091943549",
+    "gtin": "00789091943549",
+    "productName": "Dell Latitude 5420 14\" Notebook - Intel Core i7 11th Gen | 16GB RAM | 256GB SSD | Windows 11 Pro | Full HD Touch Screen - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1600.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

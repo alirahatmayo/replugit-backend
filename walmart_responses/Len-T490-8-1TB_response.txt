@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-T490-8-1TB",
+    "wpid": "3DTIVFKNCEND",
+    "upc": "647535586847",
+    "gtin": "00647535586847",
+    "productName": "Lenovo ThinkPad T490 14\" Laptop - Intel Core i5 8th Gen 8GB RAM | 1TB SSD - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 570.34
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

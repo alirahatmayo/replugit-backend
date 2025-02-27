@@ -1,0 +1,1018 @@
+{
+    "ItemResponse": [
+        {
+            "mart": "WALMART_CA",
+            "sku": "clear-case-s23U",
+            "wpid": "1Y7VSURH9I0A",
+            "upc": "795777883290",
+            "gtin": "00795777883290",
+            "productName": "Clear Case for Samsung Galaxy S23 Ultra 5G, Transparent See-Thru Flex Gel TPU Skin Slim Phone Cover - Recessed Camera Protection",
+            "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Cellphone Cases\",\"Samsung phone cases\"]",
+            "productType": "Cell Phone Cases",
+            "price": {
+                "currency": "CAD",
+                "amount": 15.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "S23- Ultra - 256GB-Grn-M&Z",
+            "wpid": "1059UI2E8G5C",
+            "upc": "887276718255",
+            "gtin": "00887276718255",
+            "productName": "Samsung Galaxy S23 Ultra - 256GB - Green - Unlocked",
+            "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 1599.99
+            },
+            "publishedStatus": "UNPUBLISHED",
+            "lifecycleStatus": "RETIRED"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "eyemassager",
+            "wpid": "3W1ZI90N8XW4",
+            "upc": "647535660448",
+            "gtin": "00647535660448",
+            "productName": "RENPHO - Eye Massager with Remote Control & Heat, Compression, Wireless Music Rechargeable Eye Therapy Massager for Relieve Eye Strain Dark Circles Eye Bags Dry Eye Improve Sleep",
+            "shelf": "[\"Root\",\"Health\",\"Diffusers, Massagers & Spa\",\"Massage Accessories\",\"Other Massage Accessories\"]",
+            "productType": "Massagers",
+            "price": {
+                "currency": "CAD",
+                "amount": 55.0
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "SAM-VM46B-U",
+            "wpid": "4V9ZL7DUDXJP",
+            "gtin": "08806094366082",
+            "productName": "SAMSUNG 46IN VIDEO WALL 24/7",
+            "shelf": "[\"UNNAV\"]",
+            "productType": "Computer Monitors",
+            "price": {
+                "currency": "CAD",
+                "amount": 1999.99
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Zflip3-Blk-128GB-WM",
+            "wpid": "5HMYOIQUUCNA",
+            "upc": "400312416184",
+            "gtin": "00400312416184",
+            "productName": "Samsung Galaxy Z Flip3 5G 128GB",
+            "shelf": "[\"UNNAV\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 799.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE",
+            "variantGroupId": "PRD-6000204110292",
+            "variantGroupInfo": {
+                "isPrimary": true,
+                "groupingAttributes": [
+                    {
+                        "name": "actual_color",
+                        "value": "Black"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Dell-5420-16-256-i7-T",
+            "wpid": "4DE0AGQQ3XXJ",
+            "upc": "789091943549",
+            "gtin": "00789091943549",
+            "productName": "Dell Latitude 5420 14\" Notebook - Intel Core i7 11th Gen | 16GB RAM | 256GB SSD | Windows 11 Pro | Full HD Touch Screen - (Refurbished)",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 1600.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Dell-7470-i7-16-256",
+            "wpid": "69MAIJVENZWK",
+            "upc": "789091944423",
+            "gtin": "00789091944423",
+            "productName": "Dell Latitude E7470 14\" Ultrabook - Intel Core i7 6600U | 16GB RAM | 256GB SSD | Windows 10 - (Refurbished)",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 279.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "S24U-512-VLT-WM",
+            "wpid": "70G7NA63VGP1",
+            "upc": "400504403176",
+            "gtin": "00400504403176",
+            "productName": "Samsung Galaxy S24 Ultra 12+512GB",
+            "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 1799.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE",
+            "variantGroupId": "PRD-6000207543506",
+            "variantGroupInfo": {
+                "isPrimary": true,
+                "groupingAttributes": [
+                    {
+                        "name": "actual_color",
+                        "value": "Titanium Violet"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Pixel-9-128-Pink",
+            "wpid": "3HRTIM4C5OVW",
+            "upc": "647535654522",
+            "gtin": "00647535654522",
+            "productName": "Google Pixel 9 128GB Smartphone - AI-Powered - Porcelaine - 50MP Camera - 24+ Hrs Battery - Android 14 - 1 Year Warranty",
+            "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 799.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE",
+            "variantGroupId": "pixel-9-128",
+            "variantGroupInfo": {
+                "isPrimary": false,
+                "groupingAttributes": [
+                    {
+                        "name": "actual_color",
+                        "value": "Porcelaine"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "GNCam2Pack -4",
+            "wpid": "12CNNFSE6154",
+            "upc": "193575008264",
+            "gtin": "00193575008264",
+            "productName": "Google Nest Cam - 2 pack",
+            "shelf": "[\"UNNAV\"]",
+            "productType": "Surveillance Cameras",
+            "price": {
+                "currency": "CAD",
+                "amount": 438.98
+            },
+            "publishedStatus": "SYSTEM_PROBLEM",
+            "lifecycleStatus": "RETIRED"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "G pixel 7 Pro- 128-obs-M&Z",
+            "wpid": "2WRDM5IF8WIB",
+            "upc": "999003831677",
+            "gtin": "00999003831677",
+            "productName": "Google Pixel 7 Pro 128GB Unlocked - Black - Refurbished, Mint Condition",
+            "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 1079.99
+            },
+            "publishedStatus": "UNPUBLISHED",
+            "lifecycleStatus": "RETIRED"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "S22U-128-Bl",
+            "wpid": "42C5D9XGM9XC",
+            "upc": "647535800837",
+            "gtin": "00647535800837",
+            "productName": "Samsung Galaxy S22 Ultra 5G | 128GB ROM | 12 GB RAM |108 MP Camera - Factory Unlocked - Brand New",
+            "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 1399.99
+            },
+            "publishedStatus": "UNPUBLISHED",
+            "lifecycleStatus": "RETIRED",
+            "variantGroupId": "S22Ultra-128",
+            "variantGroupInfo": {
+                "isPrimary": true,
+                "groupingAttributes": [
+                    {
+                        "name": "actual_color",
+                        "value": "Phantom Black"
+                    },
+                    {
+                        "name": "hard_drive_capacity",
+                        "value": "128.00"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "S21-FE-128GB-1",
+            "wpid": "32HWI8I8TQSG",
+            "upc": "400309181101",
+            "gtin": "00400309181101",
+            "productName": "Samsung Galaxy S21 FE 5G",
+            "shelf": "[\"UNNAV\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 414.0
+            },
+            "publishedStatus": "UNPUBLISHED",
+            "lifecycleStatus": "RETIRED",
+            "variantGroupId": "PRD-PRD2K7VWJUM45XR",
+            "variantGroupInfo": {
+                "isPrimary": false,
+                "groupingAttributes": [
+                    {
+                        "name": "actual_color",
+                        "value": "LAVENDER"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Lenovo-M710Q-i5-G6-Tiny",
+            "wpid": "7HV7B8Q0XJ55",
+            "upc": "789091943518",
+            "gtin": "00789091943518",
+            "productName": "Lenovo M710Q i5 6th Generation Desktop Computer|  Core i5 6th Gen| 8 GB RAM|  500 GB SSD-Refurbished",
+            "shelf": "[\"UNNAV\"]",
+            "productType": "Computer Monitors",
+            "price": {
+                "currency": "CAD",
+                "amount": 300.0
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Dell-7390-i5-16-256",
+            "wpid": "7AJSIQN4CNXE",
+            "upc": "196105442088",
+            "gtin": "00196105442088",
+            "productName": "Certified Refurbished Dell Latitude 7000 7390 Laptop (2018) | 13.3\" FHD Touch | Core i5 - 256GB SSD - 8GB RAM | 4 Cores @ 3.4 GHz",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 349.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "dell-5320",
+            "wpid": "2GDGYG51G8R5",
+            "upc": "021501980219",
+            "gtin": "00021501980219",
+            "productName": "Dell Latitude 5320 Laptop, 13.3\" IPS FHD Display, Intel Core i5-1145G7 Upto 4.4GHz, 8GB RAM, 256GB NVMe SSD, HDMI, Thunderbolt, Card Reader, Wi-Fi, Bluetooth, Windows 11 Pro (4JVT3)",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 1199.99
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Dell-5520-16-512-i5",
+            "wpid": "5BFVV2C3E47R",
+            "upc": "789091943594",
+            "gtin": "00789091943594",
+            "productName": "Dell Latitude 5520 15.6\" Notebook - Intel Core i5 11th Gen | 16GB RAM | 512GB SSD | Windows 11 Pro | Full HD Display - (Refurbished)",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 1150.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Len-T480s-16-512-i7",
+            "wpid": "5FO7KQLZE91X",
+            "upc": "789091944089",
+            "gtin": "00789091944089",
+            "productName": "Lenovo ThinkPad T480s 14\" FHD (Touch Screen) Ultrabook - Intel Core i7 8665U | 16GB RAM | 512GB SSD | Windows 11 Pro - (Refurbished)",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 450.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "XBR48A9S",
+            "wpid": "2R7CA2D4N1JS",
+            "upc": "027242920033",
+            "gtin": "00027242920033",
+            "productName": "Sony XBR-48A9S 48\u2033 Master Series OLED 4K Ultra HD HDR Smart TV",
+            "shelf": "[\"Root\",\"Electronics\",\"TV & Video\",\"TVs\",\"40 inch - 49 inch TVs\"]",
+            "productType": "Televisions",
+            "price": {
+                "currency": "CAD",
+                "amount": 1289.99
+            },
+            "publishedStatus": "UNPUBLISHED",
+            "lifecycleStatus": "RETIRED"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "hp-840-g6-2",
+            "wpid": "15IOHN0N4SNS",
+            "upc": "999003056964",
+            "gtin": "00999003056964",
+            "productName": "HP Elitebook 840 G6 Laptop - Intel Core i5 1.60 GHz 16GB RAM 256GB SSD - 14\" Display - UHD W10P (Refurbished)",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 599.99
+            },
+            "publishedStatus": "UNPUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "s22-Ul-256-BR-CO-WM",
+            "wpid": "5KXURZRBCEP5",
+            "upc": "887276622682",
+            "gtin": "00887276622682",
+            "productName": "Samsung Galaxy S22 Ultra 256GB Black",
+            "shelf": "[\"UNNAV\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 1309.95
+            },
+            "publishedStatus": "UNPUBLISHED",
+            "lifecycleStatus": "RETIRED",
+            "variantGroupId": "PRD-PRD51K0EG4S0X2G",
+            "variantGroupInfo": {
+                "isPrimary": false,
+                "groupingAttributes": [
+                    {
+                        "name": "actual_color",
+                        "value": "Burgundy"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Google Pixel 7 Pro-128-Black 3",
+            "wpid": "5KGP8OWEDOF6",
+            "upc": "810029937153",
+            "gtin": "00810029937153",
+            "productName": "Google Pixel 7 Pro - 5G smartphone - dual-SIM - RAM 12 GB / Internal Memory 128 GB - OLED display - 6.7\" - 3120 x 1440 pixels (120 Hz) - 3x rear cameras 50 MP, 48 MP, 12 MP - front camera 10.8 Megapixel - obsidian",
+            "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 814.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "dell-5430-Rugged",
+            "wpid": "5URRHSNNMJ8L",
+            "upc": "884116422464",
+            "gtin": "00884116422464",
+            "productName": "Dell Latitude 5430 Rugged - Rugged - Intel Core i5 - 1145G7 / up to 4 GHz - vPro - Win 10 Pro (includes Win 11 Pro License) - Intel Iris Xe Graphics - 16 GB RAM - 512 GB SSD NVMe, Class 40 - 14\" 1920 x 1080 (Full HD) - Gigabit Ethernet - Wi-Fi 6E - BTS - with 3 Years Limited Hardware Warranty with Mail-In Service (Customer supplies box, Dell pays shipping) - Disti SNS",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 2099.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "len-t490s-16-512",
+            "wpid": "2M9PFNWB98Q8",
+            "upc": "647535946764",
+            "gtin": "00647535946764",
+            "productName": "Lenovo ThinkPad T490s 14\" Laptop (Silver) - Intel Core i5 8th Gen, 16GB RAM, 512GB SSD, Windows 11 Pro, Refurbished",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 699.99
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "S24-256-BLK-WM-0",
+            "wpid": "5XEWIUEFET50",
+            "upc": "400504402896",
+            "gtin": "00400504402896",
+            "productName": "Samsung Galaxy S24 8+256GB",
+            "shelf": "[\"UNNAV\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 1179.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE",
+            "variantGroupId": "PRD-6000207541994",
+            "variantGroupInfo": {
+                "isPrimary": false,
+                "groupingAttributes": [
+                    {
+                        "name": "actual_color",
+                        "value": "Gray"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Len-X13-Gen2-16-256",
+            "wpid": "2O78Z64KZXEZ",
+            "upc": "789091943532",
+            "gtin": "00789091943532",
+            "productName": "Lenovo ThinkPad X13 Yoga Gen 2 13.3\" FHD Convertible Laptop - Intel Core i5-1135G7 | 16GB RAM | 256GB SSD | Windows 11 Pro - (Refurbished)",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 499.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Sam-Q80B-65-WFS",
+            "wpid": "2GBRUZOG2EH3",
+            "upc": "887276639529",
+            "gtin": "00887276639529",
+            "productName": "Samsung Direct Full Array QLED Display 4K UltraHD Smart TV - Q80B",
+            "shelf": "[\"Root\",\"Electronics\",\"TV & Video\",\"TVs\",\"60 inch - 69 inch TVs\"]",
+            "productType": "Televisions",
+            "price": {
+                "currency": "CAD",
+                "amount": 1488.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE",
+            "variantGroupId": "QN43Q60BAFXZC",
+            "variantGroupInfo": {
+                "isPrimary": true,
+                "groupingAttributes": [
+                    {
+                        "name": "screen_size",
+                        "value": "65"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Len-T490-8-512",
+            "wpid": "76DUNO0D7MQU",
+            "upc": "647535821276",
+            "gtin": "00647535821276",
+            "productName": "Lenovo ThinkPad T490 14\" Laptop - Intel Core i5 8th Gen 8GB RAM | 512 SSD - (Refurbished)",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 475.27
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Len-T480-16-256-i7",
+            "wpid": "48Y2TSME9HO9",
+            "upc": "789091944072",
+            "gtin": "00789091944072",
+            "productName": "Lenovo ThinkPad X1 Carbon Gen 6 14\" FHD Touchscreen Ultrabook - Intel Core i5-8300U | 16GB RAM | 256GB SSD | Windows 11 Pro - (Refurbished)",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 346.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "HP-840-G5-16-512",
+            "wpid": "3DUBWENVKGPF",
+            "upc": "789091943761",
+            "gtin": "00789091943761",
+            "productName": "HP EliteBook 840 G5 14\" FHD Laptop - Intel Core i5 | 16GB RAM | 512GB SSD - Windows 11 Pro - (Refurbished)",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 700.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE",
+            "variantGroupId": "Hp 840 G5",
+            "variantGroupInfo": {
+                "isPrimary": false,
+                "groupingAttributes": [
+                    {
+                        "name": "hard_drive_capacity",
+                        "value": "512"
+                    },
+                    {
+                        "name": "resolution",
+                        "value": "1920 x 1080 (FHD)"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "S24-256-BLK",
+            "wpid": "1KMYKILUNXUC",
+            "upc": "887276802497",
+            "gtin": "00887276802497",
+            "productName": "RF SAM S24 256G BLK",
+            "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 1179.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "999003805043",
+            "wpid": "3WYQRQBO8L5Z",
+            "upc": "999003805043",
+            "gtin": "00999003805043",
+            "productName": "Apple MacBook Pro 13.3\" w/ Touch Bar 2022 - Space Grey (Apple M2 Chip / 256GB SSD / 8GB RAM) - English - BRAND NEW Open Box",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 1600.0
+            },
+            "publishedStatus": "SYSTEM_PROBLEM",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Dell-7480-16-512",
+            "wpid": "5HY8HE17AYPY",
+            "upc": "842312002323",
+            "gtin": "00842312002323",
+            "productName": "DELL Latitude 7480 UltraBook i5-6300U, 16GB, 512GB SSD, 14\"HD (1366x768), WEBCAM, WiFi, BT 4.2, Refurbished",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 339.95
+            },
+            "publishedStatus": "UNPUBLISHED",
+            "lifecycleStatus": "RETIRED"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "HP-i5-16-256-T",
+            "wpid": "38XE6JQ4HHPW",
+            "upc": "789091943822",
+            "gtin": "00789091943822",
+            "productName": "HP EliteBook 840 G5 14\" FHD Touch Screen Laptop-Intel Core i5| 16GB RAM | 256GB SSD | Windows 11 Pro - (Refurbished)",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 400.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE",
+            "variantGroupId": "Hp 840 G5",
+            "variantGroupInfo": {
+                "isPrimary": false,
+                "groupingAttributes": [
+                    {
+                        "name": "hard_drive_capacity",
+                        "value": "256"
+                    },
+                    {
+                        "name": "resolution",
+                        "value": "1920 x 1080 (FHD) - Touch Screen"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Len-T490-16-512-i7",
+            "wpid": "6LDP13BBCTS5",
+            "upc": "789091944058",
+            "gtin": "00789091944058",
+            "productName": "Lenovo ThinkPad T490 14\" Ultrabook - Intel Core i7 8665U | 16GB RAM | 512GB SSD | Windows 11 Pro - (Refurbished)",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 750.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE",
+            "variantGroupId": "T490-16GB",
+            "variantGroupInfo": {
+                "isPrimary": false,
+                "groupingAttributes": [
+                    {
+                        "name": "edition",
+                        "value": "Intel\u00ae Core\u2122 i7-8665U"
+                    },
+                    {
+                        "name": "hard_drive_capacity",
+                        "value": "512"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "hp-840-g6-3",
+            "wpid": "5A0WUG6ONMZE",
+            "upc": "194441409017",
+            "gtin": "00194441409017",
+            "productName": "HP EliteBook 840 G6 Notebook - Intel Core i5 - 8265U / up to 3.9 GHz - Win 10 Pro 64-bit - UHD Graphics 620 - 8 GB RAM - 256 GB SSD (32 GB SSD cache) NVMe, TLC, HP Value - 14\" IPS touchscreen 1920 x 1080 (Full HD) - Gigabit Ethernet - NFC, Wi-Fi 6",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"2 in 1 Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 899.99
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "dell-5320-0",
+            "wpid": "3DP75GADR8H4",
+            "upc": "021501980233",
+            "gtin": "00021501980233",
+            "productName": "Dell Latitude 5320 Laptop, 13.3\" IPS FHD Display, Intel Core i5-1145G7 Upto 4.4GHz, 8GB RAM, 1TB NVMe SSD, HDMI, Thunderbolt, Card Reader, Wi-Fi, Bluetooth, Windows 11 Pro",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 1399.99
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Len-T490-16-256",
+            "wpid": "7EKLXC158A6B",
+            "upc": "647535719894",
+            "gtin": "00647535719894",
+            "productName": "Lenovo ThinkPad T490 14\" Laptop - Intel Core i5 8th Gen 16GB RAM | 256GB SSD - (Refurbished)",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 448.11
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Dell-5420-16-256",
+            "wpid": "7C3QO8J6ACPT",
+            "upc": "196105544508",
+            "gtin": "00196105544508",
+            "productName": "Certified Refurbished Dell Latitude 5000 5420 Laptop (2021) | 14\" FHD Touch | Core i5 - 256GB SSD - 16GB RAM | 4 Cores @ 4.4 GHz - 11th Gen CPU",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 1399.95
+            },
+            "publishedStatus": "UNPUBLISHED",
+            "lifecycleStatus": "RETIRED"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "s23-128-WM-LVN",
+            "wpid": "1MEY8OFNQ74X",
+            "gtin": "09871115580630",
+            "productName": "Samsung Galaxy S23 5G 128GB (Canadian Version) | Brand New Factory Unlocked Smartphone",
+            "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 1099.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE",
+            "variantGroupId": "samsungs23128gb",
+            "variantGroupInfo": {
+                "isPrimary": false,
+                "groupingAttributes": [
+                    {
+                        "name": "actual_color",
+                        "value": "Lavender"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "s23-128-CO-BLK",
+            "wpid": "3QSS690N2DC7",
+            "gtin": "09871115580616",
+            "productName": "Samsung Galaxy S23 5G 128GB (Canadian Version) | Brand New Factory Unlocked Smartphone",
+            "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 1099.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE",
+            "variantGroupId": "samsungs23128gb",
+            "variantGroupInfo": {
+                "isPrimary": true,
+                "groupingAttributes": [
+                    {
+                        "name": "actual_color",
+                        "value": "Phantom Black"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Len-T490-8-256",
+            "wpid": "6VJ4SUX2DDMU",
+            "upc": "647535829548",
+            "gtin": "00647535829548",
+            "productName": "Lenovo ThinkPad T490 14\" Ultrabook - Intel Core i5 8300U | 8GB RAM | 256GB SSD | Windows 11 Pro - (Refurbished)",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 407.36
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "len-t480s-16-256",
+            "wpid": "2Q519PPM4P2A",
+            "upc": "647535876504",
+            "gtin": "00647535876504",
+            "productName": "Lenovo ThinkPad T480s | Intel i5 8365U | 16 GB RAM | 256 GB SSD | FHD Display | Windows 11 Pro - Refurbished Business Laptop - 1 Year Warranty",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 379.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE",
+            "variantGroupId": "T480s-i5-16-256",
+            "variantGroupInfo": {
+                "isPrimary": false,
+                "groupingAttributes": [
+                    {
+                        "name": "resolution",
+                        "value": "FHD"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Len-T460-i5-8-128-T-WFS",
+            "wpid": "66LNSHKMWXWK",
+            "upc": "647535892344",
+            "gtin": "00647535892344",
+            "productName": "Lenovo ThinkPad T460 Laptop - 14\" HD Touch Screen, Intel Core i5, 8GB RAM, 128 GB SSD, Windows 10 Pro - Refurbished Good",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 399.99
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE"
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "S23-128-CRM-WM",
+            "wpid": "3NL8KG1LQYRS",
+            "upc": "400501808073",
+            "gtin": "00400501808073",
+            "productName": "Samsung Galaxy S23",
+            "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 1099.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE",
+            "variantGroupId": "PRD-6000206141311",
+            "variantGroupInfo": {
+                "isPrimary": true,
+                "groupingAttributes": [
+                    {
+                        "name": "actual_color",
+                        "value": "Cream"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "S24-128-BLK-WM",
+            "wpid": "4FXPSOMZ2ZNA",
+            "upc": "400504402827",
+            "gtin": "00400504402827",
+            "productName": "Samsung Galaxy S24 8+128GB",
+            "shelf": "[\"UNNAV\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 1099.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE",
+            "variantGroupId": "PRD-6000207543276",
+            "variantGroupInfo": {
+                "isPrimary": true,
+                "groupingAttributes": [
+                    {
+                        "name": "actual_color",
+                        "value": "Gray"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Fold4-256-Blk-WM",
+            "wpid": "3C5D2GFRB33K",
+            "upc": "400501018472",
+            "gtin": "00400501018472",
+            "productName": "Samsung Galaxy Z Fold4",
+            "shelf": "[\"UNNAV\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 1399.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE",
+            "variantGroupId": "PRD-6000205692847",
+            "variantGroupInfo": {
+                "isPrimary": true,
+                "groupingAttributes": [
+                    {
+                        "name": "actual_color",
+                        "value": "Phantom Black"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Samsung-G-A35-Navy",
+            "wpid": "5QUCQW0F06UA",
+            "upc": "647535519968",
+            "gtin": "00647535519968",
+            "productName": "Samsung Galaxy A35 5G (2024) - 128 GB Unlocked Smartphone - Awsome Navy - Brand New",
+            "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 449.95
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE",
+            "variantGroupId": "Galaxy A35",
+            "variantGroupInfo": {
+                "isPrimary": true,
+                "groupingAttributes": [
+                    {
+                        "name": "actual_color",
+                        "value": "Navy"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "Len-T460-i5-8-256",
+            "wpid": "5IT19VH1QN2E",
+            "upc": "647535548852",
+            "gtin": "00647535548852",
+            "productName": "Lenovo ThinkPad T460 Laptop - 14\" HD Display, Intel Core i5, 8GB RAM, 256 GB SSD, Windows 10 Pro - Refurbished Good",
+            "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+            "productType": "Laptop Computers",
+            "price": {
+                "currency": "CAD",
+                "amount": 399.99
+            },
+            "publishedStatus": "PUBLISHED",
+            "lifecycleStatus": "ACTIVE",
+            "variantGroupId": "T460",
+            "variantGroupInfo": {
+                "isPrimary": false,
+                "groupingAttributes": [
+                    {
+                        "name": "hard_drive_capacity",
+                        "value": "256"
+                    }
+                ]
+            }
+        },
+        {
+            "mart": "WALMART_CA",
+            "sku": "S23-128-blk-JN",
+            "wpid": "22VHFLNEZ315",
+            "upc": "887276718132",
+            "gtin": "00887276718132",
+            "productName": "Samsung Galaxy S23 128GB",
+            "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+            "productType": "Cell Phones",
+            "price": {
+                "currency": "CAD",
+                "amount": 898.95
+            },
+            "publishedStatus": "UNPUBLISHED",
+            "lifecycleStatus": "RETIRED",
+            "variantGroupId": "PB",
+            "variantGroupInfo": {
+                "isPrimary": true,
+                "groupingAttributes": [
+                    {
+                        "name": "actual_color",
+                        "value": "Phantom Black"
+                    }
+                ]
+            }
+        }
+    ],
+    "totalItems": 339
+}

@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S23- Ultra-512GB-Blk-M&Z",
+    "wpid": "1GK9WKB48KLV",
+    "upc": "887276718354",
+    "gtin": "00887276718354",
+    "productName": "Samsung Galaxy S23 Ultra - 5G smartphone - dual-SIM - RAM 12 GB / Internal Memory 512 GB - OLED display - 6.8\" - 3088 x 1440 pixels (120 Hz) - 4x rear cameras 200 MP, 12 MP, 10 MP, 10 MP - front camera 12 MP - phantom black",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1889.99
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

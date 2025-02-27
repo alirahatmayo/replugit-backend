@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "len-T470-i5-8-256",
+    "wpid": "3HFGFPKYXDCW",
+    "upc": "840669007152",
+    "gtin": "00840669007152",
+    "productName": "Refurbished Lenovo ThinkPad T470 Intel i5-6300U Laptop",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 319.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

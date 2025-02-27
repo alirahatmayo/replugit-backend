@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "AACB02-0",
+    "wpid": "2DYFBDQ3TEFQ",
+    "upc": "647535830407",
+    "gtin": "00647535830407",
+    "productName": "Mandala Coloring Book 48 Sheets Stress Relieving Patterns Size 7 x 9.5 inch",
+    "shelf": "[\"Root\",\"Toys\",\"Arts & Crafts for Kids\",\"Drawing & Colouring\",\"Drawing Pads & Books\"]",
+    "productType": "Coloring Books",
+    "price": {
+        "currency": "CAD",
+        "amount": 9.0
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

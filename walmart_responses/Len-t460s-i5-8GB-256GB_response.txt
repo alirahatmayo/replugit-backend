@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-t460s-i5-8GB-256GB",
+    "wpid": "4FO1Z72D7TNL",
+    "upc": "335229862765",
+    "gtin": "00335229862765",
+    "productName": "Lenovo ThinkPad T460s - i5 6300u - 8 GB RAM- 256 GB SSD.- Intel Graphics 520.- Windows 10 Professional.- 1-Year Warranty.- Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 399.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

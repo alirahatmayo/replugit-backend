@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "hp-840-g6-4",
+    "wpid": "6FUQNOSH3R53",
+    "upc": "193905800285",
+    "gtin": "00193905800285",
+    "productName": "HP EliteBook 840 G6 Notebook - Intel Core i5 - 8365U / up to 4.1 GHz - vPro - Win 10 Pro 64-bit - UHD Graphics 620 - 8 GB RAM - 256 GB SSD (32 GB SSD cache) SED, FIPS Opal 2 Encryption, TLC - 14\" HP SureView 1920 x 1080 (Full HD) - Ethernet, Fast Ethernet, Gigabit Ethernet, IEEE 802.11b, IEEE 802.11a, IEEE 802.11g, IEEE 802.11n, IEEE 802.11ac, NFC, Bluetooth 5.0, IEEE 802.11ax (Wi-Fi 6) - NFC, Wi-Fi 6",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 899.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

@@ -1,0 +1,34 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-7400-G8-32-1000",
+    "wpid": "3NM9LA6YKR4L",
+    "upc": "647535887104",
+    "gtin": "00647535887104",
+    "productName": "Dell Latitude 7400 14\" FHD Laptop - Intel Core i5 8th Gen | 32GB RAM | 1TB SSD - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 549.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "Dell 7400",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "configuration",
+                "value": "Intel\u00ae Core\u2122 i5"
+            },
+            {
+                "name": "hard_drive_capacity",
+                "value": "1000"
+            },
+            {
+                "name": "ram_memory",
+                "value": "32"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "sam-A54-128-Blk-4",
+    "wpid": "4OENI8QZVCOO",
+    "upc": "400502078314",
+    "gtin": "00400502078314",
+    "productName": "Samsung Galaxy A54 5G 128GB Smartphone",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 435.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

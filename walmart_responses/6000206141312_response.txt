@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "6000206141312",
+    "wpid": "6NSKJZXBW800",
+    "upc": "887276717531",
+    "gtin": "00887276717531",
+    "productName": "Samsung Galaxy S23 - 128 GB - Cream",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1099.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "PB",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Cream"
+            }
+        ]
+    }
+}

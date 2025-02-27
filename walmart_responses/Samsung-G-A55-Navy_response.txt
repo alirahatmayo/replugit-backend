@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Samsung-G-A55-Navy",
+    "wpid": "4MSJV8RM8IS8",
+    "upc": "647535542676",
+    "gtin": "00647535542676",
+    "productName": "Samsung Galaxy A55 - Unlocked Smartphone with Quad Camera, AMOLED Display, and Long-lasting Battery",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 541.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "Sam-A55-128",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Awesome Navy"
+            }
+        ]
+    }
+}

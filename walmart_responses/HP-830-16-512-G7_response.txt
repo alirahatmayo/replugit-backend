@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "HP-830-16-512-G7",
+    "wpid": "3MM6F41W7QW5",
+    "upc": "789091943600",
+    "gtin": "00789091943600",
+    "productName": "HP EliteBook 830 G7 13.3\" FHD - Intel Core i7 10th Gen | 16GB RAM | 512GB SSD - Windows 11 Pro - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1000.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

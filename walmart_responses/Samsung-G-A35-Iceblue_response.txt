@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Samsung-G-A35-Iceblue",
+    "wpid": "5K0T0UU8SK04",
+    "upc": "647535780221",
+    "gtin": "00647535780221",
+    "productName": "Samsung Galaxy A35 5G (2024) - 128 GB Unlocked Smartphone - Awsome Ice Blue - Brand New",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 499.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "Galaxy A35",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Ice Blue"
+            }
+        ]
+    }
+}

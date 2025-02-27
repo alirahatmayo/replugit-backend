@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-T460-i5-8-256",
+    "wpid": "5IT19VH1QN2E",
+    "upc": "647535548852",
+    "gtin": "00647535548852",
+    "productName": "Lenovo ThinkPad T460 Laptop - 14\" HD Display, Intel Core i5, 8GB RAM, 256 GB SSD, Windows 10 Pro - Refurbished Good",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 399.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "T460",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "hard_drive_capacity",
+                "value": "256"
+            }
+        ]
+    }
+}

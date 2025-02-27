@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "len-t490s-16-512",
+    "wpid": "2M9PFNWB98Q8",
+    "upc": "647535946764",
+    "gtin": "00647535946764",
+    "productName": "Lenovo ThinkPad T490s 14\" Laptop (Silver) - Intel Core i5 8th Gen, 16GB RAM, 512GB SSD, Windows 11 Pro, Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 699.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

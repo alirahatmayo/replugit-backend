@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "s23-Ultra-512-Lvndr-WM_3",
+    "wpid": "3LFFQ20WHOQR",
+    "gtin": "08806094705713",
+    "productName": "Samsung Galaxy S23 Ultra 5G Dual S9180 512GB 12GB RAM GSM Unlocked \u2013 Lavender",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1849.99
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "DELL-5400-i5-16-256",
+    "wpid": "27H5LT55CM14",
+    "upc": "647535599304",
+    "gtin": "00647535599304",
+    "productName": "Dell Latitude 5400 Laptop | 14\" HD Display | Core i5 | 16GB RAM | 256GB SSD | Windows 11 Pro - Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 299.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

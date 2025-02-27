@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "ps4 cable",
+    "wpid": "6SDDVCANS4IR",
+    "upc": "647535971872",
+    "gtin": "00647535971872",
+    "productName": "DreamGEAR PS4 Charge and Play DUO with two 10-foot USB charging cables",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Cell Phone Chargers & Power Banks\",\"USB-C Chargers\"]",
+    "productType": "Computer Cables",
+    "price": {
+        "currency": "CAD",
+        "amount": 25.0
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

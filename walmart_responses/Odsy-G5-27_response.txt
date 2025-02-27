@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Odsy-G5-27",
+    "wpid": "2M9C5VL1ID8F",
+    "upc": "887276583464",
+    "gtin": "00887276583464",
+    "productName": "Samsung Odyssey G5 S27AG500PN - LED monitor - 27\" - 2560 x 1440 QHD @ 165 Hz - IPS - 350 cd/m\ufffd\ufffd - 1000:1 - HDR10 - 1 ms - HDMI, DisplayPort - black",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Computer Monitors & Accessories\",\"IPS Monitors\"]",
+    "productType": "Computer Monitors",
+    "price": {
+        "currency": "CAD",
+        "amount": 284.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "Odyssey-AG500PN",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "size",
+                "value": "27 in"
+            }
+        ]
+    }
+}

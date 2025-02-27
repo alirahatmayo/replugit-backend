@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "ps5-0",
+    "wpid": "1S67MI32NFK4",
+    "upc": "711719556183",
+    "gtin": "00711719556183",
+    "productName": "PlayStation\u00ae5 Console",
+    "shelf": "[\"Root\",\"Video Games\",\"PlayStation 5\",\"PS5 Consoles\"]",
+    "productType": "Video Game Consoles",
+    "price": {
+        "currency": "CAD",
+        "amount": 776.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

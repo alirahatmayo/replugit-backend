@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "ps5-Disk-2",
+    "wpid": "71V0GDVTGU51",
+    "gtin": "03803914152271",
+    "productName": "PlayStation 5 Console SLIM 2023 model",
+    "shelf": "[\"Root\",\"Video Games\",\"PlayStation 5\",\"PS5 Consoles\"]",
+    "productType": "Video Game Consoles",
+    "price": {
+        "currency": "CAD",
+        "amount": 769.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

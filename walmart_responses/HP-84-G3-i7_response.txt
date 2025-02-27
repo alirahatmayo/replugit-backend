@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "HP-84-G3-i7",
+    "wpid": "3U0FQ0XEGLRN",
+    "upc": "789091943778",
+    "gtin": "00789091943778",
+    "productName": "HP EliteBook 840 G3 14\" FHD - Intel Core i7-6500U | 16GB RAM | 256GB SSD - Windows 10 - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 500.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "840-G3",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "edition",
+                "value": "Intel\u00ae Core\u2122 i7-6500U"
+            }
+        ]
+    }
+}

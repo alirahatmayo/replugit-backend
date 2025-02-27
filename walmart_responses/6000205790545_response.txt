@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "6000205790545",
+    "wpid": "7JFQ4I0KUQDK",
+    "upc": "647535673516",
+    "gtin": "00647535673516",
+    "productName": "PlayStation\u00ae5 Console \u2013 God of War\u2122 Ragnar\u00f6k Bundle",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Video Game Consoles",
+    "price": {
+        "currency": "CAD",
+        "amount": 899.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

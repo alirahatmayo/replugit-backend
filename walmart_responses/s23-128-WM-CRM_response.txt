@@ -1,0 +1,25 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "s23-128-WM-CRM",
+    "wpid": "6RB1U51O008Z",
+    "gtin": "09871115580609",
+    "productName": "Samsung Galaxy S23 5G 128GB (Canadian Version) | Brand New Factory Unlocked Smartphone",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1099.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "samsungs23128gb",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Cream"
+            }
+        ]
+    }
+}

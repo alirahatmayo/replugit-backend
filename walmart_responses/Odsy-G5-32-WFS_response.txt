@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Odsy-G5-32-WFS",
+    "wpid": "5DG0IEYHI08W",
+    "upc": "887276592343",
+    "gtin": "00887276592343",
+    "productName": "Samsung Odyssey G5 S32AG500PN - LED monitor - gaming - 32\" - 2560 x 1440 WQHD @ 165 Hz - IPS - 350 cd/m\ufffd\ufffd - 1000:1 - HDR10 - 1 ms - HDMI, DisplayPort - black",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Computer Monitors & Accessories\",\"PC Gaming Monitors\"]",
+    "productType": "Computer Monitors",
+    "price": {
+        "currency": "CAD",
+        "amount": 299.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "Odyssey-AG500PN",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "size",
+                "value": "32 in"
+            }
+        ]
+    }
+}

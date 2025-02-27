@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-5420-G11-16-256",
+    "wpid": "79EMZ58KQPQ8",
+    "upc": "647535572123",
+    "gtin": "00647535572123",
+    "productName": "DELL Latitude 5420 14\" Laptop - Intel Core i5 11th Gen 16GB RAM | 256GB SSD-Certified Preowned",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 500.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

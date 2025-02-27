@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "s24 ultra -256 - Gry",
+    "wpid": "55YRR5AXVZYQ",
+    "upc": "887276820385",
+    "gtin": "00887276820385",
+    "productName": "Samsung Galaxy S24 Ultra - 5G smartphone - dual-SIM - RAM 12 GB / Internal Memory 256 GB - OLED display - 6.8\" - 3120 x 1440 pixels (120 Hz) - 4x rear cameras 200 MP, 50 MP, 12 MP, 10 MP - front camera 12 MP - titanium gray",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1799.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

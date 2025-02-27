@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "wpid": "4SL9RMRX7BMQ",
+      "price": 248.55,
+      "currency": "CAD",
+      "publishedStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+      "productType": "Cell Phones",
+      "variants": {
+        "isPrimary": false,
+        "attributes": [],
+        "variations": []
+      }
+    }
+  ],
+  "errors": []
+}

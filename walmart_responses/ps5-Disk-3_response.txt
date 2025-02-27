@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "ps5-Disk-3",
+    "wpid": "6RAPQHT08NHC",
+    "gtin": "03803914152622",
+    "productName": "PlayStation 5 Game Console (PS5)",
+    "shelf": "[\"Root\",\"Video Games\",\"PlayStation 5\",\"PS5 Consoles\"]",
+    "productType": "Video Game Consoles",
+    "price": {
+        "currency": "CAD",
+        "amount": 769.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

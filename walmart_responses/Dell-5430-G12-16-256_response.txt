@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-5430-G12-16-256",
+    "wpid": "0RN3KIVAI3C7",
+    "upc": "647535587479",
+    "gtin": "00647535587479",
+    "productName": "Dell Latitude 5000 5430 14\" Notebook - Intel Core i5 12th Gen - 16GB RAM - 256GB SSD - Full HD Display - Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 599.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "Dell-5000",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "edition",
+                "value": "Latitude 5430 - 12th Gen"
+            }
+        ]
+    }
+}

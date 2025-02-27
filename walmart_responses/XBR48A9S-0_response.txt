@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "XBR48A9S-0",
+    "wpid": "62FN1CJX2DUW",
+    "upc": "840133948158",
+    "gtin": "00840133948158",
+    "productName": "Sony XBR48A9S 48 inch A9S 4K Ultra HD OLED Smart TV 2020 Model Bundle with 1 Year Extended Protection Plan",
+    "shelf": "[\"Root\",\"Electronics\",\"TV & Video\",\"TVs\",\"40 inch - 49 inch TVs\"]",
+    "productType": "Televisions",
+    "price": {
+        "currency": "CAD",
+        "amount": 1299.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

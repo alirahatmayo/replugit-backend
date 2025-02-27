@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "SAM-A54-128GB-5G-BLK-GS",
+    "wpid": "49FM03PGD610",
+    "upc": "741527625092",
+    "gtin": "00741527625092",
+    "productName": "Samsung Galaxy A54 5G (A546W) 128GB Brand New",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 438.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "A54newcan",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Black"
+            }
+        ]
+    }
+}

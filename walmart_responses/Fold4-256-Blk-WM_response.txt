@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Fold4-256-Blk-WM",
+    "wpid": "3C5D2GFRB33K",
+    "upc": "400501018472",
+    "gtin": "00400501018472",
+    "productName": "Samsung Galaxy Z Fold4",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1399.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "PRD-6000205692847",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Phantom Black"
+            }
+        ]
+    }
+}

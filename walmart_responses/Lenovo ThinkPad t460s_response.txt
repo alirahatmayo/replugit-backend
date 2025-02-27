@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Lenovo ThinkPad t460s",
+    "wpid": "266GMM7O0YWS",
+    "upc": "647535774916",
+    "gtin": "00647535774916",
+    "productName": "Lenovo ThinkPad T460s Intel Core i5 ,256GB SSD ,8GB RAM - Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 299.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

@@ -1,0 +1,30 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "iPhone13-Blue",
+    "wpid": "1ZP1BAT5XENT",
+    "upc": "647535531700",
+    "gtin": "00647535531700",
+    "productName": "Apple iPhone 13 - 128GB - Unlocked - Open Box",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked iPhones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1200.0
+    },
+    "publishedStatus": "SYSTEM_PROBLEM",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "iPhone13",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Blue"
+            },
+            {
+                "name": "hard_drive_capacity",
+                "value": "128.00"
+            }
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "pixel-7-OB",
+    "wpid": "5IZ6PC0BBD48",
+    "upc": "741527621339",
+    "gtin": "00741527621339",
+    "productName": "Google pixel 7 Pro  128GB Great condition Unlocked Smartphone Certified Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 677.95
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "Pixel7proref",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Obsidian"
+            }
+        ]
+    }
+}

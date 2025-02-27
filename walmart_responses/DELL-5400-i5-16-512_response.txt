@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "DELL-5400-i5-16-512",
+    "wpid": "4VJ3MMXRDCML",
+    "upc": "647535948997",
+    "gtin": "00647535948997",
+    "productName": "Dell Latitude 5400 i5 8th Gen, 16GB RAM, 512GB SSD NVMe, Windows 11 Pro - Refurbished Business Laptop",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 549.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

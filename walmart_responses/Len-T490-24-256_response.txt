@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-T490-24-256",
+    "wpid": "6SPTQGE8Y9XG",
+    "upc": "647535840949",
+    "gtin": "00647535840949",
+    "productName": "Legion 9i Gen 9 Intel (16\u2033) with RTX\u2122 4090",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 475.27
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

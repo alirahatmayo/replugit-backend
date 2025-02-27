@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "len-T590-i5-16-256",
+    "wpid": "2WITH932BPKX",
+    "gtin": "09871115576114",
+    "productName": "Lenovo ThinkPad T590 Business Laptop 15.6\" | Intel Core i5 8th Generation, 16GB RAM, 256GB SSD | Certified Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 854.95
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

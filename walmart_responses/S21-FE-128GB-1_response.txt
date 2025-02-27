@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S21-FE-128GB-1",
+    "wpid": "32HWI8I8TQSG",
+    "upc": "400309181101",
+    "gtin": "00400309181101",
+    "productName": "Samsung Galaxy S21 FE 5G",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 414.0
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED",
+    "variantGroupId": "PRD-PRD2K7VWJUM45XR",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "LAVENDER"
+            }
+        ]
+    }
+}

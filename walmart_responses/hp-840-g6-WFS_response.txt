@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "hp-840-g6-WFS",
+    "wpid": "0RIU0CJNF7NJ",
+    "upc": "825633575905",
+    "gtin": "00825633575905",
+    "productName": "Refurbished HP EliteBook 840 G6 Laptop - Intel Core i5, 16GB RAM, 256GB SSD, 14\" UHD Display, Windows 10 Pro",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 367.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

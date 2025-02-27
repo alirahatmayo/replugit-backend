@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "HP-830-G5-32-1000",
+    "wpid": "6LV37RXZNKXP",
+    "upc": "647535731964",
+    "gtin": "00647535731964",
+    "productName": "HP EliteBook 830 G5 13\" Laptop - Intel Core i5 | 32GB RAM | 1TB SSD | Windows 11 Pro - Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 579.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "HP830G5",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "configuration",
+                "value": "32GB RAM, 1TB SSD"
+            }
+        ]
+    }
+}

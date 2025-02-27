@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "clear-case-s23U",
+    "wpid": "1Y7VSURH9I0A",
+    "upc": "795777883290",
+    "gtin": "00795777883290",
+    "productName": "Clear Case for Samsung Galaxy S23 Ultra 5G, Transparent See-Thru Flex Gel TPU Skin Slim Phone Cover - Recessed Camera Protection",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Cellphone Cases\",\"Samsung phone cases\"]",
+    "productType": "Cell Phone Cases",
+    "price": {
+        "currency": "CAD",
+        "amount": 15.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

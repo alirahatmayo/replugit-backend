@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-7480-16-256 - 0",
+    "wpid": "0RPG3XJ5IJBT",
+    "upc": "999003482497",
+    "gtin": "00999003482497",
+    "productName": "Dell Latitude 7480 | Intel i7-7600U 2.80GHz | 16GB | 256GB SSD - Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 338.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

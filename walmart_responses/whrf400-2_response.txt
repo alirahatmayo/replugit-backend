@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "whrf400-2",
+    "wpid": "44IQWV8MCLND",
+    "upc": "921462719098",
+    "gtin": "00921462719098",
+    "productName": "Sony WH-RF400 Over-Ear Sound Isolating RF Headphones - Black",
+    "shelf": "[\"Root\",\"Electronics\",\"Headphones\",\"Over-Ear Headphones\"]",
+    "productType": "Headphones",
+    "price": {
+        "currency": "CAD",
+        "amount": 117.99
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

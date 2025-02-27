@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "MS-Sur-Pro-9",
+    "wpid": "1XXV8HXKJFPN",
+    "upc": "196388084296",
+    "gtin": "00196388084296",
+    "productName": "Microsoft Surface Pro 9 13\" Tablet Intel Evo i5-1235U QEZ-00035",
+    "shelf": "[\"Root\",\"Electronics\",\"iPad & Tablets\",\"Microsoft Surface & Windows Tablets\"]",
+    "productType": "Tablet Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1399.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

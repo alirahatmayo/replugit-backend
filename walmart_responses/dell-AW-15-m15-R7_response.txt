@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "dell-AW-15-m15-R7",
+    "wpid": "4LRVNU1TALPU",
+    "upc": "884116438212",
+    "gtin": "00884116438212",
+    "productName": "Dell Alienware M15 R7 - 15.6 QHD 240Hz Gaming Laptop - Intel Core I7-12700H - 16GB DDR5 - 1TB SSD - Nvidia RTX 3070 Ti - Dark Side of the Moon",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Gaming Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 3499.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

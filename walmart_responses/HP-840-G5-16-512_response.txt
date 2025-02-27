@@ -1,0 +1,30 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "HP-840-G5-16-512",
+    "wpid": "3DUBWENVKGPF",
+    "upc": "789091943761",
+    "gtin": "00789091943761",
+    "productName": "HP EliteBook 840 G5 14\" FHD Laptop - Intel Core i5 | 16GB RAM | 512GB SSD - Windows 11 Pro - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 700.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "Hp 840 G5",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "hard_drive_capacity",
+                "value": "512"
+            },
+            {
+                "name": "resolution",
+                "value": "1920 x 1080 (FHD)"
+            }
+        ]
+    }
+}

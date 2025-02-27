@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-T490-24-512",
+    "wpid": "1UKP0DPCEZCF",
+    "upc": "647535911205",
+    "gtin": "00647535911205",
+    "productName": "Lenovo ThinkPad T490 14\" Ultrabook - Intel Core i5 8300U | 24GB RAM | 512GB SSD | Windows 11 Pro - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 543.17
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "T490-24GB",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "hard_drive_capacity",
+                "value": "512"
+            }
+        ]
+    }
+}

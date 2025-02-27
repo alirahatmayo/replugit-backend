@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "dell-3120-4gb-16gb",
+    "wpid": "4WVCMC3TCQL2",
+    "upc": "884116176541",
+    "gtin": "00884116176541",
+    "productName": "11.6\" Celeron N2840 4GB 16gb",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Chromebooks\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 149.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

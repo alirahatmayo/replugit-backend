@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-T490-16-256",
+    "wpid": "7EKLXC158A6B",
+    "upc": "647535719894",
+    "gtin": "00647535719894",
+    "productName": "Lenovo ThinkPad T490 14\" Laptop - Intel Core i5 8th Gen 16GB RAM | 256GB SSD - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 448.11
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

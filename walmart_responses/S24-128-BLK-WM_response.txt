@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S24-128-BLK-WM",
+    "wpid": "4FXPSOMZ2ZNA",
+    "upc": "400504402827",
+    "gtin": "00400504402827",
+    "productName": "Samsung Galaxy S24 8+128GB",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1099.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "PRD-6000207543276",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Gray"
+            }
+        ]
+    }
+}

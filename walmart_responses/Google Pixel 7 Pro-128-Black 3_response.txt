@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Google Pixel 7 Pro-128-Black 3",
+    "wpid": "5KGP8OWEDOF6",
+    "upc": "810029937153",
+    "gtin": "00810029937153",
+    "productName": "Google Pixel 7 Pro - 5G smartphone - dual-SIM - RAM 12 GB / Internal Memory 128 GB - OLED display - 6.7\" - 3120 x 1440 pixels (120 Hz) - 3x rear cameras 50 MP, 48 MP, 12 MP - front camera 10.8 Megapixel - obsidian",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Google phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 814.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

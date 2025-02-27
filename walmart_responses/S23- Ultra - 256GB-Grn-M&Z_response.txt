@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S23- Ultra - 256GB-Grn-M&Z",
+    "wpid": "1059UI2E8G5C",
+    "upc": "887276718255",
+    "gtin": "00887276718255",
+    "productName": "Samsung Galaxy S23 Ultra - 256GB - Green - Unlocked",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1599.99
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

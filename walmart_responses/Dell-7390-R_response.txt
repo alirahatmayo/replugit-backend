@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-7390-R",
+    "wpid": "6PL574A87PGI",
+    "upc": "840384900776",
+    "gtin": "00840384900776",
+    "productName": "Dell Latitude 7390 2-in-1 Touchscreen Laptop - Intel Core i5 8th Gen, 16GB RAM, 512GB SSD, Windows 11 Pro - Refurbished with 1 Year Warranty",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 499.99
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

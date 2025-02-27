@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "GNThermostate-6",
+    "wpid": "60CXWVBDDWW9",
+    "upc": "193575007656",
+    "gtin": "00193575007656",
+    "productName": "Nest Thermostat",
+    "shelf": "[\"Root\",\"Electronics\",\"Smart Home\",\"Smart Heating & Cooling\",\"Smart Thermostats\"]",
+    "productType": "Thermostats",
+    "price": {
+        "currency": "CAD",
+        "amount": 179.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "6000202257982",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Chalk"
+            }
+        ]
+    }
+}

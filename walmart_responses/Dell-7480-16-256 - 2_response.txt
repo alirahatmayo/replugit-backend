@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-7480-16-256 - 2",
+    "wpid": "3TE2OAKMDZ1G",
+    "upc": "842312002316",
+    "gtin": "00842312002316",
+    "productName": "DELL Latitude 7480 UltraBook i5-6300U, 16GB, 256GB SSD, 14\"HD (1366x768), WEBCAM, WiFi, BT 4.2, Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 379.95
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

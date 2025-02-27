@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "sony-XBR55A95K",
+    "wpid": "1ZOZ9U2M9KAD",
+    "upc": "027242924543",
+    "gtin": "00027242924543",
+    "productName": "Sony XR-55A95K 55\u2033 BRAVIA 4K HDR OLED Smart Google TV \u2013 2022 Model",
+    "shelf": "[\"Root\",\"Electronics\",\"TV & Video\",\"TVs\",\"50 inch - 59 inch TVs\"]",
+    "productType": "Televisions",
+    "price": {
+        "currency": "CAD",
+        "amount": 3199.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

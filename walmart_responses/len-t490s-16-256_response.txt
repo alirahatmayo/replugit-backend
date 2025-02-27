@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "len-t490s-16-256",
+    "wpid": "6MB1J45KKOPU",
+    "upc": "647535651675",
+    "gtin": "00647535651675",
+    "productName": "Lenovo ThinkPad T490s | Intel i5 8665U | 16 GB RAM | 256 GB SSD | FHD Display | Windows 11 Pro - Refurbished Business Laptop - 1 Year Warranty",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 399.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "T490s",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "configuration",
+                "value": "16 GB RAM, 256 GB SSD"
+            }
+        ]
+    }
+}

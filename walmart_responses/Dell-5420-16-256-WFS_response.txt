@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-5420-16-256-WFS",
+    "wpid": "4T4TRG1E2FD5",
+    "upc": "647535581026",
+    "gtin": "00647535581026",
+    "productName": "Dell Latitude 5000 5420 14\" Notebook - Intel Core i5 11th Gen - 16GB RAM - 256GB SSD - Full HD Display - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 499.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "Dell-5000",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "edition",
+                "value": "Latitude 5420 - 11th Gen"
+            }
+        ]
+    }
+}

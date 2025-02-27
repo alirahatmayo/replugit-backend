@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-7040-SFF-i5-16-256",
+    "wpid": "79ZGPY0P8ZDY",
+    "upc": "789091943495",
+    "gtin": "00789091943495",
+    "productName": "Dell OptiPlex 7040 SFF High Performance Desktop Computer - Intel Quad-Core i5, Versatile Design, Windows OS",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Desktop Computers\",\"Desktop PC Towers\"]",
+    "productType": "Desktop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 249.0
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

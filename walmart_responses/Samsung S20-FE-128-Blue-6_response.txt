@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Samsung S20-FE-128-Blue-6",
+    "wpid": "4L8TD3EFY4K1",
+    "gtin": "09010477888286",
+    "productName": "Samsung Galaxy S20 FE 5G 128GB | Unlocked Smartphone | Refurbihsed",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 399.98
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

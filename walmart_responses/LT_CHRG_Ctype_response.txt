@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "LT_CHRG_Ctype",
+    "wpid": "4Z8IWDY16NVN",
+    "upc": "372919132050",
+    "gtin": "00372919132050",
+    "productName": "USB-C Laptop Charger 65W 45W for Dell XPS 12 9250 XPS 13 9350 9360 9365 9370 9380, Latitude 7370 7280 7480 5480 7275",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Laptop Batteries & Adapters\"]",
+    "productType": "Device-Specific Electronics Batteries",
+    "price": {
+        "currency": "CAD",
+        "amount": 41.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

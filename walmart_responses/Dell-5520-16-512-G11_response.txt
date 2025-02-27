@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-5520-16-512-G11",
+    "wpid": "2UXF0UXSNMCZ",
+    "upc": "789091943587",
+    "gtin": "00789091943587",
+    "productName": "Dell Latitude 5520 15.6\" Notebook - Intel Core i5 11th Gen | 16GB RAM | 512GB SSD | Windows 11 Pro | Full HD Display - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1150.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

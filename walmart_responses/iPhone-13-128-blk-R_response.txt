@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "iPhone-13-128-blk-R",
+    "wpid": "13PGEF7S6KU0",
+    "upc": "647535685809",
+    "gtin": "00647535685809",
+    "productName": "Apple iPhone 13 128GB - Unlocked - Refurbished Excellent - Midnight",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked iPhones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 509.95
+    },
+    "publishedStatus": "SYSTEM_PROBLEM",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "iphone13-128",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Black"
+            }
+        ]
+    }
+}

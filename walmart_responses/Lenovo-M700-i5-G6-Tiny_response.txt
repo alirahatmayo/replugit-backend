@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Lenovo-M700-i5-G6-Tiny",
+    "wpid": "2EY0SU3DN14A",
+    "upc": "789091943501",
+    "gtin": "00789091943501",
+    "productName": "Lenovo M700Q Mini Desktop Computer | Core i5 6th Gen | 8 GB RAM | 500 GB SSD - Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Desktop Computers\",\"Mini PCs\"]",
+    "productType": "Desktop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 300.0
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "ps5-MW3",
+    "wpid": "32EV28IZWFBD",
+    "upc": "711719566434",
+    "gtin": "00711719566434",
+    "productName": "PS5\u00ae Console \u2013 Call of Duty\u00ae Modern Warfare\u00ae III Bundle (model group \u2013 slim)",
+    "shelf": "[\"Root\",\"Video Games\",\"PlayStation 5\",\"PS5 Consoles\"]",
+    "productType": "Video Game Consoles",
+    "price": {
+        "currency": "CAD",
+        "amount": 829.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

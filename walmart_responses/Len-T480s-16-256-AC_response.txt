@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-T480s-16-256-AC",
+    "wpid": "416ICBSMEUO1",
+    "upc": "999003983895",
+    "gtin": "00999003983895",
+    "productName": "Lenovo ThinkPad T480s Business Laptop, 14\" Screen, Intel Core i5-8250U up to 3.4 GHz, 16GB DDR4 RAM, 256GB SSD, CAM, Bluetooth Windows 10 Pro (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 329.95
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

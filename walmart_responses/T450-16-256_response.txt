@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "T450-16-256",
+    "wpid": "75WIK1CCGLMX",
+    "upc": "628110299048",
+    "gtin": "00628110299048",
+    "productName": "Lenovo ThinkPad T450 14\" Laptop, Intel Core i5-4th Gen, 16GB RAM, 256GB SSD, Win10 Pro, Certified Refurbished, 1 Year Warranty",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 299.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

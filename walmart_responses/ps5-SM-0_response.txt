@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "ps5-SM-0",
+    "wpid": "4BMXONE47QN8",
+    "upc": "711719566786",
+    "gtin": "00711719566786",
+    "productName": "PS5\u00ae Console \u2013 Marvel\u2019s Spider-Man 2 Bundle",
+    "shelf": "[\"Root\",\"Video Games\",\"PlayStation 5\",\"PS5 Consoles\"]",
+    "productType": "Video Game Consoles",
+    "price": {
+        "currency": "CAD",
+        "amount": 792.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Lenovo-M710Q-i5-G6-Tiny",
+    "wpid": "7HV7B8Q0XJ55",
+    "upc": "789091943518",
+    "gtin": "00789091943518",
+    "productName": "Lenovo M710Q i5 6th Generation Desktop Computer|  Core i5 6th Gen| 8 GB RAM|  500 GB SSD-Refurbished",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Computer Monitors",
+    "price": {
+        "currency": "CAD",
+        "amount": 300.0
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-T490-i5-16-512-WFS",
+    "wpid": "4LA3WBVZ2YIS",
+    "upc": "672344317511",
+    "gtin": "00672344317511",
+    "productName": "Lenovo ThinkPad T490 Laptop - Intel Core i5-8265U upto 4.10 GHz, 16GB DDR4 - 512GB SSD, 14\" FHD Screen, Power adapter included, Windows 11 Pro, HDMI, Backlight -(Excellent Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 449.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

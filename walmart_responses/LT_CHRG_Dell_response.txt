@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "LT_CHRG_Dell",
+    "wpid": "7F61HGQKI2NB",
+    "upc": "372919447307",
+    "gtin": "00372919447307",
+    "productName": "Laptop Charger for DELL AC Power Adapter(Power Supply) 19.5V 3.34A for Dell Latitude E5440 E5470 7480 E6540 E7440 E7450",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Laptop Batteries & Adapters\"]",
+    "productType": "Device-Specific Electronics Chargers",
+    "price": {
+        "currency": "CAD",
+        "amount": 35.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

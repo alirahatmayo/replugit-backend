@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Hp-840-G3-WFS",
+    "wpid": "45ZTFX0N5FDT",
+    "upc": "628110297358",
+    "gtin": "00628110297358",
+    "productName": "HP EliteBook 840 G3 14\" Laptop - Intel Core i5 6300U | 16GB DDR4 RAM | 256GB SSD - Windows 10 Pro - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 349.45
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "840-G3",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "edition",
+                "value": "Core i5"
+            }
+        ]
+    }
+}

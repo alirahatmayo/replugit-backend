@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "sam-zfold-4-512-Blk",
+    "wpid": "6V5OJL4BUFUV",
+    "upc": "400501018489",
+    "gtin": "00400501018489",
+    "productName": "Samsung Galaxy Z Fold4",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1299.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "PRD-6000205693752",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Phantom Black"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "ps5-Disk-0",
+    "wpid": "5600M14FWPDL",
+    "upc": "711719541042",
+    "gtin": "00711719541042",
+    "productName": "PlayStation\u00ae5 console",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Video Game Consoles",
+    "price": {
+        "currency": "CAD",
+        "amount": 769.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "HP-840G6-16-512-T",
+    "wpid": "5D1DG4ORPHFO",
+    "upc": "789091943808",
+    "gtin": "00789091943808",
+    "productName": "HP EliteBook 840 G6 14\" FHD Touch Screen Laptop- Intel Core i5-8300U | 16GB RAM | 512GB SSD | Windows 11 Pro  - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 399.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "840-G6",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "hard_drive_capacity",
+                "value": "512"
+            }
+        ]
+    }
+}

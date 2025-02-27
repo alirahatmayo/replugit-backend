@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Samsung s20+5G-128 Ref2",
+    "wpid": "3R8JKGQQS3AS",
+    "gtin": "09871115567952",
+    "productName": "Samsung Galaxy S20+ (Plus) 5G 128GB Unlocked Smartphone | Refurbished",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 345.0
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

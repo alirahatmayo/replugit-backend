@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Hub-Humidifier",
+    "wpid": "4KZYI7NKFOI0",
+    "upc": "810074830447",
+    "gtin": "00810074830447",
+    "productName": "Hubble Mist Humidifier - 5-in-1 Humidifier with Aroma Diffuser, Bluetooth Speaker, Night Light, Digital Clock - Maintains Baby's Health by Preventing Dryness - Stimulates with Aromas - Perfect Humidit",
+    "shelf": "[\"Root\",\"Baby\",\"Baby Health & Safety\",\"Baby Health Care\",\"Baby Humidifiers & Air Purifiers\"]",
+    "productType": "Humidifiers",
+    "price": {
+        "currency": "CAD",
+        "amount": 99.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

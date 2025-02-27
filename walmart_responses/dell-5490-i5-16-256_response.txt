@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "dell-5490-i5-16-256",
+    "wpid": "3KL4JWZJDWW9",
+    "upc": "672344262408",
+    "gtin": "00672344262408",
+    "productName": "Business Laptop - Dell Latitude 5490 14 inch Screen intel Quad Core i5 8th Gen Max Turbo Frequency 3.6GHz 16GB RAM 256GB SSD Win10 Professional WiFi Bluetooth B Grade",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 499.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

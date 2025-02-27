@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "s22-Ul-256-BR-CO-WM",
+    "wpid": "5KXURZRBCEP5",
+    "upc": "887276622682",
+    "gtin": "00887276622682",
+    "productName": "Samsung Galaxy S22 Ultra 256GB Black",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1309.95
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED",
+    "variantGroupId": "PRD-PRD51K0EG4S0X2G",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Burgundy"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Samsung s20-128-Grey 1",
+    "wpid": "2BO1D1B84GRI",
+    "upc": "999003532901",
+    "gtin": "00999003532901",
+    "productName": "Samsung Galaxy S20 5G 128GB - Cosmic Grey - Unlocked - Open Box- Hydrogel Screen Protector- Case",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 349.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

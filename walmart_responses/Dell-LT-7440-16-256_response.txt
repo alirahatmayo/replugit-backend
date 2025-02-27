@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-LT-7440-16-256",
+    "wpid": "2XSFGK5DVPTU",
+    "upc": "647535633404",
+    "gtin": "00647535633404",
+    "productName": "Dell Latitude 14 - 7440 2-in-1 | Intel Core i7-1355U | 14\" FHD+ Touch Display | 16GB RAM | 256GB SSD | Windows 11 Pro | Refurbished By Dell with 1-Year Official Warranty - Like New",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1899.93
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "Dell-7440",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "ram_memory",
+                "value": "16"
+            }
+        ]
+    }
+}

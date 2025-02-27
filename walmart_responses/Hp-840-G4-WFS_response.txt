@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Hp-840-G4-WFS",
+    "wpid": "2YS1OK3UJOK8",
+    "upc": "658238949747",
+    "gtin": "00658238949747",
+    "productName": "HP EliteBook 840 G4 14\" touch FHD Laptop, Core i5-7300U Up to 2.60 GHz, 16GB RAM, 256GB Solid State Drive, Windows 10 Pro 64Bit, Webcam (Renewed)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 324.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "840 G4",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "edition",
+                "value": "840 G4 - 7th Gen Processor"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-LT-3140",
+    "wpid": "5ZD0R4F7VU1F",
+    "upc": "647535754611",
+    "gtin": "00647535754611",
+    "productName": "Dell Latitude 11 - 3140 | Intel N100 Quad-core | 11.6\" HD Laptop | 4GB RAM | 64GB eMMC | Windows 11 Pro | Refurbished By Dell with 1-Year Official Warranty - Like New",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 199.93
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

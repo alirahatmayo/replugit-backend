@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "999003805050",
+    "wpid": "3SGP43XHYQ9G",
+    "upc": "999003805050",
+    "gtin": "00999003805050",
+    "productName": "2022 Apple MacBook Pro 13.3\" w/ Touch Bar (2022) - Space Grey (Apple M2 Chip / 512GB SSD / 8GB RAM) - English - BRAND NEW",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1949.99
+    },
+    "publishedStatus": "SYSTEM_PROBLEM",
+    "lifecycleStatus": "ARCHIVED"
+}

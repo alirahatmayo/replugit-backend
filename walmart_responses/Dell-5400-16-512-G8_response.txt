@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-5400-16-512-G8",
+    "wpid": "2VJ1LQFC96CG",
+    "upc": "789091943624",
+    "gtin": "00789091943624",
+    "productName": "Dell Latitude 5400 14\" Notebook - Intel Core i5 8th Gen | 16GB RAM | 512GB SSD | Windows 11 Pro | Full HD Display - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1400.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

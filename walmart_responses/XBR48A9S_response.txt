@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "XBR48A9S",
+    "wpid": "2R7CA2D4N1JS",
+    "upc": "027242920033",
+    "gtin": "00027242920033",
+    "productName": "Sony XBR-48A9S 48\u2033 Master Series OLED 4K Ultra HD HDR Smart TV",
+    "shelf": "[\"Root\",\"Electronics\",\"TV & Video\",\"TVs\",\"40 inch - 49 inch TVs\"]",
+    "productType": "Televisions",
+    "price": {
+        "currency": "CAD",
+        "amount": 1289.99
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

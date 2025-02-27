@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "dell-5320-0",
+    "wpid": "3DP75GADR8H4",
+    "upc": "021501980233",
+    "gtin": "00021501980233",
+    "productName": "Dell Latitude 5320 Laptop, 13.3\" IPS FHD Display, Intel Core i5-1145G7 Upto 4.4GHz, 8GB RAM, 1TB NVMe SSD, HDMI, Thunderbolt, Card Reader, Wi-Fi, Bluetooth, Windows 11 Pro",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1399.99
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

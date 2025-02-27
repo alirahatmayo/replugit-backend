@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-LT-7320-16-512-i7-T",
+    "wpid": "6ZQWDVKID3WO",
+    "upc": "647535662862",
+    "gtin": "00647535662862",
+    "productName": "Dell Latitude 13 - 7320 Detachable | Intel Core i7-1180G7 | 13\" FHD+ Touch Display | 16GB RAM | 512GB SSD | Windows 11 Pro | 3-Year Official Support - Renewed",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1299.93
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-CB-3100",
+    "wpid": "41YSWTJJ3IYP",
+    "upc": "647535921440",
+    "gtin": "00647535921440",
+    "productName": "Dell Chromebook 11 - 3100 - (2022) | Intel Celeron N4020 | 11.6\" Touch Screen | 4GB RAM | 32GB eMMC | 1-Year Official Warranty - Like New",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 229.93
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

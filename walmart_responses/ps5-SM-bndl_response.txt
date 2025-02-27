@@ -1,0 +1,15 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "ps5-SM-bndl",
+    "wpid": "1SL8ETXTJB8V",
+    "gtin": "03803914152189",
+    "productName": "PlayStation 5 Console PLUS PlayStation 5 DualSense Wireless Controller AND Marvel's Spider-Man: Miles Morales Ultimate Edition (PlayStation 5)",
+    "shelf": "[\"Root\",\"Video Games\",\"Retro Gaming\",\"Retro Gaming Consoles\"]",
+    "productType": "Video Game Consoles",
+    "price": {
+        "currency": "CAD",
+        "amount": 999.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

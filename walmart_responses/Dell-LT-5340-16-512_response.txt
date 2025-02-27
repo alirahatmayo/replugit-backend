@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-LT-5340-16-512",
+    "wpid": "6LAPZ8TDBJNK",
+    "upc": "647535769165",
+    "gtin": "00647535769165",
+    "productName": "Dell Latitude 13 - 5340 | Intel Core i5-1345U | 13.3\" FHD Laptop | 16GB RAM | 512GB SSD | Windows 11 Pro | Refurbished By Dell with 1-Year Official Warranty - Like New",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1149.93
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S2U2-256GB-Black-8",
+    "wpid": "51K0EG4S0X2G",
+    "upc": "887276622668",
+    "gtin": "00887276622668",
+    "productName": "Samsung Galaxy S22 Ultra - 5G smartphone - dual-SIM - RAM 12 GB / Internal Memory 256 GB - OLED display - 6.8\" - 3088 x 1440 pixels (120 Hz) - 4x rear cameras 108 MP, 12 MP, 10 MP, 10 MP - front camera 40 MP - phantom black",
+    "shelf": "[\"UNNAV\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1788.98
+    },
+    "publishedStatus": "UNPUBLISHED",
+    "lifecycleStatus": "RETIRED"
+}

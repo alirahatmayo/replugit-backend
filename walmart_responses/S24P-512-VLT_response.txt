@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S24P-512-VLT",
+    "wpid": "4M0IT443BO2P",
+    "upc": "887276801490",
+    "gtin": "00887276801490",
+    "productName": "Samsung Galaxy S24+ - 512GB - Cobalt Violet",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1899.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

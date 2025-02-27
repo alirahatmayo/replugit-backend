@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-T480s-16-256-T",
+    "wpid": "66YBD2UVFCMF",
+    "upc": "789091944096",
+    "gtin": "00789091944096",
+    "productName": "Lenovo ThinkPad T480s (Touch Screen) FHD Ultrabook | Intel i5 8365U |16 GB RAM | 256 GB SSD | Windows 11 Pro - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 550.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "T480s-i5-16-256",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "resolution",
+                "value": "FHD- Touch Screen"
+            }
+        ]
+    }
+}

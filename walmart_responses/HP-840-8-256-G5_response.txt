@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "HP-840-8-256-G5",
+    "wpid": "69MC7EMIR9UP",
+    "upc": "840669006186",
+    "gtin": "00840669006186",
+    "productName": "Refurbished HP Laptop Intel i5-8530U 840 G5",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 394.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

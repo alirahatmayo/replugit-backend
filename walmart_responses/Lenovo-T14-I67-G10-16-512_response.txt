@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Lenovo-T14-I67-G10-16-512",
+    "wpid": "7JT0R1FEF1GH",
+    "upc": "789091943679",
+    "gtin": "00789091943679",
+    "productName": "Lenovo ThinkPad T14s Gen 1 14\" FHD - Intel Core i7 10th Gen | 16GB RAM | 512GB SSD - Windows 11 Pro - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1500.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "T14",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "edition",
+                "value": "Intel\u00ae Core\u2122 i7"
+            }
+        ]
+    }
+}

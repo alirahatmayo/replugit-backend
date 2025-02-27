@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "S24u-256-YLW-WM",
+    "wpid": "1PSQPW1H89H5",
+    "upc": "400504403114",
+    "gtin": "00400504403114",
+    "productName": "Samsung Galaxy S24 Ultra 12+256GB",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 1599.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "PRD-6000207542123",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Titanium Yellow"
+            }
+        ]
+    }
+}

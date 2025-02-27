@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Samsung-G-A35-Navy",
+    "wpid": "5QUCQW0F06UA",
+    "upc": "647535519968",
+    "gtin": "00647535519968",
+    "productName": "Samsung Galaxy A35 5G (2024) - 128 GB Unlocked Smartphone - Awsome Navy - Brand New",
+    "shelf": "[\"Root\",\"Electronics\",\"Cell Phones and Accessories\",\"Unlocked Phones\",\"Unlocked Samsung phones\"]",
+    "productType": "Cell Phones",
+    "price": {
+        "currency": "CAD",
+        "amount": 449.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "Galaxy A35",
+    "variantGroupInfo": {
+        "isPrimary": true,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Navy"
+            }
+        ]
+    }
+}

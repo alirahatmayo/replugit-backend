@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Len-T14-AMD-32-1TB",
+    "wpid": "5C6R7QOFIGJS",
+    "upc": "789091944102",
+    "gtin": "00789091944102",
+    "productName": "Lenovo ThinkPad T14 Gen2 - AMD Ryzen 7 PRO 5850U | 32GB RAM | 1TB SSD | 14\" FHD - (Refurbished)",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1200.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

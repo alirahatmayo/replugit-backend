@@ -1,0 +1,26 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "TAB-S9_U-256",
+    "wpid": "6A00DWY2BGBT",
+    "upc": "887276777221",
+    "gtin": "00887276777221",
+    "productName": "Samsung Galaxy Tab S9 Ultra 12GB 256GB Beige",
+    "shelf": "[\"Root\",\"Electronics\",\"iPad & Tablets\",\"Samsung Tablets\"]",
+    "productType": "Tablet Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1599.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE",
+    "variantGroupId": "PRD-6000206818130",
+    "variantGroupInfo": {
+        "isPrimary": false,
+        "groupingAttributes": [
+            {
+                "name": "actual_color",
+                "value": "Gray"
+            }
+        ]
+    }
+}

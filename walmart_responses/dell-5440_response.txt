@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "dell-5440",
+    "wpid": "5XZK9ID8AITJ",
+    "upc": "884116454038",
+    "gtin": "00884116454038",
+    "productName": "Dell Latitude 5440 - Intel Core i5 - 1345U / up to 4.7 GHz - vPro Enterprise - Win 11 Pro - Intel Iris Xe Graphics - 8 GB RAM - 256 GB SSD NVMe, Class 35 - 14\" IPS 1920 x 1080 (Full HD) - Gigabit Ethernet - Wi-Fi 6E - kbd: English - BTS - with 1 Year Hardware Service with Onsite/In-Home Service After Remote Diagnosis - Disti SNS",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Windows Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 1299.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}

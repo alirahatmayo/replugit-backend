@@ -1,0 +1,16 @@
+{
+    "mart": "WALMART_CA",
+    "sku": "Dell-7390-i5-16-256",
+    "wpid": "7AJSIQN4CNXE",
+    "upc": "196105442088",
+    "gtin": "00196105442088",
+    "productName": "Certified Refurbished Dell Latitude 7000 7390 Laptop (2018) | 13.3\" FHD Touch | Core i5 - 256GB SSD - 8GB RAM | 4 Cores @ 3.4 GHz",
+    "shelf": "[\"Root\",\"Electronics\",\"Laptops, Computers & Accessories\",\"Laptops\",\"Refurbished Laptops\"]",
+    "productType": "Laptop Computers",
+    "price": {
+        "currency": "CAD",
+        "amount": 349.95
+    },
+    "publishedStatus": "PUBLISHED",
+    "lifecycleStatus": "ACTIVE"
+}
