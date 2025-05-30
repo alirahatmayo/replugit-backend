@@ -20,7 +20,8 @@ class CustomerAdmin(admin.ModelAdmin):
         'name',
         'email',
         'phone_number',
-        'address'  # additional searchable field if exists
+        'address',
+        'relay_email'  # additional searchable field if exists
     )
     list_filter = (
         'source_platform',

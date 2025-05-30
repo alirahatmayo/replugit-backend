@@ -9,7 +9,7 @@ def find_null_lines(filepath):
     return null_lines
 
 null_files = {}
-for root, dirs, files in os.walk("platform_api"):
+for root, dirs, files in os.walk("replugit-backend"):
     for file in files:
         if file.endswith(".py"):
             path = os.path.join(root, file)
@@ -22,4 +22,4 @@ if null_files:
     for filepath, lines in null_files.items():
         print(f"File: {filepath} has null bytes at lines: {lines}")
 else:
-    print("No .py files with null bytes found in platform_api.")
+    print("No .py files with null bytes found in replugit-backend.")

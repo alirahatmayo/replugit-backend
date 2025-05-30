@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Warranty
+from .models import Warranty, WarrantyLog
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.decorators import action
@@ -44,23 +44,25 @@ class WarrantySerializer(serializers.ModelSerializer):
             raise serializers.ValidationError(f"Invalid status transition from {instance.status} to {value}.")
         return value
 
-    @action(detail=False, methods=['get'], url_path='check/(?P<serial_number>[^/.]+)')
-    def check_warranty(self, request, serial_number=None):
-        """
-        Check warranty status using the ProductUnit serial number.
-        """
-        try:
-            warranty = Warranty.objects.select_related('product_unit').get(product_unit__serial_number=serial_number)
-            serializer = self.get_serializer(warranty)
-            return Response(serializer.data, status=status.HTTP_200_OK)
-        except Warranty.DoesNotExist:
-            return Response({'error': 'No warranty found for the provided serial number.'}, status=status.HTTP_404_NOT_FOUND)
+    # @action(detail=False, methods=['get'], url_path='check/(?P<serial_number>[^/.]+)')
+    # def check_warranty(self, request, serial_number=None):
+    #     """
+    #     Check warranty status using the ProductUnit serial number.
+    #     """
+    #     try:
+    #         warranty = Warranty.objects.select_related('product_unit').get(product_unit__serial_number=serial_number)
+    #         serializer = self.get_serializer(warranty)
+    #         return Response(serializer.data, status=status.HTTP_200_OK)
+    #     except Warranty.DoesNotExist:
+    #         return Response({'error': 'No warranty found for the provided serial number.'}, status=status.HTTP_404_NOT_FOUND)
 
 
 class WarrantyLogSerializer(serializers.ModelSerializer):
     """
     Serializer for the WarrantyLog model.
     """
+    performed_by_username = serializers.CharField(source='performed_by.username', read_only=True)
+
     class Meta:
-        # model = WarrantyLog
+        model = WarrantyLog
         fields = '__all__'

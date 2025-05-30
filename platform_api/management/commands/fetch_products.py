@@ -1,203 +1,255 @@
 from django.core.management.base import BaseCommand, CommandError
-from platform_api.processors.registry.product import ProductProcessorRegistry
-from platform_api.registry import PlatformRegistry
-import logging
 import json
-import csv
+import logging
 from pathlib import Path
-from .utils.walmart_ca_utils import map_to_schema
 from typing import Dict, Any, Tuple, Union
+from decimal import Decimal
 
 logger = logging.getLogger(__name__)
 
+# Custom JSON encoder for Decimal values
+class DecimalEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, Decimal):
+            return str(obj)
+        return super().default(obj)
+
 class Command(BaseCommand):
-    help = "Fetch products from a specified platform and process them via the new architecture"
+    help = "Fetch and manage products from marketplace platforms"
 
     def add_arguments(self, parser):
-        parser.add_argument("--platform", type=str, required=True,
-                            help="Platform identifier (e.g., walmart_ca, amazon_us, shopify)")
-        parser.add_argument("--action", type=str, choices=["fetch_all", "fetch_by_sku"],
-                            default="fetch_all", help="Action to perform")
-        parser.add_argument("--limit", type=int, default=50,
-                            help="Number of products per request")
-        parser.add_argument("--offset", type=int, default=0,
-                            help="Pagination offset")
-        parser.add_argument("--sku", type=str, help="Fetch specific product by SKU")
-        parser.add_argument("--output", type=str, choices=['console', 'json', 'csv'],
-                            default='console', help="Output format for fetched products")
-        parser.add_argument("--output-file", type=str,
-                            help="Output file path (for JSON/CSV output)")
-        parser.add_argument("--dry-run", action="store_true",
-                            help="Show what would be processed without making changes")
-        parser.add_argument("--save-response", action="store_true",
-                            help="Save API responses to file")
-        parser.add_argument("--extra_options", type=str,
-                            help="Extra JSON parameters for platform-specific options (e.g., '{\"category\": \"electronics\", \"brand\": \"sony\"}')")
-
+        parser.add_argument("--platform", type=str, required=True, help="Platform identifier (e.g., walmart_ca)")
+        
+        # Operation type
+        parser.add_argument("--operation", type=str, default="fetch", 
+                           choices=['fetch', 'fetch-all', 'inventory', 'price'],
+                           help="Operation to perform")
+        
+        # Product filters
+        parser.add_argument("--sku", type=str, help="Specific product SKU to fetch")
+        parser.add_argument("--status", choices=['ACTIVE', 'ARCHIVED', 'RETIRED'], 
+                           help="Filter by lifecycle status")
+        parser.add_argument("--published", choices=['PUBLISHED', 'UNPUBLISHED'],
+                           help="Filter by published status")
+        parser.add_argument("--variant-group", type=str, help="Get products by variant group ID")
+        
+        # Pagination options
+        parser.add_argument("--all-pages", action="store_true", help="Fetch all pages of products")
+        parser.add_argument("--limit", type=int, default=20, help="Number of products to fetch")
+        parser.add_argument("--offset", type=int, help="Offset for pagination")
+        
+        # Output options
+        parser.add_argument("--output-file", type=str, help="Output file for fetched products")
+        parser.add_argument("--data-file", type=str, help="JSON file with product data for updates")
+        parser.add_argument("--dry-run", action="store_true", help="Process but don't save to database")
+        
+        # Inventory specific
+        parser.add_argument("--quantity", type=int, help="Quantity for inventory update")
+        
+        # Price specific
+        parser.add_argument("--price", type=float, help="Regular price for price update")
+        parser.add_argument("--sale-price", type=float, help="Sale price for price update")
+        
     def handle(self, *args, **options):
         platform_key = options.get("platform")
-        if not platform_key:
-            raise CommandError("Platform parameter is required")
-        try:
-            # Get platform and processor from our registries/abstractions.
-            platform = PlatformRegistry.get_platform(platform_key)
-            processor = ProductProcessorRegistry.get_processor(platform_key)
-            action = options["action"]
-            if action == "fetch_by_sku":
-                self._handle_fetch_by_sku(platform, processor, options)
-            else:
-                self._handle_fetch_all(platform, processor, options)
-        except Exception as e:
-            logger.error(f"Unexpected error in fetch_products command: {e}", exc_info=True)
-            raise CommandError(f"Unexpected error: {e}")
-
-    def _process_single_product(self, product_data: Dict[str, Any], processor, options) -> Tuple[Dict[str, Any], bool]:
-        """Process a single product and return its processed data."""
-        try:
-            mapped_data = map_to_schema(product_data)
-            if options.get("dry_run"):
-                return mapped_data, True
-            
-            product = processor.process_product(mapped_data)
-            # Get the processed data directly from the platform_data
-            processed_data = product.platform_data.get(product.platform, {})
-            
-            self.stdout.write(self.style.SUCCESS(
-                f"✓ Processed [{product.sku}] - {product.name[:50]}..."))
-            return processed_data, True
-        except Exception as e:
-            sku = product_data.get('sku', 'Unknown SKU')
-            error_msg = f"Error processing [{sku}]: {str(e)}"
-            self.stdout.write(self.style.ERROR(f"✗ {error_msg}"))
-            return {'sku': sku, 'error': error_msg}, False
-
-
-    def _handle_fetch_by_sku(self, platform, processor, options):
-        """Handle fetching a single product by SKU"""
-        sku = options.get("sku")
-        if not sku:
-            raise CommandError("SKU is required for fetch_by_sku action")
+        operation = options.get("operation")
         
-        self.stdout.write(f"Fetching product with SKU: {sku}")
-        try:
-            product_data = platform.fetch_product_by_sku(sku)
-            summary, success = self._process_single_product(product_data, processor, options)
-            
-            if options.get("dry_run"):
-                self.stdout.write(self.style.SUCCESS(f"Dry run; would process: {summary}"))
-                return
-            
-            if success:
-                self._handle_output([summary], [], options)
-            else:
-                self._handle_output([], [summary], options)
-                
-        except Exception as e:
-            logger.error(f"Error processing product {sku}: {e}")
-            self.stderr.write(self.style.ERROR(f"Error: {e}"))
-
-    def _handle_fetch_all(self, platform, processor, options):
-        """Handle fetching all products with pagination"""
-        limit = options["limit"]
-        offset = options["offset"]
-        processed = []
-        errors = []
+        # Initialize platform API
+        from platform_api.platforms.walmart_ca import WalmartCA
+        platform_api = WalmartCA()
         
-        self.stdout.write(f"Fetching products from offset: {offset}")
+        # Prepare parameters for API calls
+        params = self._build_params_from_options(options)
         
-        try:
-            if options.get("dry_run"):
-                self.stdout.write(self.style.SUCCESS("Dry run: Would process products"))
-                return
-                
-            while True:
-                self.stdout.write(self.style.WARNING("\nMaking API request..."))
-                products = platform.fetch_products(limit=limit, offset=offset)
-                
-                if not products:
-                    self.stdout.write(self.style.WARNING("No products returned from API"))
-                    break
-                    
-                self.stdout.write(f"\nProcessing batch of {len(products)} products...")
-                
-                for product_data in products:
-                    summary, success = self._process_single_product(product_data, processor, options)
-                    if success:
-                        processed.append(summary)
-                    else:
-                        errors.append(summary)
-                
-                offset += len(products)
-                if len(products) < limit:
-                    break
-                    
-            self._print_processing_summary(len(processed), len(errors))
-            self._handle_output(processed, errors, options)
+        self.stdout.write(f"Operation: {operation}")
+        
+        # Execute appropriate operation
+        if operation == 'fetch':
+            products = platform_api.products.get_products(**params)
+            self._handle_products_result(products, options)
             
-        except Exception as e:
-            logger.error(f"Error fetching products: {e}", exc_info=True)
-            raise CommandError(str(e))
-
-    def _print_processing_summary(self, total_processed: int, total_errors: int):
-        """Print a summary of the processing results."""
-        self.stdout.write("\n" + "=" * 50)
-        self.stdout.write("Processing complete:")
-        self.stdout.write(f"✓ Successfully processed: {total_processed}")
-        self.stdout.write(f"✗ Errors: {total_errors}")
-        self.stdout.write("=" * 50)
-
-    def _build_params(self, options):
-        """Build parameters dictionary with validation"""
+        elif operation == 'fetch-all':
+            self.stdout.write("Fetching all products (this may take a while)...")
+            products = platform_api.products.get_all_products(**params)
+            self._handle_products_result(products, options)
+            
+        elif operation == 'inventory':
+            self._update_inventory(platform_api, options)
+            
+        elif operation == 'price':
+            self._update_price(platform_api, options)
+    
+    def _build_params_from_options(self, options):
+        """Build API parameters from command options"""
         params = {
-            "limit": options.get("limit", 50),
-            "offset": options.get("offset", 0)
+            'limit': options.get('limit'),
+            'dry_run': options.get('dry_run', False)
         }
-        if category := options.get("category"):
-            params["category"] = category
-        if extra_options := options.get("extra_options"):
-            try:
-                extra = json.loads(extra_options)
-                params.update(extra)
-            except json.JSONDecodeError:
-                raise CommandError("Invalid JSON in extra_options")
-        return params
-
-    def _handle_output(self, processed, errors, options):
-        """Handle command output based on specified format"""
-        output_format = options.get('output', 'console')
-        output_file = options.get('output_file')
         
-        self.stdout.write("\nProcessing Summary:")
-        self.stdout.write(f"Successfully processed: {len(processed)}")
-        self.stdout.write(f"Failed: {len(errors)}")
-
-        if output_format in ['json', 'csv'] and not output_file:
-            raise CommandError("Output file is required for JSON/CSV output")
-
-        if output_format == 'console':
+        # Add filters if provided
+        if options.get('sku'):
+            params['sku'] = options.get('sku')
+            
+        if options.get('offset') is not None:
+            params['offset'] = options.get('offset')
+            
+        if options.get('status'):
+            params['lifecycleStatus'] = options.get('status')
+            
+        if options.get('published'):
+            params['publishedStatus'] = options.get('published')
+            
+        if options.get('variant_group'):
+            params['variantGroupId'] = options.get('variant_group')
+            
+        return params
+    
+    def _handle_products_result(self, products, options):
+        """Handle the products result"""
+        if not products:
+            self.stdout.write("No products found")
             return
             
-        output_path = Path(output_file)
-        output_path.parent.mkdir(parents=True, exist_ok=True)
+        self.stdout.write(f"Found {len(products)} products")
         
-        if output_format == 'json':
-            with output_path.open('w', encoding='utf-8') as f:
-                json.dump({'products': processed, 'errors': errors}, f, indent=2)
-        elif output_format == 'csv':
-            with output_path.open('w', newline='', encoding='utf-8') as f:
-                # Get fieldnames from the first product's keys
-                fieldnames = list(processed[0].keys()) if processed else []
-                writer = csv.DictWriter(f, fieldnames=fieldnames)
-                writer.writeheader()
-                writer.writerows(processed)
+        if options.get('output_file'):
+            with open(options.get('output_file'), 'w') as f:
+                json.dump(products, f, indent=2, cls=DecimalEncoder)
+            self.stdout.write(self.style.SUCCESS(f"Results saved to {options.get('output_file')}"))
+        else:
+            # Print first 5 products
+            if len(products) > 5:
+                self.stdout.write(json.dumps(products[:5], indent=2, cls=DecimalEncoder))
+                self.stdout.write(f"... and {len(products) - 5} more products")
+            else:
+                self.stdout.write(json.dumps(products, indent=2, cls=DecimalEncoder))
+    
+    def _update_inventory(self, platform_api, options):
+        """Update inventory levels"""
+        items = []
+        
+        if options.get('data_file'):
+            try:
+                with open(options.get('data_file'), 'r') as f:
+                    items = json.load(f)
+            except Exception as e:
+                self.stderr.write(self.style.ERROR(f"Error reading data file: {str(e)}"))
+                return
+        elif options.get('sku') and options.get('quantity') is not None:
+            items = [{
+                "sku": options.get('sku'),
+                "quantity": options.get('quantity')
+            }]
+        else:
+            self.stderr.write(self.style.ERROR("Either --data-file or --sku and --quantity are required"))
+            return
+            
+        self.stdout.write(f"Updating inventory for {len(items)} products...")
+        
+        if options.get('dry_run'):
+            self.stdout.write(self.style.WARNING("DRY RUN: No actual updates will be made"))
+            self.stdout.write(json.dumps(items, indent=2))
+            return
+            
+        response = platform_api.products.update_inventory(items)
+        self.stdout.write(self.style.SUCCESS(f"Updated inventory for {len(items)} products"))
+        self.stdout.write(json.dumps(response, indent=2, cls=DecimalEncoder))
+    
+    def _update_price(self, platform_api, options):
+        """Update product prices"""
+        items = []
+        
+        if options.get('data_file'):
+            try:
+                with open(options.get('data_file'), 'r') as f:
+                    items = json.load(f)
+            except Exception as e:
+                self.stderr.write(self.style.ERROR(f"Error reading data file: {str(e)}"))
+                return
+        elif options.get('sku') and options.get('price') is not None:
+            item = {
+                "sku": options.get('sku'),
+                "price": options.get('price')
+            }
+            if options.get('sale_price') is not None:
+                item["sale_price"] = options.get('sale_price')
+                
+            items = [item]
+        else:
+            self.stderr.write(self.style.ERROR("Either --data-file or --sku and --price are required"))
+            return
+            
+        self.stdout.write(f"Updating prices for {len(items)} products...")
+        
+        if options.get('dry_run'):
+            self.stdout.write(self.style.WARNING("DRY RUN: No actual updates will be made"))
+            self.stdout.write(json.dumps(items, indent=2))
+            return
+            
+        response = platform_api.products.update_price(items)
+        self.stdout.write(self.style.SUCCESS(f"Updated prices for {len(items)} products"))
+        self.stdout.write(json.dumps(response, indent=2, cls=DecimalEncoder))
 
+"""
+Available commands for Walmart CA product operations:
 
-#----Commands----
-# python manage.py fetch_products --platform=walmart_ca --action=fetch_all --limit=50 --offset=0 --output=console
-# python manage.py fetch_products --platform=walmart_ca --action=fetch_all --limit=50 --offset=0 --output=json --output-file=products.json
-# python manage.py fetch_products --platform=walmart_ca --action=fetch_all --limit=50 --offset=0 --output=csv --output-file=products.csv
-# python manage.py fetch_products --platform=walmart_ca --action=fetch_by_sku --sku=A15-128-BLK-WM
-# python manage.py fetch_products --platform=walmart_ca --action=fetch_by_sku --sku=A15-128-BLK-WM --dry-run
-# python manage.py fetch_products --platform=walmart_ca --action=fetch_by_sku --sku=A15-128-BLK-WM --dry-run --save-response
-# python manage.py fetch_products --platform=walmart_ca --action=fetch_by_sku --sku=A15-128-BLK-WM --dry-run --save-response --output=console
-# python manage.py fetch_products --platform=walmart_ca --action=fetch_by_sku --sku=A15-128-BLK-WM --dry-run --save-response --output=json --output-file=product.json
+# Basic product operations:
+# -----------------------
+
+# Fetch a single product by SKU
+python manage.py fetch_products --platform walmart_ca --operation fetch --sku "Len-T490-16-512"
+
+# Fetch multiple products (up to the limit)
+python manage.py fetch_products --platform walmart_ca --operation fetch --limit 50
+
+# Fetch all products (paginated)
+python manage.py fetch_products --platform walmart_ca --operation fetch-all
+
+# Save fetch results to file
+python manage.py fetch_products --platform walmart_ca --operation fetch-all --output-file products.json
+
+# Product filtering options:
+# ------------------------
+
+# Filter by lifecycle status
+python manage.py fetch_products --platform walmart_ca --operation fetch-all --status ACTIVE
+
+# Filter by published status
+python manage.py fetch_products --platform walmart_ca --operation fetch-all --published PUBLISHED
+
+# Filter by variant group
+python manage.py fetch_products --platform walmart_ca --operation fetch-all --variant-group "ABC123"
+
+# Combined filters
+python manage.py fetch_products --platform walmart_ca --operation fetch-all --status ACTIVE --published PUBLISHED
+
+# Pagination
+python manage.py fetch_products --platform walmart_ca --operation fetch --limit 20 --offset 60
+
+# Inventory operations:
+# ------------------
+
+# Update inventory for a single product
+python manage.py fetch_products --platform walmart_ca --operation inventory --sku "Len-T490-16-512" --quantity 10
+
+# Test inventory update without making API calls
+python manage.py fetch_products --platform walmart_ca --operation inventory --sku "Len-T490-16-512" --quantity 10 --dry-run
+
+# Bulk inventory update from JSON file (format: [{"sku": "SKU1", "quantity": 5}, {"sku": "SKU2", "quantity": 10}])
+python manage.py fetch_products --platform walmart_ca --operation inventory --data-file inventory.json
+
+# Price operations:
+# ----------------
+
+# Update regular price for a product
+python manage.py fetch_products --platform walmart_ca --operation price --sku "Len-T490-16-512" --price 499.99
+
+# Update regular price and sale price
+python manage.py fetch_products --platform walmart_ca --operation price --sku "Len-T490-16-512" --price 499.99 --sale-price 449.99
+
+# Test price update without making API calls
+python manage.py fetch_products --platform walmart_ca --operation price --sku "Len-T490-16-512" --price 499.99 --dry-run
+
+# Bulk price update from JSON file (format: [{"sku": "SKU1", "price": 49.99, "sale_price": 39.99}, {"sku": "SKU2", "price": 99.99}])
+python manage.py fetch_products --platform walmart_ca --operation price --data-file prices.json
+"""

@@ -6,6 +6,7 @@ from rest_framework.response import Response
 from django_filters.rest_framework import DjangoFilterBackend
 from django.urls import path, include
 from django.db import transaction, models
+from django.core.exceptions import ValidationError  # Added ValidationError import
 import logging
 from datetime import timedelta
 from django.utils.timezone import now
@@ -13,6 +14,9 @@ from django.utils.timezone import now
 from .models import Warranty
 from products.models import ProductUnit
 from customers.models import Customer
+from customers.services import CustomerService
+from .utils import validate_warranty_activation
+
 from .serializers import WarrantySerializer
 
 logger = logging.getLogger(__name__)
@@ -36,7 +40,7 @@ class WarrantyViewSet(viewsets.ModelViewSet):
     def activate(self, request, serial_number):
         """
         Activate a warranty by verifying the serial number and activation code.
-        If the customer does not exist, create a new customer.
+        Anyone with valid credentials can activate the warranty.
         """
         try:
             data = request.data
@@ -44,50 +48,60 @@ class WarrantyViewSet(viewsets.ModelViewSet):
             name = data.get("name")
             email = data.get("email")
             phone_number = data.get("phone_number")
+            notes = data.get("notes", "")  # Optional notes field
 
-            # Ensure required fields are provided
-            missing_fields = [field for field in ["activation_code", "serial_number", "name", "phone_number"] if not data.get(field)]
-            if missing_fields:
-                return Response({'error': f'Missing fields: {", ".join(missing_fields)}'}, status=status.HTTP_400_BAD_REQUEST)
+            # Basic validation
+            if not activation_code or not name or not (email or phone_number):
+                return Response({
+                    'error': 'Missing required fields: activation code, name, and either email or phone'
+                }, status=status.HTTP_400_BAD_REQUEST)
 
-            # Step 1: Fetch ProductUnit & Verify Activation Code
+            # Step 1: Validate activation credentials
+            is_valid, product_unit, error_message = validate_warranty_activation(serial_number, activation_code)
+            
+            if not is_valid:
+                return Response({'error': error_message}, 
+                               status=status.HTTP_400_BAD_REQUEST if product_unit else status.HTTP_404_NOT_FOUND)
+                               
+            # Step 2: Get warranty
             try:
-                product_unit = ProductUnit.objects.get(serial_number=serial_number)
-            except ProductUnit.DoesNotExist:
-                logger.error(f"ProductUnit with serial number {serial_number} does not exist.")
-                return Response({'error': 'No product unit found with this serial number.'}, status=status.HTTP_404_NOT_FOUND)
+                warranty = Warranty.objects.get(product_unit=product_unit)
+            except Warranty.DoesNotExist:
+                return Response({'error': 'No warranty found for this product.'}, status=status.HTTP_404_NOT_FOUND)
 
-            if not product_unit.activation_code:
-                logger.error(f"ProductUnit {serial_number} has no activation code assigned.")
-                return Response({'error': 'No activation code assigned to this product.'}, status=status.HTTP_400_BAD_REQUEST)
-
-            if product_unit.activation_code.upper() != activation_code.upper():
-                logger.warning(f"Activation code mismatch for {serial_number}. Expected: {product_unit.activation_code}, Received: {activation_code}")
-                return Response({'error': 'Invalid activation code for this serial number.'}, status=status.HTTP_400_BAD_REQUEST)
-
-            # Step 2: Fetch Warranty (or Create One)
-            warranty, created = Warranty.objects.get_or_create(
-                product_unit=product_unit,
-                defaults={
-                    'status': 'not_registered',
-                    'purchase_date': now().date(),
-                    'warranty_expiration_date': now().date() + timedelta(days=30 * 3)
-                }
-            )
-
+            # Step 3: Check if warranty is already active
             if warranty.status == 'active':
-                logger.info(f"Warranty for {serial_number} is already active.")
-                # Instead of returning an error, we return the warranty information.
                 serializer = self.get_serializer(warranty)
                 return Response({'active': True, 'warranty': serializer.data}, status=status.HTTP_200_OK)
 
-            # Step 3: Find or Create Customer
-            customer = self.get_or_create_customer(name, email, phone_number)
+            # Step 4: Find or Create Customer
+            customer = CustomerService.get_or_create_customer(name, email, phone_number)
+            
+            # Step 5: Check if activating customer is original purchaser (for logging purposes only)
+            is_original_purchaser = False
+            if warranty.order and warranty.order.customer:
+                original_customer = warranty.order.customer
+                if (email and original_customer.email and email.lower() == original_customer.email.lower()) or \
+                   (phone_number and original_customer.phone_number and phone_number == original_customer.phone_number):
+                    is_original_purchaser = True
+                    
+            # Add note about relationship if not original purchaser
+            activation_notes = notes
+            if not is_original_purchaser and warranty.order and warranty.order.customer:
+                if not activation_notes:
+                    activation_notes = "Activated by someone other than original purchaser"
 
-            # Step 4: Activate the Warranty
-            self.activate_warranty(warranty, customer)
-
-            return Response({'message': 'Warranty activated successfully.', 'customer_id': customer.id}, status=status.HTTP_200_OK)
+            # Step 6: Activate the Warranty
+            try:
+                warranty.activate(customer, notes=activation_notes)
+                serializer = self.get_serializer(warranty)
+                return Response({
+                    'message': 'Warranty activated successfully.',
+                    'warranty': serializer.data
+                }, status=status.HTTP_200_OK)
+                
+            except ValidationError as e:
+                return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
 
         except Exception as e:
             logger.error(f"Unexpected error during warranty activation: {e}", exc_info=True)
@@ -100,54 +114,37 @@ class WarrantyViewSet(viewsets.ModelViewSet):
         Returns product details if valid.
         If a warranty is already active, returns warranty info and active:true.
         """
-        try:
-            # Fetch the product unit
-            product_unit = ProductUnit.objects.get(serial_number=serial_number)
-        except ProductUnit.DoesNotExist:
-            logger.error(f"ProductUnit with serial number {serial_number} does not exist.")
-            return Response({'valid': False, 'error': 'No product unit found with this serial number.'}, status=status.HTTP_404_NOT_FOUND)
-
-        if not product_unit.activation_code:
-            logger.error(f"ProductUnit {serial_number} has no activation code assigned.")
-            return Response({'valid': False, 'error': 'No activation code assigned to this product.'}, status=status.HTTP_400_BAD_REQUEST)
-
-        if product_unit.activation_code.upper() != activation_code.upper():
-            logger.warning(f"Activation code mismatch for {serial_number}. Expected: {product_unit.activation_code}, Received: {activation_code}")
-            return Response({'valid': False, 'error': 'Invalid activation code for this serial number.'}, status=status.HTTP_400_BAD_REQUEST)
+        # Use utility function for validation
+        is_valid, product_unit, error_message = validate_warranty_activation(serial_number, activation_code)
         
-
-        # Check if a warranty already exists for this product unit.
+        if not is_valid:
+            return Response({
+                'valid': False,
+                'error': error_message
+            }, status=status.HTTP_400_BAD_REQUEST if product_unit else status.HTTP_404_NOT_FOUND)
+        
+        # Everything checks out, return success and product details
         try:
             warranty = Warranty.objects.get(product_unit=product_unit)
-            if warranty.status == 'active':
-                # If already active, return the warranty info.
-                serializer = self.get_serializer(warranty)
-                return Response({'valid': True, 'active': True, 'warranty': serializer.data}, status=status.HTTP_200_OK)
+            serializer = self.get_serializer(warranty)
+            return Response({
+                'valid': True,
+                'warranty': serializer.data,
+                'product': {
+                    'name': product_unit.product.name if hasattr(product_unit, 'product') else None,
+                    'sku': product_unit.product.sku if hasattr(product_unit, 'product') else None,
+                }
+            })
         except Warranty.DoesNotExist:
-            # No warranty exists, so the unit is available for activation.
-            pass
+            # No warranty found, but credentials are valid
+            return Response({
+                'valid': True,
+                'product': {
+                    'name': product_unit.product.name if hasattr(product_unit, 'product') else None,
+                    'sku': product_unit.product.sku if hasattr(product_unit, 'product') else None,
+                }
+            })
 
-        # Return product details if not active
-        product_data = {
-            'product_name': product_unit.product.name,
-            'product_serial_number': product_unit.serial_number,
-            # Add more product details as needed.
-        }
-        return Response({'valid': True, 'active': False, 'product': product_data}, status=status.HTTP_200_OK)
-
-    def get_or_create_customer(self, name, email, phone_number):
-        """
-        Retrieve an existing customer by phone or email, or create a new one.
-        """
-        customer = Customer.objects.filter(models.Q(phone_number=phone_number) | models.Q(email=email)).first()
-        if not customer:
-            customer = Customer.objects.create(
-                name=name,
-                email=email,
-                phone_number=phone_number,
-                source_platform="manual"
-            )
-        return customer
 
     def activate_warranty(self, warranty, customer):
         """
@@ -191,11 +188,37 @@ class WarrantyViewSet(viewsets.ModelViewSet):
             logger.error(f"Unexpected error when checking warranty: {e}", exc_info=True)
             return Response({'error': 'An unexpected error occurred.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
+    @action(detail=True, methods=['post'])
+    @transaction.atomic
+    def reset(self, request, pk=None):
+        """
+        Generic endpoint to reset a warranty to not_registered status.
+        """
+        warranty = self.get_object()
+        
+        try:
+            reason = request.data.get('reason', '')
+            keep_customer = request.data.get('keep_customer', False)
+            
+            warranty.reset_warranty(
+                user=request.user, 
+                reason=reason,
+                keep_customer=keep_customer
+            )
+            
+            return Response({
+                'status': 'success',
+                'message': 'Warranty has been reset.',
+                'warranty_id': warranty.id,
+                'product_unit': warranty.product_unit.serial_number
+            })
+        except ValidationError as e:
+            return Response({
+                'status': 'error',
+                'message': str(e)
+            }, status=status.HTTP_400_BAD_REQUEST)
+
 # Registering WarrantyViewSet with the router
 router = routers.DefaultRouter()
 router.register(r'warranties', WarrantyViewSet, basename='warranty')
 
-# URL Patterns
-urlpatterns = [
-    path('api/', include(router.urls)),
-]

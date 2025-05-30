@@ -10,6 +10,7 @@ class OrderItemDetailSerializer(serializers.ModelSerializer):
     product = ProductSerializer(read_only=True)
     assigned_units = ProductUnitSerializer(many=True, read_only=True)
     total_price = serializers.DecimalField(max_digits=10, decimal_places=2)
+    price_data = serializers.JSONField(read_only=True)  # Add this line
     
     class Meta:
         model = OrderItem
@@ -19,6 +20,7 @@ class OrderItemDetailSerializer(serializers.ModelSerializer):
             'quantity',
             'status',
             'total_price',
+            'price_data',  # Add this field
             'assigned_units'
         ]
 
@@ -38,9 +40,9 @@ class OrderItemSerializer(serializers.ModelSerializer):
     Serializer for the OrderItem model.
     Ensures correct validation for serialized and non-serialized products.
     """
-    product = ProductSerializer(read_only=True)  # Use the imported ProductSerializer
+    product = ProductSerializer()  # Use the imported ProductSerializer
     assigned_units = serializers.SerializerMethodField()
-    total_price = serializers.DecimalField(max_digits=10, decimal_places=2)
+    price_data = serializers.JSONField(read_only=True)  # Add this line
 
     class Meta:
         model = OrderItem
@@ -53,6 +55,7 @@ class OrderItemSerializer(serializers.ModelSerializer):
             'price_data',
             'assigned_units'
         ]
+        depth = 1  # Include product details
 
     def validate(self, data):
         """
@@ -96,8 +99,10 @@ class OrderDetailSerializer(serializers.ModelSerializer):
             'platform',
             'state',
             'order_date',
+            'ship_date',
+            'delivery_deadline',
             'total',
-            'items'
+            'items',
         ]
 
 class OrderListSerializer(serializers.ModelSerializer):
@@ -107,6 +112,7 @@ class OrderListSerializer(serializers.ModelSerializer):
     customer_name = serializers.CharField(source='customer.name', read_only=True)
     items_count = serializers.IntegerField(source='items.count', read_only=True)
     product_skus = serializers.SerializerMethodField()
+    items_summary = serializers.SerializerMethodField()  # Add this field
 
     class Meta:
         model = Order
@@ -118,12 +124,31 @@ class OrderListSerializer(serializers.ModelSerializer):
             'state',
             'order_total',
             'order_date',
+            'ship_date',
+            'delivery_deadline',
             'items_count',
-            'product_skus'
+            'product_skus',
+            'items_summary',  # Add this field to the list
         ]
 
     def get_product_skus(self, obj):
         return [item.product.sku for item in obj.items.all() if hasattr(item.product, 'sku')]
+        
+    def get_items_summary(self, obj):
+        """
+        Returns a simplified list of order items with basic information.
+        """
+        return [
+            {
+                'id': item.id,
+                'sku': item.product.sku if hasattr(item.product, 'sku') else None,
+                'name': item.product.name if hasattr(item.product, 'name') else 'Unknown Product',
+                'quantity': item.quantity,
+                'total_price': str(item.total_price),
+                # 'status': item.status
+            }
+            for item in obj.items.all().select_related('product')
+        ]
 
 class OrderSerializer(serializers.ModelSerializer):
     """
@@ -143,8 +168,10 @@ class OrderSerializer(serializers.ModelSerializer):
             'state',
             'order_total',
             'order_date',
-            'items'
+            'items',
+
         ]
+        depth = 1  # Include customer details
 
     def validate_state(self, value):
         """

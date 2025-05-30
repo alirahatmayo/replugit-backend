@@ -1,0 +1,70 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static %}
+
+{% block content %}
+<div class="container">
+    <h1>{{ title }}</h1>
+    
+    <div class="qc-info" style="margin-bottom: 20px; padding: 10px; background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 5px;">
+        <h2>Product Information</h2>
+        <p><strong>Product:</strong> {{ qc.product }}</p>
+        <p><strong>Reference:</strong> {{ qc.reference }}</p>
+        <p><strong>Received Quantity:</strong> {{ qc.received_quantity }}</p>
+        <p><strong>Batch Code:</strong> {{ qc.batch_code }}</p>
+    </div>
+    
+    <form method="post">
+        {% csrf_token %}
+        <fieldset>
+            <div class="form-row">
+                <label for="id_approved_quantity">Approved Quantity:</label>
+                <input type="number" id="id_approved_quantity" name="approved_quantity" 
+                       min="0" max="{{ qc.received_quantity }}" value="{{ qc.received_quantity }}" required>
+            </div>
+            
+            <div class="form-row">
+                <label for="id_rejected_quantity">Rejected Quantity:</label>
+                <input type="number" id="id_rejected_quantity" name="rejected_quantity" 
+                       min="0" max="{{ qc.received_quantity }}" value="0" required>
+            </div>
+            
+            <div class="form-row">
+                <label for="id_inspection_notes">Inspection Notes:</label>
+                <textarea id="id_inspection_notes" name="inspection_notes" rows="4"></textarea>
+            </div>
+        </fieldset>
+        
+        <div class="submit-row">
+            <input type="submit" value="Complete Inspection" class="default">
+        </div>
+    </form>
+    
+    <script>
+        // Simple validation to ensure total = received quantity
+        document.querySelector('form').addEventListener('submit', function(e) {
+            const approved = parseInt(document.getElementById('id_approved_quantity').value) || 0;
+            const rejected = parseInt(document.getElementById('id_rejected_quantity').value) || 0;
+            const total = {{ qc.received_quantity }};
+            
+            if (approved + rejected !== total) {
+                alert('Sum of approved and rejected quantities must equal total received quantity.');
+                e.preventDefault();
+            }
+        });
+        
+        // Update rejected quantity when approved changes
+        document.getElementById('id_approved_quantity').addEventListener('change', function() {
+            const approved = parseInt(this.value) || 0;
+            const total = {{ qc.received_quantity }};
+            document.getElementById('id_rejected_quantity').value = total - approved;
+        });
+        
+        // Update approved quantity when rejected changes
+        document.getElementById('id_rejected_quantity').addEventListener('change', function() {
+            const rejected = parseInt(this.value) || 0;
+            const total = {{ qc.received_quantity }};
+            document.getElementById('id_approved_quantity').value = total - rejected;
+        });
+    </script>
+</div>
+{% endblock %}

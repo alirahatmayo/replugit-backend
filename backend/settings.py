@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
+import os
 from pathlib import Path
 from decouple import config, Csv
 from django.core.exceptions import ImproperlyConfigured
@@ -46,15 +47,27 @@ INSTALLED_APPS = [
     'warranties',
     'products',
     'orders',
+    'inventory',
     'platform_api',
+    'quality_control',
+    'receiving',
+    'manifest',
+    'manifests',
+    'pandas',
+   'openpyxl',
+    'xlrd',
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',  # This should be at the top
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
+    #--Remove beofre deployment
+    'backend.middleware.CsrfExemptMiddleware',  # Add this line
+    # Add API request logging middleware for improved debugging
+    'backend.api_logging_middleware.ApiRequestLoggingMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -135,7 +148,36 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # CORS settings
-CORS_ALLOW_ALL_ORIGINS = True  # Allow all domains to access your API
+CORS_ALLOWED_ORIGINS = [f"http://localhost:{port}" for port in range(3000, 3011)]
+
+# Or to allow all origins (not recommended for production):
+# CORS_ALLOW_ALL_ORIGINS = True
+
+# Allow credentials (cookies, authentication) to be sent in cross-origin requests
+CORS_ALLOW_CREDENTIALS = True
+
+# Specify which HTTP methods are allowed for CORS requests
+CORS_ALLOW_METHODS = [
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
+]
+
+# Specify which HTTP headers can be used in CORS requests
+CORS_ALLOW_HEADERS = [
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+]
 
 # Walmart API Settings
 WALMART_CA_CLIENT_SECRET = config('WALMART_CA_CLIENT_SECRET', default='')
@@ -146,6 +188,9 @@ WALMART_CA_AUTH_URL = config('WALMART_CA_AUTH_URL', default='https://marketplace
 WALMART_US_PRIVATE_KEY = config('WALMART_US_PRIVATE_KEY', default='')
 WALMART_US_CLIENT_ID = config('WALMART_US_CLIENT_ID', default='')
 WALMART_US_CLIENT_SECRET = config('WALMART_US_CLIENT_SECRET', default='')
+
+# Inventory settings
+INVENTORY_TRACK_UNITS = True  # Set to False to disable unit tracking globally
 
 def validate_settings():
     required_settings = [
@@ -163,6 +208,52 @@ def validate_settings():
         raise ImproperlyConfigured(
             f"The following settings are required: {', '.join(missing)}"
         )
+
+DATA_UPLOAD_MAX_NUMBER_FIELDS = 8081
+
+# Logging configuration
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '{levelname} {asctime} {module} {message}',
+            'style': '{',
+        },
+        'simple': {
+            'format': '{levelname} {message}',
+            'style': '{',
+        },
+    },
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose',
+        },
+        'file': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(BASE_DIR, 'logs', 'api_requests.log'),
+            'maxBytes': 10485760,  # 10MB
+            'backupCount': 5,
+            'formatter': 'verbose',
+        },
+    },
+    'loggers': {
+        'api.requests': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+        'products': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+    },
+}
+
+# Ensure logs directory exists
+os.makedirs(os.path.join(BASE_DIR, 'logs'), exist_ok=True)
 
 # Call validation at the end of settings.py
 validate_settings()

@@ -3,8 +3,12 @@ from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.response import Response
 from rest_framework.decorators import action
 from django.db import transaction
+from django.http import HttpResponse
 from .models import Order, OrderItem
 from .serializers import OrderSerializer, OrderItemSerializer, OrderDetailSerializer, OrderListSerializer
+import logging
+
+logger = logging.getLogger(__name__)
 
 class OrderViewSet(viewsets.ModelViewSet):
     """
@@ -16,6 +20,7 @@ class OrderViewSet(viewsets.ModelViewSet):
     search_fields = ['order_number', 'customer__name', 'platform']
     ordering_fields = ['order_date', 'updated_at']
     ordering = ['-order_date']
+    lookup_field = 'order_number'
 
     def get_serializer_class(self):
         """
@@ -36,7 +41,9 @@ class OrderViewSet(viewsets.ModelViewSet):
             return queryset.prefetch_related(
                 'items',
                 'items__product',
-                'items__product__units'  # This matches the model relationship
+                'items__assigned_units_relation',  # This is correct
+                'items__product__inventory_records',  # Fixed related_name
+                'items__product__inventory_records__location'  # Fixed related_name
             )
         
         # List view needs minimal related data
@@ -52,13 +59,32 @@ class OrderViewSet(viewsets.ModelViewSet):
         return Response({'status': 'Order confirmed'})
 
     @action(detail=True, methods=['post'])
+    @transaction.atomic
     def ship(self, request, pk=None):
         """
-        Ship an order.
+        Ship an order and mark all assigned product units as sold.
+        This triggers warranty creation for serialized products.
         """
         order = self.get_object()
+        
+        # First, transition the order state
         order.transition_state('shipped')
-        return Response({'status': 'Order shipped'})
+        
+        # Now mark all assigned product units as sold
+        units_updated = 0
+        for item in order.items.all():
+            for product_unit in item.assigned_units_relation.all():
+                try:
+                    # Use the mark_as_sold method which will create warranties via signal
+                    product_unit.mark_as_sold(order_item=item)
+                    units_updated += 1
+                except Exception as e:
+                    logger.error(f"Error marking unit {product_unit.id} as sold: {str(e)}")
+        
+        return Response({
+            'status': 'Order shipped',
+            'units_marked_as_sold': units_updated
+        })
 
     @action(detail=True, methods=['post'])
     def cancel(self, request, pk=None):
@@ -83,23 +109,62 @@ class OrderItemViewSet(viewsets.ModelViewSet):
     ordering = ['-created_at']
 
     @action(detail=True, methods=['post'])
+    @transaction.atomic
     def mark_as_shipped(self, request, pk=None):
         """
-        Mark an order item as shipped.
+        Mark an order item as shipped and mark all its product units as sold.
+        This triggers warranty creation for serialized products.
         """
         order_item = self.get_object()
         order_item.status = 'shipped'
         order_item.save()
-        return Response({'status': 'Order item marked as shipped'})
+        
+        # Mark all assigned product units as sold
+        units_updated = 0
+        for product_unit in order_item.assigned_units_relation.all():
+            try:
+                # Use the mark_as_sold method which will create warranties via signal
+                product_unit.mark_as_sold(order_item=order_item)
+                units_updated += 1
+            except Exception as e:
+                logger.error(f"Error marking unit {product_unit.id} as sold: {str(e)}")
+        
+        return Response({
+            'status': 'Order item marked as shipped',
+            'units_marked_as_sold': units_updated
+        })
 
     @action(detail=True, methods=['post'])
+    @transaction.atomic
     def mark_as_returned(self, request, pk=None):
         """
-        Mark an order item as returned.
+        Mark an order item as returned and update product unit statuses.
         """
         order_item = self.get_object()
         order_item.status = 'returned'
         order_item.save()
-        return Response({'status': 'Order item marked as returned'})
-
-# Registering ViewSets with the router
+        
+        # Update all assigned product units to returned status
+        units_updated = 0
+        for product_unit in order_item.assigned_units_relation.all():
+            try:
+                # Set status back to returned
+                product_unit.status = 'returned'
+                product_unit.save()
+                
+                # Optionally: Reset any warranties
+                from warranties.models import Warranty
+                try:
+                    warranty = Warranty.objects.get(product_unit=product_unit)
+                    warranty.reset_warranty(reason="Product returned")
+                except Warranty.DoesNotExist:
+                    pass  # No warranty to reset
+                    
+                units_updated += 1
+            except Exception as e:
+                logger.error(f"Error updating returned unit {product_unit.id}: {str(e)}")
+        
+        return Response({
+            'status': 'Order item marked as returned',
+            'units_updated': units_updated
+        })

@@ -9,8 +9,9 @@ from decimal import Decimal
 from django.db.models import Sum
 import logging
 logger = logging.getLogger(__name__)
-from .utils import format_price_data, calculate_total_from_price_data, calculate_item_price, DecimalEncoder
+# from .utils import format_price_data, calculate_total_from_price_data, calculate_item_price, DecimalEncoder
 import json
+from django.utils import timezone
 
 # --------------------------
 # Order Model
@@ -99,6 +100,59 @@ class Order(models.Model):
 
     def __str__(self):
         return f"Order {self.order_number} ({self.platform}) - {self.state}"
+
+    def update_status(self, new_status, reason=None, changed_by="system"):
+        """Update order status and record the change in history"""
+        if self.state == new_status:
+            return False
+        
+        previous_status = self.state
+        self.state = new_status
+        self.save(update_fields=['state'])
+        
+        # Record status change in history
+        OrderStatusHistory.objects.create(
+            order=self,
+            previous_status=previous_status,
+            new_status=new_status,
+            reason=reason,
+            changed_by=changed_by
+        )
+        
+        # Set temporary attributes for backward compatibility
+        self._status_changed = True
+        self._previous_status = previous_status
+        
+        return True
+
+    def get_status_history(self):
+        """Get status history in chronological order"""
+        return self.status_history.all().order_by('changed_at')
+
+    def get_latest_status_change(self):
+        """Get the most recent status change"""
+        return self.status_history.order_by('-changed_at').first()
+
+# --------------------------
+# OrderStatusHistory Model
+# --------------------------
+
+class OrderStatusHistory(models.Model):
+    """Track order status changes"""
+    order = models.ForeignKey('orders.Order', related_name='status_history', on_delete=models.CASCADE)
+    previous_status = models.CharField(max_length=50)
+    new_status = models.CharField(max_length=50)
+    changed_at = models.DateTimeField(default=timezone.now)
+    reason = models.TextField(null=True, blank=True)
+    changed_by = models.CharField(max_length=100, null=True, blank=True)
+    
+    class Meta:
+        ordering = ['-changed_at']
+        verbose_name = "Order Status History"
+        verbose_name_plural = "Order Status Histories"
+    
+    def __str__(self):
+        return f"{self.order.order_number}: {self.previous_status} → {self.new_status}"
 
 # --------------------------
 # OrderItem Model

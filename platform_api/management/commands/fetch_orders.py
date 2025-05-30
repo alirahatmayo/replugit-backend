@@ -4,10 +4,8 @@ import json
 from datetime import datetime
 from time import sleep
 from decimal import Decimal
-
-# Import our new processor getter and platform registry
-from platform_api.platforms.walmart_ca.processor import WalmartCAProcessor
 from platform_api.registry import PlatformRegistry
+from platform_api.platforms.walmart_ca.orders.processor import WalmartCAOrderProcessor
 
 logger = logging.getLogger(__name__)
 
@@ -24,6 +22,11 @@ class Command(BaseCommand):
         parser.add_argument("--output", type=str, choices=['console', 'json', 'csv'], default='console', help="Output format")
         parser.add_argument("--output-file", type=str, help="Output file path (for JSON/CSV output)")
         parser.add_argument("--dry-run", action="store_true", help="Show what would be processed without making changes")
+        parser.add_argument("--sku", type=str, help="Filter by specific product SKU")
+        parser.add_argument("--from-ship-date", type=str, help="Expected ship date from (YYYY-MM-DD)")
+        parser.add_argument("--to-ship-date", type=str, help="Expected ship date to (YYYY-MM-DD)")
+        parser.add_argument("--product-info", action="store_true", help="Include product information in response")
+        parser.add_argument("--all-pages", action="store_true", help="Fetch all pages of results (pagination)")
 
     def handle(self, *args, **options):
         """Handle command execution"""
@@ -34,8 +37,10 @@ class Command(BaseCommand):
         order_id = options.get("order_id")
         # Instantiate the processor based on the platform key
         if platform_key.lower() == "walmart_ca":
-            processor = WalmartCAProcessor()
+            processor = WalmartCAOrderProcessor()
+            print("Walmart CA processor instantiated")
         else:
+            print("Platform not supported")
             processor = PlatformRegistry.get_processor(platform_key)
 
         try:
@@ -70,8 +75,19 @@ class Command(BaseCommand):
             
             # Process orders
             for order_data in orders:
+                # Debug the actual order ID from the raw data
+                order_id = order_data.get('purchaseOrderId', 'Unknown')
+                print(f"Processing order: {order_id}")
+                
                 try:
                     processed_order = processor.process_order(order_data)
+                    if not processed_order:
+                        self.stderr.write(self.style.ERROR(f"Failed to process order {order_id}: Processor returned None"))
+                        continue
+                        
+                    # Add a debug print to verify we have a proper order object
+                    print(f"Processed order object: {processed_order.order_number}, Email: '{processed_order.relay_email}', Phone: '{processed_order.phone_number}'")
+                    
                     saved_order = processor.save_order(processed_order)
                     
                     # Format order status change
@@ -88,14 +104,21 @@ class Command(BaseCommand):
                     for item in saved_order.items.all():
                         price_data = item.price_data
                         if isinstance(price_data, dict):
-                            price = Decimal(price_data.get('amount', '0.00'))
-                            currency = price_data.get('currency', 'CAD')
-                            if price > 0:
-                                items_summary.append(
-                                    f"\n    - {item.quantity}x {item.product.name} "
-                                    f"(${price:.2f} {currency})"
-                                )
-                                total_items += item.quantity
+                            # Use the correct structure based on your PriceFormatter output
+                            if 'totals' in price_data and 'grand_total' in price_data['totals']:
+                                # New price data format
+                                price = Decimal(price_data['totals']['grand_total'])
+                                currency = price_data['totals']['currency']
+                            else:
+                                # Fallback to old format
+                                price = Decimal(price_data.get('amount', '0.00'))
+                                currency = price_data.get('currency', 'CAD')
+                                
+                            items_summary.append(
+                                f"\n    - {item.quantity}x {item.product.name} "
+                                f"(${price:.2f} {currency})"
+                            )
+                            total_items += item.quantity
 
                     self.stdout.write(
                         self.style.SUCCESS(
@@ -106,6 +129,23 @@ class Command(BaseCommand):
                             f"\n- Items ({total_items}):{''.join(items_summary)}"
                         )
                     )
+
+                    # Add status history display
+                    history = saved_order.get_status_history()
+                    if history.exists():
+                        history_entries = []
+                        for entry in history:
+                            timestamp = entry.changed_at.strftime('%Y-%m-%d %H:%M:%S')
+                            history_entries.append(
+                                f"\n  • {timestamp}: {entry.previous_status} → {entry.new_status}" +
+                                (f" ({entry.reason})" if entry.reason else "")
+                            )
+                        
+                        self.stdout.write(
+                            self.style.SUCCESS(
+                                f"\n- Status History:{''.join(history_entries)}"
+                            )
+                        )
 
                 except Exception as e:
                     logger.error(f"Error processing order: {e}")
@@ -143,6 +183,18 @@ class Command(BaseCommand):
                 params.update(extra)
             except json.JSONDecodeError as e:
                 raise CommandError(f"Invalid JSON in extra_options: {e}")
+        if options.get('sku'):
+            params['sku'] = options['sku']
+            
+        if options.get('from_ship_date'):
+            params['from_expected_ship_date'] = options['from_ship_date']
+            
+        if options.get('to_ship_date'):
+            params['to_expected_ship_date'] = options['to_ship_date']
+            
+        if options.get('product_info'):
+            params['product_info'] = True
+            
         return params
 
     def _save_output(self, orders: list, format_type: str, filename: str):
@@ -169,11 +221,48 @@ class Command(BaseCommand):
                         })
 
 
-#----Commands----
-# python manage.py fetch_orders --platform=walmart_ca --start_date=2022-01-01 --end_date=2022-01-31 --output=console
-# python manage.py fetch_orders --platform=walmart_ca --start_date=2025-01-01 --end_date=2025-02-31 --output=json --output-file=orders.json
-# python manage.py fetch_orders --platform=walmart_ca --start_date=2022-01-01 --end_date=2022-01-31 --output=csv --output-file=orders.csv
-# python manage.py fetch_orders --platform=walmart_ca --start_date=2022-01-01 --end_date=2022-01-31 --output=console --dry-run
-# python manage.py fetch_orders --platform=walmart_ca --start_date=2022-01-01 --end_date=2022-01-31 --output=console --status=pending
-# python manage.py fetch_orders --platform=walmart_ca --start_date=2022-01-01 --end_date=2022-01-31 --output=console --status=shipped
-# python manage.py fetch_order_By_id
+# Sample usage:
+"""
+Order management commands for Walmart CA:
+
+# Basic order operations:
+# -----------------------
+
+# Fetch recent orders
+python manage.py fetch_orders --platform walmart_ca
+python manage.py fetch_orders --platform=walmart_ca --start_date=2025-01-01 --end_date=2025-03-10 
+
+# Fetch orders by date range
+python manage.py fetch_orders --platform walmart_ca --from-date 2024-03-01 --to-date 2024-03-09
+
+# Fetch specific order
+python manage.py fetch_orders --platform walmart_ca --order-id Y41985711
+
+# Filter orders by status
+python manage.py fetch_orders --platform walmart_ca --status Created
+python manage.py fetch_orders --platform walmart_ca --status Acknowledged
+python manage.py fetch_orders --platform walmart_ca --status Shipped
+
+# Save orders to file
+python manage.py fetch_orders --platform walmart_ca --output-file orders.json
+
+# Order processing:
+# ---------------
+
+# Perform specific operations on orders
+python manage.py manage_order --platform walmart_ca --action status --order-id 123456789
+python manage.py manage_order --platform walmart_ca --action acknowledge --order-id 123456789
+python manage.py manage_order --platform walmart_ca --action cancel --order-id 123456789 --reason CUSTOMER_CANCELLED
+
+# Ship order with tracking information 
+python manage.py manage_order --platform walmart_ca --action ship --order-id 123456789 --carrier UPS --tracking-number 1Z999AA10123456784
+
+# Use data file for shipping (for complex multi-line shipments)
+python manage.py manage_order --platform walmart_ca --action ship --order-id 123456789 --data-file shipment.json
+
+# Force processing without validation
+python manage.py fetch_orders --platform walmart_ca --force
+
+# Process but don't save to database
+python manage.py fetch_orders --platform walmart_ca --dry-run
+"""

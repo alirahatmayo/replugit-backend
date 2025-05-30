@@ -1,0 +1,35 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static %}
+
+{% block content %}
+<div class="container">
+    <h1>{{ title }}</h1>
+    
+    <div class="qc-info" style="margin-bottom: 20px; padding: 10px; background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 5px;">
+        <h2>Quality Control Information</h2>
+        <p><strong>Product:</strong> {{ qc.product }}</p>
+        <p><strong>Approved Quantity:</strong> {{ qc.approved_quantity }}</p>
+        <p><strong>Reference:</strong> {{ qc.reference }}</p>
+        <p><strong>Batch Code:</strong> {{ qc.batch_code }}</p>
+    </div>
+    
+    <form method="post">
+        {% csrf_token %}
+        <fieldset>
+            <div class="form-row">
+                <label for="id_location">Location:</label>
+                <select id="id_location" name="location" required>
+                    <option value="">Select a location</option>
+                    {% for location in locations %}
+                    <option value="{{ location.id }}">{{ location.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </fieldset>
+        
+        <div class="submit-row">
+            <input type="submit" value="Create Inventory Receipt" class="default">
+        </div>
+    </form>
+</div>
+{% endblock %}

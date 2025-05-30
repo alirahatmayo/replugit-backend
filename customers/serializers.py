@@ -28,4 +28,4 @@ class CustomerChangeLogSerializer(serializers.ModelSerializer):
     class Meta:
         model = CustomerChangeLog
         fields = '__all__'
-        read_only_fields = '__all__'
+        read_only_fields = fields

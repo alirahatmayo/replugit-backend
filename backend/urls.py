@@ -17,11 +17,20 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
+from django.views.decorators.csrf import csrf_exempt
+# from .views import api_root
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('products.urls')),  # API for products
-    path('api/', include('customers.urls')),  # API for customers
-    path('api/', include('orders.urls')),  # API for orders
-    path('api/', include('warranties.urls')),  # API for warranties
+    # Wrap API root with csrf_exempt
+    # path('api/', csrf_exempt(api_root)),
+    # Include API urls WITHOUT wrapping include with csrf_exempt
+    path('api/products/', include('products.urls')),
+    path('api/customers/', include('customers.urls')),
+    path('api/orders/', include('orders.urls')),
+    path('api/warranties/', include('warranties.urls')),
+    path('api/inventory/', include('inventory.urls')),
+    path('api/quality-control/', include('quality_control.urls')),
+    path('api/receiving/', include('receiving.urls')),
+    path('api/manifests/', include('manifest.urls')),
 ]

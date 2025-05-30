@@ -122,6 +122,9 @@ class WalmartCAAPI:
         print(json.dumps(params, indent=2))
 
         response = self.make_request('GET', 'orders', params=params)
+
+        print(f'\nResponse Details:')
+        print(json.dumps(response, indent=2))
         
         # Handle Walmart CA response structure
         if isinstance(response, dict):
@@ -166,6 +169,7 @@ class WalmartCAAPI:
                 timeout=30
             )
             print(f'\nResponse Status: {response.status_code}')
+            print(f'response: {response.text}')
             
             data = response.json()
             

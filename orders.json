@@ -1,5 +1,705 @@
 [
   {
+    "purchaseOrderId": "309006353328278",
+    "customerOrderId": "600000004853685",
+    "customerEmailId": "F025629A73244BBA8B3875E62DF530C4@relay.walmart.ca",
+    "orderDate": 1741032851240,
+    "shippingInfo": {
+      "phone": "7053587047",
+      "estimatedDeliveryDate": 1741633200000,
+      "estimatedShipDate": 1741320000000,
+      "methodCode": "Standard",
+      "postalAddress": {
+        "name": "Andrea Hutchinson",
+        "address1": "70 Joseph Crescent",
+        "address2": null,
+        "city": "Barrie",
+        "state": "ON",
+        "postalCode": "L4N 0Y1",
+        "country": "CA",
+        "addressType": "RESIDENTIAL"
+      }
+    },
+    "orderLines": {
+      "orderLine": [
+        {
+          "lineNumber": "1",
+          "item": {
+            "productName": "HP EliteBook 840 G3 14\" Laptop - Intel Core i5 6300U | 16GB DDR4 RAM | 256GB SSD - Windows 10 Pro - (Refurbished)",
+            "sku": "Hp-840-G3-WFS"
+          },
+          "charges": {
+            "charge": [
+              {
+                "chargeType": "PRODUCT",
+                "chargeName": "ItemPrice",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 279.95
+                },
+                "tax": {
+                  "taxName": "HST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 36.39
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              },
+              {
+                "chargeType": "TAX",
+                "chargeName": "TAX",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 36.39
+                },
+                "tax": {
+                  "taxAmount": {
+                    "currency": "CLP",
+                    "amount": 0
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              }
+            ]
+          },
+          "orderLineQuantity": {
+            "unitOfMeasurement": "EACH",
+            "amount": "1"
+          },
+          "orderLineStatuses": {
+            "orderLineStatus": [
+              {
+                "status": "Created",
+                "statusQuantity": {
+                  "unitOfMeasurement": "EACH",
+                  "amount": "1"
+                },
+                "cancellationReason": null,
+                "trackingInfo": null,
+                "sellerOrderId": null,
+                "shipmentPackages": null
+              }
+            ]
+          },
+          "refund": null,
+          "fulfillment": {
+            "fulfillmentOption": "S2H",
+            "shipMethod": "STANDARD",
+            "storeId": null,
+            "offerId": "B02BD002423640138805BE5E02D568CB",
+            "pickUpDateTime": null,
+            "pickUpBy": null,
+            "predictedShipNodeId": "10001255918",
+            "predictedShipNodeName": "12530937 Canada Inc. - 10001255918 - MP"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "purchaseOrderId": "Y42624039",
+    "customerOrderId": "2612545000918",
+    "customerEmailId": "E48E4922A7694B66A68C9F77959FC531@relay.walmart.ca",
+    "orderDate": 1740970122000,
+    "shippingInfo": {
+      "phone": "2043816170",
+      "estimatedDeliveryDate": 1742238000000,
+      "estimatedShipDate": 1741233600000,
+      "methodCode": "Standard",
+      "postalAddress": {
+        "name": "Ryan Dupre",
+        "address1": "184 Pth 12 North",
+        "address2": "Walmart Steinbach Supercentre",
+        "city": "Steinbach",
+        "state": "MB",
+        "postalCode": "R5G0Y1",
+        "country": "CA",
+        "addressType": "RESIDENTIAL"
+      }
+    },
+    "orderLines": {
+      "orderLine": [
+        {
+          "lineNumber": "1",
+          "item": {
+            "productName": "HP EliteBook 840 G3 14  FHD   Intel Core i5 6300U   16GB RAM   256GB SSD",
+            "sku": "HP-840G3-i5-16-256"
+          },
+          "charges": {
+            "charge": [
+              {
+                "chargeType": "PRODUCT",
+                "chargeName": "ItemPrice",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 237.95
+                },
+                "tax": {
+                  "taxName": "GST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 28.56
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              },
+              {
+                "chargeType": "FEE",
+                "chargeName": "Eco handling fees",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 0.0
+                },
+                "tax": {
+                  "taxName": "Eco handling fees",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 0.45
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              },
+              {
+                "chargeType": "SHIPPING",
+                "chargeName": "SHIPPING",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 20.0
+                },
+                "tax": {
+                  "taxName": "GST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 2.4
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              }
+            ]
+          },
+          "orderLineQuantity": {
+            "unitOfMeasurement": "EACH",
+            "amount": "1"
+          },
+          "orderLineStatuses": {
+            "orderLineStatus": [
+              {
+                "status": "Created",
+                "statusQuantity": {
+                  "unitOfMeasurement": "EACH",
+                  "amount": "1"
+                },
+                "cancellationReason": null,
+                "trackingInfo": null,
+                "sellerOrderId": null,
+                "shipmentPackages": null
+              }
+            ]
+          },
+          "refund": null,
+          "fulfillment": {
+            "fulfillmentOption": "S2S",
+            "shipMethod": "STANDARD",
+            "storeId": null,
+            "offerId": "CA0C0C3EEB3E356999E3292BCC2D3B4E",
+            "pickUpDateTime": null,
+            "pickUpBy": null,
+            "predictedShipNodeId": "10001255918",
+            "predictedShipNodeName": "12530937 Canada Inc. - 10001255918 - MP"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "purchaseOrderId": "309006253187993",
+    "customerOrderId": "600000003362596",
+    "customerEmailId": "DDD7DBD5C46640E2B47A5838E8FD98CB@relay.walmart.ca",
+    "orderDate": 1740933203396,
+    "shippingInfo": {
+      "phone": "6044182775",
+      "estimatedDeliveryDate": 1742324400000,
+      "estimatedShipDate": 1741320000000,
+      "methodCode": "Standard",
+      "postalAddress": {
+        "name": "Juan Yanez",
+        "address1": "10557 150 St",
+        "address2": "221",
+        "city": "SURREY",
+        "state": "BC",
+        "postalCode": "V3R 4B6",
+        "country": "CA",
+        "addressType": "RESIDENTIAL"
+      }
+    },
+    "orderLines": {
+      "orderLine": [
+        {
+          "lineNumber": "1",
+          "item": {
+            "productName": "Lenovo ThinkPad T490 14\" Ultrabook - Intel Core i5 8300U | 24GB RAM | 512GB SSD | Windows 11 Pro - (Refurbished)",
+            "sku": "Len-T490-24-512"
+          },
+          "charges": {
+            "charge": [
+              {
+                "chargeType": "PRODUCT",
+                "chargeName": "ItemPrice",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 399.95
+                },
+                "tax": {
+                  "taxName": "PST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 48.05
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              },
+              {
+                "chargeType": "FEE",
+                "chargeName": "Eco handling fees",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 0.0
+                },
+                "tax": {
+                  "taxName": "Eco handling fees",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 0.45
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              },
+              {
+                "chargeType": "SHIPPING",
+                "chargeName": "SHIPPING",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 10.0
+                },
+                "tax": {
+                  "taxName": "PST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 1.2
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              },
+              {
+                "chargeType": "TAX",
+                "chargeName": "TAX",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 49.7
+                },
+                "tax": {
+                  "taxAmount": {
+                    "currency": "CLP",
+                    "amount": 0
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              }
+            ]
+          },
+          "orderLineQuantity": {
+            "unitOfMeasurement": "EACH",
+            "amount": "1"
+          },
+          "orderLineStatuses": {
+            "orderLineStatus": [
+              {
+                "status": "Created",
+                "statusQuantity": {
+                  "unitOfMeasurement": "EACH",
+                  "amount": "1"
+                },
+                "cancellationReason": null,
+                "trackingInfo": null,
+                "sellerOrderId": null,
+                "shipmentPackages": null
+              }
+            ]
+          },
+          "refund": null,
+          "fulfillment": {
+            "fulfillmentOption": "S2H",
+            "shipMethod": "STANDARD",
+            "storeId": null,
+            "offerId": "0EBFB2BDC7913226ACE2C6DC63BD065B",
+            "pickUpDateTime": null,
+            "pickUpBy": null,
+            "predictedShipNodeId": "10001255918",
+            "predictedShipNodeName": "12530937 Canada Inc. - 10001255918 - MP"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "purchaseOrderId": "309006153097446",
+    "customerOrderId": "600000003213315",
+    "customerEmailId": "85346BAB757F4313B8747F4340FFE374@relay.walmart.ca",
+    "orderDate": 1740855649990,
+    "shippingInfo": {
+      "phone": "4036067855",
+      "estimatedDeliveryDate": 1741978800000,
+      "estimatedShipDate": 1741233600000,
+      "methodCode": "Standard",
+      "postalAddress": {
+        "name": "Les Demas",
+        "address1": "10 Prestwick Bay Southeast",
+        "address2": "4401",
+        "city": "Calgary",
+        "state": "AB",
+        "postalCode": "T2Z 0B4",
+        "country": "CA",
+        "addressType": "RESIDENTIAL"
+      }
+    },
+    "orderLines": {
+      "orderLine": [
+        {
+          "lineNumber": "1",
+          "item": {
+            "productName": "Dell Latitude 5590 15.6\" Laptop - Intel Core i5 8th Gen | 16GB RAM | 512GB SSD | Windows 11 Pro - (Refurbished)",
+            "sku": "Dell-5590-i5-16-512"
+          },
+          "charges": {
+            "charge": [
+              {
+                "chargeType": "PRODUCT",
+                "chargeName": "ItemPrice",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 329.95
+                },
+                "tax": {
+                  "taxName": "GST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 16.54
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              },
+              {
+                "chargeType": "FEE",
+                "chargeName": "Eco handling fees",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 0.0
+                },
+                "tax": {
+                  "taxName": "Eco handling fees",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 0.8
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              },
+              {
+                "chargeType": "SHIPPING",
+                "chargeName": "SHIPPING",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 30.0
+                },
+                "tax": {
+                  "taxName": "GST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 1.5
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              },
+              {
+                "chargeType": "TAX",
+                "chargeName": "TAX",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 18.84
+                },
+                "tax": {
+                  "taxAmount": {
+                    "currency": "CLP",
+                    "amount": 0
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              }
+            ]
+          },
+          "orderLineQuantity": {
+            "unitOfMeasurement": "EACH",
+            "amount": "1"
+          },
+          "orderLineStatuses": {
+            "orderLineStatus": [
+              {
+                "status": "Created",
+                "statusQuantity": {
+                  "unitOfMeasurement": "EACH",
+                  "amount": "1"
+                },
+                "cancellationReason": null,
+                "trackingInfo": null,
+                "sellerOrderId": null,
+                "shipmentPackages": null
+              }
+            ]
+          },
+          "refund": null,
+          "fulfillment": {
+            "fulfillmentOption": "S2H",
+            "shipMethod": "STANDARD",
+            "storeId": null,
+            "offerId": "C0E7C75624A73B4DBC739600AE929FEB",
+            "pickUpDateTime": null,
+            "pickUpBy": null,
+            "predictedShipNodeId": "10001255918",
+            "predictedShipNodeName": "12530937 Canada Inc. - 10001255918 - MP"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "purchaseOrderId": "Y42604632",
+    "customerOrderId": "2582542000915",
+    "customerEmailId": "9DB1472320BB4B08B1AF726305181FF2@relay.walmart.ca",
+    "orderDate": 1740709087000,
+    "shippingInfo": {
+      "phone": "5198022262",
+      "estimatedDeliveryDate": 1741377600000,
+      "estimatedShipDate": 1740801600000,
+      "methodCode": "Standard",
+      "postalAddress": {
+        "name": "Martha K Siegner",
+        "address1": "6 Fenwick Crt",
+        "address2": null,
+        "city": "BRANTFORD",
+        "state": "ON",
+        "postalCode": "N3P1B1",
+        "country": "CA",
+        "addressType": "RESIDENTIAL"
+      }
+    },
+    "orderLines": {
+      "orderLine": [
+        {
+          "lineNumber": "1",
+          "shipFromCountry": "CA",
+          "item": {
+            "productName": "Samsung Galaxy A35 5G  2024    128 GB Unlocked Smartphone   Awsome Navy   B",
+            "sku": "Samsung-G-A35-Navy"
+          },
+          "charges": {
+            "charge": [
+              {
+                "chargeType": "PRODUCT",
+                "chargeName": "ItemPrice",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 427.95
+                },
+                "tax": {
+                  "taxName": "HST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 55.63
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              }
+            ]
+          },
+          "orderLineQuantity": {
+            "unitOfMeasurement": "EACH",
+            "amount": "1"
+          },
+          "orderLineStatuses": {
+            "orderLineStatus": [
+              {
+                "status": "Shipped",
+                "statusQuantity": {
+                  "unitOfMeasurement": "EACH",
+                  "amount": "1"
+                },
+                "cancellationReason": null,
+                "trackingInfo": {
+                  "shipDateTime": 1740796672000,
+                  "carrierName": {
+                    "otherCarrier": "OTHER-ST",
+                    "carrier": null
+                  },
+                  "methodCode": "Standard",
+                  "trackingNumber": "U000017891936657",
+                  "trackingURL": "https://www.uniuni.com/tracking/?no=U000017891936657",
+                  "packageStatus": "Shipped",
+                  "shipmentNo": "141110670",
+                  "actualDeliveryDateTime": null
+                },
+                "sellerOrderId": null,
+                "shipmentPackages": {
+                  "shipmentPackage": [
+                    {
+                      "shipDateTime": 1740796672000,
+                      "carrierName": {
+                        "otherCarrier": "OTHER-ST",
+                        "carrier": null
+                      },
+                      "methodCode": "Standard",
+                      "trackingNumber": "U000017891936657",
+                      "trackingURL": "https://www.uniuni.com/tracking/?no=U000017891936657",
+                      "packageStatus": "Shipped",
+                      "shipmentNo": "141110670",
+                      "actualDeliveryDateTime": null
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "refund": null,
+          "fulfillment": {
+            "fulfillmentOption": "S2H",
+            "shipMethod": "STANDARD",
+            "storeId": null,
+            "offerId": "73EC3C4E21BE3C66BD001D7474592FA5",
+            "pickUpDateTime": null,
+            "pickUpBy": null,
+            "predictedShipNodeId": "10001255918",
+            "predictedShipNodeName": "12530937 Canada Inc. - 10001255918 - MP"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "purchaseOrderId": "Y42603430",
+    "customerOrderId": "2582545000337",
+    "customerEmailId": "0D46B8BABB9B4904A5EF38CA4920F520@relay.walmart.ca",
+    "orderDate": 1740698378000,
+    "shippingInfo": {
+      "phone": "5199816276",
+      "estimatedDeliveryDate": 1741633200000,
+      "estimatedShipDate": 1741147200000,
+      "methodCode": "Standard",
+      "postalAddress": {
+        "name": "Kristin Reaume",
+        "address1": "3120 Dougall Avenue",
+        "address2": null,
+        "city": "Windsor",
+        "state": "ON",
+        "postalCode": "N9E1S7",
+        "country": "CA",
+        "addressType": "RESIDENTIAL"
+      }
+    },
+    "orderLines": {
+      "orderLine": [
+        {
+          "lineNumber": "1",
+          "item": {
+            "productName": "HP EliteBook 840 G3 14  FHD   Intel Core i5 6300U   16GB RAM   256GB SSD",
+            "sku": "HP-840G3-i5-16-256"
+          },
+          "charges": {
+            "charge": [
+              {
+                "chargeType": "PRODUCT",
+                "chargeName": "ItemPrice",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 237.95
+                },
+                "tax": {
+                  "taxName": "HST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 30.93
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              },
+              {
+                "chargeType": "SHIPPING",
+                "chargeName": "SHIPPING",
+                "chargeAmount": {
+                  "currency": "CAD",
+                  "amount": 10.0
+                },
+                "tax": {
+                  "taxName": "HST",
+                  "taxAmount": {
+                    "currency": "CAD",
+                    "amount": 1.3
+                  }
+                },
+                "isDiscount": false,
+                "discountType": null
+              }
+            ]
+          },
+          "orderLineQuantity": {
+            "unitOfMeasurement": "EACH",
+            "amount": "1"
+          },
+          "orderLineStatuses": {
+            "orderLineStatus": [
+              {
+                "status": "Created",
+                "statusQuantity": {
+                  "unitOfMeasurement": "EACH",
+                  "amount": "1"
+                },
+                "cancellationReason": null,
+                "trackingInfo": null,
+                "sellerOrderId": null,
+                "shipmentPackages": null
+              }
+            ]
+          },
+          "refund": null,
+          "fulfillment": {
+            "fulfillmentOption": "S2H",
+            "shipMethod": "STANDARD",
+            "storeId": null,
+            "offerId": "CA0C0C3EEB3E356999E3292BCC2D3B4E",
+            "pickUpDateTime": null,
+            "pickUpBy": null,
+            "predictedShipNodeId": "10001255918",
+            "predictedShipNodeName": "12530937 Canada Inc. - 10001255918 - MP"
+          }
+        }
+      ]
+    }
+  },
+  {
     "purchaseOrderId": "Y42594632",
     "customerOrderId": "6242573000648",
     "customerEmailId": "7D5FD9001DD5444788867A5626DC4323@relay.walmart.ca",
@@ -24,6 +724,7 @@
       "orderLine": [
         {
           "lineNumber": "1",
+          "shipFromCountry": "CA",
           "item": {
             "productName": "Dell Latitude 5400 Laptop   14  HD Display   Core i5   16GB RAM   256GB SSD",
             "sku": "DELL-5400-i5-16-256"
@@ -41,7 +742,7 @@
                   "taxName": "GST",
                   "taxAmount": {
                     "currency": "CAD",
-                    "amount": 44.94
+                    "amount": 44.92
                   }
                 },
                 "isDiscount": false,
@@ -73,15 +774,43 @@
           "orderLineStatuses": {
             "orderLineStatus": [
               {
-                "status": "Created",
+                "status": "Shipped",
                 "statusQuantity": {
                   "unitOfMeasurement": "EACH",
                   "amount": "1"
                 },
                 "cancellationReason": null,
-                "trackingInfo": null,
+                "trackingInfo": {
+                  "shipDateTime": 1741054954000,
+                  "carrierName": {
+                    "otherCarrier": "OTHER-ST",
+                    "carrier": null
+                  },
+                  "methodCode": "Standard",
+                  "trackingNumber": "U000041132633096",
+                  "trackingURL": "https://www.uniuni.com/tracking/?no=U000041132633096",
+                  "packageStatus": "Shipped",
+                  "shipmentNo": "141256674",
+                  "actualDeliveryDateTime": null
+                },
                 "sellerOrderId": null,
-                "shipmentPackages": null
+                "shipmentPackages": {
+                  "shipmentPackage": [
+                    {
+                      "shipDateTime": 1741054954000,
+                      "carrierName": {
+                        "otherCarrier": "OTHER-ST",
+                        "carrier": null
+                      },
+                      "methodCode": "Standard",
+                      "trackingNumber": "U000041132633096",
+                      "trackingURL": "https://www.uniuni.com/tracking/?no=U000041132633096",
+                      "packageStatus": "Shipped",
+                      "shipmentNo": "141256674",
+                      "actualDeliveryDateTime": null
+                    }
+                  ]
+                }
               }
             ]
           },
@@ -124,6 +853,7 @@
       "orderLine": [
         {
           "lineNumber": "1",
+          "shipFromCountry": "CA",
           "item": {
             "productName": "HP EliteBook 840 G3 14\" FHD - Intel Core i5-6300U | 16GB RAM | 256GB SSD | Windows 10 Pro - (Refurbished)",
             "sku": "HP-840G3-i5-16-256"
@@ -189,15 +919,43 @@
           "orderLineStatuses": {
             "orderLineStatus": [
               {
-                "status": "Created",
+                "status": "Shipped",
                 "statusQuantity": {
                   "unitOfMeasurement": "EACH",
                   "amount": "1"
                 },
                 "cancellationReason": null,
-                "trackingInfo": null,
+                "trackingInfo": {
+                  "shipDateTime": 1741062082000,
+                  "carrierName": {
+                    "otherCarrier": "OTHER",
+                    "carrier": null
+                  },
+                  "methodCode": "Standard",
+                  "trackingNumber": "U000041131179444",
+                  "trackingURL": "https://www.uniuni.com/tracking/?no=U000041131179444",
+                  "packageStatus": "Shipped",
+                  "shipmentNo": "995ffe7c-40a0-4f46-aeca-97a314176d05",
+                  "actualDeliveryDateTime": 16725225600000
+                },
                 "sellerOrderId": null,
-                "shipmentPackages": null
+                "shipmentPackages": {
+                  "shipmentPackage": [
+                    {
+                      "shipDateTime": 1741062082000,
+                      "carrierName": {
+                        "otherCarrier": "OTHER",
+                        "carrier": null
+                      },
+                      "methodCode": "Standard",
+                      "trackingNumber": "U000041131179444",
+                      "trackingURL": "https://www.uniuni.com/tracking/?no=U000041131179444",
+                      "packageStatus": "Shipped",
+                      "shipmentNo": "995ffe7c-40a0-4f46-aeca-97a314176d05",
+                      "actualDeliveryDateTime": 16725225600000
+                    }
+                  ]
+                }
               }
             ]
           },
@@ -241,6 +999,7 @@
       "orderLine": [
         {
           "lineNumber": "1",
+          "shipFromCountry": "CA",
           "item": {
             "productName": "Samsung Galaxy A35 5G 2024",
             "sku": "Sam-A35-128-WM"
@@ -273,15 +1032,43 @@
           "orderLineStatuses": {
             "orderLineStatus": [
               {
-                "status": "Created",
+                "status": "Shipped",
                 "statusQuantity": {
                   "unitOfMeasurement": "EACH",
                   "amount": "1"
                 },
                 "cancellationReason": null,
-                "trackingInfo": null,
+                "trackingInfo": {
+                  "shipDateTime": 1740708296000,
+                  "carrierName": {
+                    "otherCarrier": null,
+                    "carrier": "UPS"
+                  },
+                  "methodCode": "Standard",
+                  "trackingNumber": "1Z88YW022033606596",
+                  "trackingURL": "https://www.walmart.ca/en/orders/6232591001265/track/1Z88YW022033606596",
+                  "packageStatus": "Shipped",
+                  "shipmentNo": "141056251",
+                  "actualDeliveryDateTime": null
+                },
                 "sellerOrderId": null,
-                "shipmentPackages": null
+                "shipmentPackages": {
+                  "shipmentPackage": [
+                    {
+                      "shipDateTime": 1740708296000,
+                      "carrierName": {
+                        "otherCarrier": null,
+                        "carrier": "UPS"
+                      },
+                      "methodCode": "Standard",
+                      "trackingNumber": "1Z88YW022033606596",
+                      "trackingURL": "https://www.walmart.ca/en/orders/6232591001265/track/1Z88YW022033606596",
+                      "packageStatus": "Shipped",
+                      "shipmentNo": "141056251",
+                      "actualDeliveryDateTime": null
+                    }
+                  ]
+                }
               }
             ]
           },
@@ -325,6 +1112,7 @@
       "orderLine": [
         {
           "lineNumber": "1",
+          "shipFromCountry": "CA",
           "item": {
             "productName": "Dell Latitude 5400 Laptop   14  HD Display   Core i5   16GB RAM   256GB SSD",
             "sku": "DELL-5400-i5-16-256"
@@ -357,15 +1145,43 @@
           "orderLineStatuses": {
             "orderLineStatus": [
               {
-                "status": "Created",
+                "status": "Shipped",
                 "statusQuantity": {
                   "unitOfMeasurement": "EACH",
                   "amount": "1"
                 },
                 "cancellationReason": null,
-                "trackingInfo": null,
+                "trackingInfo": {
+                  "shipDateTime": 1740796514000,
+                  "carrierName": {
+                    "otherCarrier": null,
+                    "carrier": "UPS"
+                  },
+                  "methodCode": "Standard",
+                  "trackingNumber": "1Z88YW022015609608",
+                  "trackingURL": "https://www.walmart.ca/en/orders/6232586001502/track/1Z88YW022015609608",
+                  "packageStatus": "Shipped",
+                  "shipmentNo": "141110650",
+                  "actualDeliveryDateTime": null
+                },
                 "sellerOrderId": null,
-                "shipmentPackages": null
+                "shipmentPackages": {
+                  "shipmentPackage": [
+                    {
+                      "shipDateTime": 1740796514000,
+                      "carrierName": {
+                        "otherCarrier": null,
+                        "carrier": "UPS"
+                      },
+                      "methodCode": "Standard",
+                      "trackingNumber": "1Z88YW022015609608",
+                      "trackingURL": "https://www.walmart.ca/en/orders/6232586001502/track/1Z88YW022015609608",
+                      "packageStatus": "Shipped",
+                      "shipmentNo": "141110650",
+                      "actualDeliveryDateTime": null
+                    }
+                  ]
+                }
               }
             ]
           },
@@ -409,6 +1225,7 @@
       "orderLine": [
         {
           "lineNumber": "1",
+          "shipFromCountry": "CA",
           "item": {
             "productName": "Lenovo ThinkPad X13 Yoga Gen 2 13.3\" FHD Convertible Laptop - Intel Core i5-1135G7 | 16GB RAM | 256GB SSD | Windows 11 Pro - (Refurbished)",
             "sku": "Len-X13-Gen2-16-256"
@@ -457,15 +1274,43 @@
           "orderLineStatuses": {
             "orderLineStatus": [
               {
-                "status": "Created",
+                "status": "Shipped",
                 "statusQuantity": {
                   "unitOfMeasurement": "EACH",
                   "amount": "1"
                 },
                 "cancellationReason": null,
-                "trackingInfo": null,
+                "trackingInfo": {
+                  "shipDateTime": 1740715398000,
+                  "carrierName": {
+                    "otherCarrier": "OTHER",
+                    "carrier": null
+                  },
+                  "methodCode": "Standard",
+                  "trackingNumber": "U000286596625644",
+                  "trackingURL": "https://www.uniuni.com/tracking/?no=U000286596625644",
+                  "packageStatus": "Shipped",
+                  "shipmentNo": "10f4b725-ae17-4703-ae38-51b9f275f779",
+                  "actualDeliveryDateTime": 16725225600000
+                },
                 "sellerOrderId": null,
-                "shipmentPackages": null
+                "shipmentPackages": {
+                  "shipmentPackage": [
+                    {
+                      "shipDateTime": 1740715398000,
+                      "carrierName": {
+                        "otherCarrier": "OTHER",
+                        "carrier": null
+                      },
+                      "methodCode": "Standard",
+                      "trackingNumber": "U000286596625644",
+                      "trackingURL": "https://www.uniuni.com/tracking/?no=U000286596625644",
+                      "packageStatus": "Shipped",
+                      "shipmentNo": "10f4b725-ae17-4703-ae38-51b9f275f779",
+                      "actualDeliveryDateTime": 16725225600000
+                    }
+                  ]
+                }
               }
             ]
           },
