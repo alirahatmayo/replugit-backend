@@ -295,25 +295,28 @@ class ManifestViewSet(viewsets.ModelViewSet):
         """
         manifest = self.get_object()
         serializer = self.get_serializer(data=request.data)
-        
         if serializer.is_valid():
             try:
-                # Import the service
-                from .services import ManifestBatchService
+                # Import the CORRECT service that creates BatchItems from individual ManifestItems
+                from .batch_service import ManifestBatchService
                 
                 location_id = serializer.validated_data['location_id']
-                reference = serializer.validated_data.get('reference')
-                notes = serializer.validated_data.get('notes')
                 user = request.user
                 
-                # Delegate batch creation to the service
-                result = ManifestBatchService.create_batch(
+                # Use the correct service method that processes individual ManifestItems
+                batch, validation_issues = ManifestBatchService.create_receipt_batch_from_manifest(
                     manifest=manifest,
                     location_id=location_id,
-                    reference=reference,
-                    notes=notes,
-                    user=user
+                    user_id=user.id if user else None
                 )
+                
+                # Format the result to match expected response structure
+                result = {
+                    'batch_id': batch.id,
+                    'batch_code': batch.batch_code,
+                    'validation_issues': validation_issues,
+                    'message': f'Batch created successfully with {batch.items.count()} individual items'
+                }
                 
                 return Response({
                     'success': True,

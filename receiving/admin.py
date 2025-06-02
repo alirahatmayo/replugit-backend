@@ -112,10 +112,14 @@ class BatchItemAdmin(admin.ModelAdmin):
     def get_queryset(self, request):
         qs = super().get_queryset(request)
         return qs.select_related('product', 'batch', 'inventory_receipt')
-    
     def product_display(self, obj):
         """Display product with SKU"""
-        return f"{obj.product.sku} - {obj.product.name}"
+        if obj.product:
+            return f"{obj.product.sku} - {obj.product.name}"
+        elif obj.product_family:
+            return f"{obj.product_family.sku} (Family)"
+        else:
+            return "No Product"
     product_display.short_description = "Product"
     
     def get_unit_cost(self, obj):

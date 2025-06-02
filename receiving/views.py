@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from rest_framework.decorators import api_view, permission_classes, action
-from rest_framework import viewsets, status, serializers
+from rest_framework import viewsets, status
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from django.db import transaction
@@ -12,8 +12,7 @@ from .serializers import (
     BatchItemSerializer,
     ReceiptItemCreateSerializer,
     BatchItemListSerializer,
-    BatchSerializer,
-    BatchItemDestinationSerializer
+    BatchSerializer
 )
 from inventory.models import InventoryReceipt, Location
 # Fix the import to use the correct app name (singular)
@@ -36,8 +35,6 @@ class ReceiptBatchViewSet(viewsets.ModelViewSet):
             return ReceiptBatchCreateSerializer
         elif self.action in ['retrieve', 'process']:
             return ReceiptBatchDetailSerializer
-        elif self.action == 'update_batch_destinations':
-            return BatchItemDestinationSerializer
         return ReceiptBatchSerializer
     
     def get_queryset(self):
@@ -119,7 +116,8 @@ class ReceiptBatchViewSet(viewsets.ModelViewSet):
                 "status": batch.status,
                 "message": "No unprocessed receipts found in batch"
             })
-              # Process the batch
+            
+        # Process the batch
         try:
             # Use the enhanced model methods instead of direct service calls
             result = batch.process_batch()
@@ -135,10 +133,9 @@ class ReceiptBatchViewSet(viewsets.ModelViewSet):
                 "total_count": total_receipts
             })
         except Exception as e:
-            from .error_handling import handle_batch_processing_error
-            error_context = handle_batch_processing_error(batch, e)
+            logger.exception(f"Error processing batch {batch.id}: {str(e)}")
             return Response(
-                error_context,
+                {"error": str(e)},
                 status=status.HTTP_400_BAD_REQUEST
             )
     
@@ -147,13 +144,11 @@ class ReceiptBatchViewSet(viewsets.ModelViewSet):
     def add_items(self, request, pk=None):
         """Add items to a batch"""
         batch = self.get_object()
-          # Use our validation helper
-        try:
-            from .validation import validate_batch_status_for_modification
-            validate_batch_status_for_modification(batch)
-        except serializers.ValidationError as e:
+        
+        # Use can_be_modified helper if we add it to the model
+        if batch.status != 'pending':
             return Response(
-                {"error": str(e)},
+                {"error": f"Cannot add items to batch with status '{batch.status}'"},
                 status=status.HTTP_400_BAD_REQUEST
             )
         
@@ -165,27 +160,28 @@ class ReceiptBatchViewSet(viewsets.ModelViewSet):
         items_added = 0
         items_updated = 0
         errors = []
+        
         for item_data in serializer.validated_data:
             product_id = item_data.get('product')
-            product_family_id = item_data.get('product_family')
+            parent_product_id = item_data.get('parent_product')
             quantity = item_data.get('quantity')
             
             try:
-                # Find product or product family
+                # Find product or parent product
                 if product_id:
                     from products.models import Product
                     product = Product.objects.get(pk=product_id)
-                    product_family = None
+                    parent_product = None
                 else:
                     from products.models import ProductFamily
-                    product_family = ProductFamily.objects.get(pk=product_family_id)
+                    parent_product = ProductFamily.objects.get(pk=parent_product_id)
                     product = None
                 
                 # Check if item already exists
                 if product:
                     existing_item = batch.items.filter(product=product).first()
                 else:
-                    existing_item = batch.items.filter(product_family=product_family).first()
+                    existing_item = batch.items.filter(parent_product=parent_product).first()
                     
                 if existing_item:
                     # Update existing item
@@ -205,11 +201,12 @@ class ReceiptBatchViewSet(viewsets.ModelViewSet):
                     
                     existing_item.save()
                     items_updated += 1
-                else:                    # Create new item
+                else:
+                    # Create new item
                     new_item = BatchItem(
                         batch=batch,
                         product=product,
-                        product_family=product_family,
+                        parent_product=parent_product,
                         quantity=quantity,
                         unit_cost=item_data.get('unit_cost'),
                         notes=item_data.get('notes', ''),
@@ -221,7 +218,7 @@ class ReceiptBatchViewSet(viewsets.ModelViewSet):
                     items_added += 1
                     
             except (Product.DoesNotExist, ProductFamily.DoesNotExist):
-                errors.append(f"Product or product family with ID {product_id or product_family_id} not found")
+                errors.append(f"Product or product family with ID {product_id or parent_product_id} not found")
             except Exception as e:
                 errors.append(f"Error adding item: {str(e)}")
         
@@ -264,85 +261,45 @@ class ReceiptBatchViewSet(viewsets.ModelViewSet):
                 {"error": "location_id is required"}, 
                 status=status.HTTP_400_BAD_REQUEST
             )
-        
         try:
-            # Use the manifest service to create a batch
-            from manifest.services import ManifestBatchService
-            batch = ManifestBatchService.create_receipt_batch(
-                manifest_id=manifest_id,
+            # Use the correct manifest service to create a batch from individual items
+            from manifest.batch_service import ManifestBatchService
+            from manifest.models import Manifest
+            manifest = Manifest.objects.get(id=manifest_id)
+            batch, validation_issues = ManifestBatchService.create_receipt_batch_from_manifest(
+                manifest=manifest,
                 location_id=location_id,
-                reference=reference,
-                notes=notes,
-                created_by=request.user
+                user_id=request.user.id if request.user.is_authenticated else None
             )
-              # Return the created batch details
+            
+            # Update batch with optional reference and notes if provided
+            if reference:
+                batch.reference = reference
+            if notes:
+                batch.notes = notes
+            if reference or notes:
+                batch.save()
+              # Return the created batch details with validation issues
+            response_data = ReceiptBatchDetailSerializer(batch).data
+            if validation_issues:
+                response_data['validation_issues'] = validation_issues
+                
             return Response(
-                ReceiptBatchDetailSerializer(batch).data,
+                response_data,
                 status=status.HTTP_201_CREATED
             )
-        except Exception as e:
-            from .error_handling import ReceivingError
-            
-            error_context = {
-                "error": str(e),
-                "manifest_id": manifest_id,
-                "location_id": location_id
-            }
-            
-            logger.exception(f"Error creating batch from manifest {manifest_id}: {str(e)}")
+                
             return Response(
-                error_context,
+                response_data,
+                status=status.HTTP_201_CREATED
+            )
+            
+        except Exception as e:
+            logger.exception(f"Error creating batch from manifest: {str(e)}")
+            return Response(
+                {"error": str(e)},
                 status=status.HTTP_400_BAD_REQUEST
             )
-    
-    @action(detail=True, methods=['post'])
-    @transaction.atomic
-    def update_batch_destinations(self, request, pk=None):
-        """
-        Update the destination for all items in a batch at once
-        
-        This action allows setting the same destination for all items in a batch:
-        - 'inventory': Direct to inventory (no QC needed)
-        - 'qc': Send to Quality Control
-        - 'pending': Decision pending
-        
-        Request should contain:
-        - destination: The destination ('inventory', 'qc', or 'pending')
-        - notes: Optional notes
-        """
-        batch = self.get_object()
-        
-        # Validate request data using the destination serializer
-        serializer = self.get_serializer(data=request.data)
-        if not serializer.is_valid():
-            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-            
-        destination = serializer.validated_data['destination']
-        notes = serializer.validated_data.get('notes', '')
-        
-        # Process all items in the batch
-        from .services import ReceivingBatchService
-        updated_items = []
-        errors = []
-        for item in batch.items.all():
-            try:
-                updated_item = ReceivingBatchService.update_batch_item_destination(
-                    item, destination, notes
-                )
-                updated_items.append(updated_item.id)
-            except Exception as e:
-                from .error_handling import handle_item_processing_error
-                error_context = handle_item_processing_error(item, e)
-                errors.append(f"Error updating item {item.id}: {str(e)}")
-        
-        return Response({
-            "success": True,
-            "message": f"Updated destination for {len(updated_items)} items in batch {batch.batch_code}",
-            "batch_id": str(batch.id),
-            "batch_code": batch.batch_code,
-            "updated_items": updated_items,
-            "errors": errors if errors else None
-        })
 
 
 class BatchItemViewSet(viewsets.ModelViewSet):
@@ -350,19 +307,13 @@ class BatchItemViewSet(viewsets.ModelViewSet):
     API endpoint for managing batch items.
     
     This viewset provides CRUD operations for batch items, with optional
-    filtering by batch ID. Also provides actions to update the destination
-    (inventory or QC) for items.
+    filtering by batch ID.
     """
     serializer_class = BatchItemSerializer
     # permission_classes = [IsAuthenticated]
     
     def get_serializer_class(self):
-        """Return appropriate serializer based on action"""
-        if self.action == 'update_destination':
-            return BatchItemDestinationSerializer
-        elif self.action == 'list':
-            return BatchItemListSerializer
-        return BatchItemSerializer
+        """Use different serializers for list and detail views"""
         if self.action == 'list':
             return BatchItemListSerializer
         return BatchItemSerializer
@@ -395,8 +346,8 @@ class BatchItemViewSet(viewsets.ModelViewSet):
             batch = batch_item.batch
             
             from inventory.models import InventoryReceipt
-            
             receipt_data = {
+                'product': batch_item.product,
                 'quantity': batch_item.quantity,
                 'location': batch.location,
                 'unit_cost': batch_item.unit_cost,
@@ -409,12 +360,6 @@ class BatchItemViewSet(viewsets.ModelViewSet):
                 'created_by': self.request.user,
                 'notes': batch_item.notes
             }
-            
-            # Add product or product_family based on what's available
-            if batch_item.product:
-                receipt_data['product'] = batch_item.product
-            elif batch_item.product_family:
-                receipt_data['product_family'] = batch_item.product_family
             
             inventory_receipt = InventoryReceipt.objects.create(**receipt_data)
             
@@ -440,7 +385,8 @@ class BatchItemViewSet(viewsets.ModelViewSet):
             receipt.create_product_units = updated_item.create_product_units
             receipt.notes = updated_item.notes
             receipt.save()
-          # Update batch totals
+        
+        # Update batch totals
         updated_item.batch.calculate_totals()
     
     @transaction.atomic
@@ -457,109 +403,6 @@ class BatchItemViewSet(viewsets.ModelViewSet):
         
         # Update batch totals
         batch.calculate_totals()
-    
-    @action(detail=True, methods=['post'])
-    @transaction.atomic
-    def update_destination(self, request, pk=None):
-        """
-        Update the destination of a batch item (inventory or QC)
-        
-        This action allows changing where received items should go:
-        - 'inventory': Direct to inventory (no QC needed)
-        - 'qc': Send to Quality Control
-        - 'pending': Decision pending
-        """
-        batch_item = self.get_object()
-        
-        # Validate request data using the destination serializer
-        serializer = self.get_serializer(data=request.data)
-        if not serializer.is_valid():
-            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-            
-        destination = serializer.validated_data['destination']
-        notes = serializer.validated_data.get('notes', '')
-        
-        # Use service method to update destination
-        from .services import ReceivingBatchService
-        updated_item = ReceivingBatchService.update_batch_item_destination(
-            batch_item, destination, notes
-        )
-        
-        # Return updated item
-        return Response(BatchItemSerializer(updated_item).data)
-        
-    @action(detail=False, methods=['post'])
-    @transaction.atomic
-    def bulk_update_destination(self, request):
-        """
-        Bulk update the destination for multiple batch items
-        
-        Request should contain:
-        - item_ids: List of batch item IDs
-        - destination: The destination ('inventory', 'qc', or 'pending')
-        - notes: Optional notes
-        """
-        item_ids = request.data.get('item_ids', [])
-        destination = request.data.get('destination')
-        notes = request.data.get('notes', '')
-        
-        if not item_ids:
-            return Response(
-                {"error": "item_ids is required"}, 
-                status=status.HTTP_400_BAD_REQUEST
-            )
-        if not destination:
-            return Response(
-                {"error": "destination is required"}, 
-                status=status.HTTP_400_BAD_REQUEST
-            )
-            
-        # Use our standardized validation
-        try:
-            from .validation import validate_destination
-            validate_destination(destination)
-        except serializers.ValidationError as e:
-            return Response(
-                {"error": str(e)},
-                status=status.HTTP_400_BAD_REQUEST
-            )
-        
-        # Process all items
-        from .services import ReceivingBatchService
-        updated_items = []
-        errors = []
-        
-        for item_id in item_ids:
-            try:
-                batch_item = BatchItem.objects.get(pk=item_id)
-                updated_item = ReceivingBatchService.update_batch_item_destination(
-                    batch_item, destination, notes
-                )
-                updated_items.append(updated_item.id)
-            except BatchItem.DoesNotExist:
-                errors.append(f"Batch item with ID {item_id} not found")
-            except Exception as e:
-                from .error_handling import handle_item_processing_error
-                try:
-                    # If we have the batch item object, use it for detailed error handling
-                    if 'batch_item' in locals() and batch_item:
-                        error_info = handle_item_processing_error(batch_item, e)
-                        logger.error(f"Error details: {error_info}")
-                        errors.append(f"Error updating item {item_id}: {str(e)}")
-                    else:
-                        # Fallback if we don't have the item object
-                        logger.error(f"Error updating batch item {item_id}: {str(e)}")
-                        errors.append(f"Error updating item {item_id}: {str(e)}")
-                except Exception:
-                    # Ensure we don't crash during error handling
-                    errors.append(f"Error updating item {item_id}: {str(e)}")
-        
-        return Response({
-            "success": True,
-            "message": f"Updated destination for {len(updated_items)} items",
-            "updated_items": updated_items,
-            "errors": errors if errors else None
-        })
 
 
 class BatchViewSet(viewsets.ModelViewSet):
