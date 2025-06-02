@@ -24,14 +24,15 @@ class ReceivingBatchService:
             notes=batch_item.notes or batch.notes,
             create_product_units=batch_item.create_product_units,
             requires_unit_qc=batch_item.requires_unit_qc
-        )    @classmethod
+        )
+    
+    @classmethod
     def process_batch(cls, batch):
         """
         Process all unprocessed receipts in this batch.
         
-        For items going directly to inventory, create inventory receipts immediately.
+        For items that don't require QC, create inventory receipts immediately.
         For items that require QC, create QC records but delay inventory receipts.
-        For items with pending destination, skip processing for now.
         """
         # Use service layer to communicate with inventory system
         from inventory.services import InventoryService
@@ -51,58 +52,55 @@ class ReceivingBatchService:
             if item.skip_inventory_receipt:
                 # Mark as processed without creating a receipt
                 processed_count += 1
+                item.is_processed = True
+                item.save(update_fields=['is_processed'])
                 continue
-                  # Handle based on destination
-            if item.destination == 'pending':
-                # Skip items without decided destination
-                continue
-            elif item.destination == 'qc' or (item.requires_unit_qc and not item.destination):
-                # For items going to QC, create QC record but no inventory receipt yet
-                # Also handle legacy items with requires_unit_qc flag but no destination
+                
+            # If item requires QC, create QC record but no inventory receipt yet
+            if item.requires_unit_qc:
                 QualityControlService.create_qc_record_for_batch_item(item)
                 continue
-            elif item.destination == 'inventory':
-                # For items going directly to inventory, create inventory receipt immediately
-                receipt = cls._create_inventory_receipt(item, batch)
-                
-                # Link receipt to batch item
-                item.inventory_receipt = receipt
-                item.save(update_fields=['inventory_receipt'])
-                
-                # Process the receipt
-                InventoryService.process_receipt(receipt)
-                processed_count += 1
-          # Check if all items are processed or being processed in QC
-        if cls.are_all_batch_items_processed_or_in_qc(batch):
+            
+            # For items not requiring QC, create inventory receipt immediately
+            receipt = cls._create_inventory_receipt(item, batch)
+            
+            # Link receipt to batch item
+            item.inventory_receipt = receipt
+            item.save(update_fields=['inventory_receipt'])
+            
+            # Process the receipt
+            InventoryService.process_receipt(receipt)
+            processed_count += 1
+        
+        # Check if all items are processed or being processed in QC
+        if cls.is_batch_fully_handled(batch):
             batch.status = 'completed'
             batch.completed_at = timezone.now()
             batch.save(update_fields=['status', 'completed_at'])
         
-        return processed_count > 0    @staticmethod
-    def are_all_batch_items_processed_or_in_qc(batch):
+        return processed_count > 0
+    
+    @staticmethod
+    def is_batch_fully_handled(batch):
         """
-        Check if all items in a batch are either processed or in QC
+        Check if a batch is fully handled (all items are either processed or in QC)
         """
         for item in batch.items.all():
             # Skip items that don't need inventory receipts
             if item.skip_inventory_receipt:
                 continue
-            
-            # Skip items with pending destination
-            if item.destination == 'pending':
-                return False
-            
-            # If item is going to QC, check if QC record exists
-            if item.destination == 'qc' or item.requires_unit_qc:
+                
+            # If item requires QC, check if QC record exists
+            if item.requires_unit_qc:
                 from quality_control.models import QualityControlRecord
                 if not QualityControlRecord.objects.filter(batch_item=item).exists():
                     return False
                 continue
-            
-            # For items going to inventory, check if receipt is processed
+                
+            # For regular items, check if inventory receipt is processed
             if not item.is_processed:
                 return False
-        
+                
         return True
     
     @staticmethod
@@ -193,58 +191,10 @@ class ReceivingBatchService:
         return batch.items.filter(
             inventory_receipt__isnull=False,
             inventory_receipt__is_processed=False
-        )    @staticmethod
-    def update_batch_item_destination(item, destination, notes=None):
-        """
-        Update a batch item's destination (inventory or QC)
-        
-        Args:
-            item: The BatchItem instance to update
-            destination: The destination ('inventory', 'qc', or 'pending')
-            notes: Optional notes to append
-            
-        Returns:
-            The updated BatchItem
-        """
-        from quality_control.services import QualityControlService
-        from .utils import get_destination_display
-        from .error_handling import ValidationError
-        
-        # Validate destination
-        valid_destinations = ['inventory', 'qc', 'pending']
-        if destination not in valid_destinations:
-            raise ValidationError(f"Invalid destination: {destination}. Must be one of {valid_destinations}")
-        
-        # Update destination
-        old_destination = item.destination
-        item.destination = destination
-        
-        # Append notes if provided
-        if notes:
-            if item.notes:
-                item.notes = f"{item.notes}\n\nDESTINATION CHANGE: {notes}"
-            else:
-                item.notes = f"DESTINATION CHANGE: {notes}"
-        elif old_destination != destination:
-            # Add automatic note about the change
-            old_display = get_destination_display(old_destination)
-            new_display = get_destination_display(destination)
-            change_note = f"Destination changed from {old_display} to {new_display}"
-            
-            if item.notes:
-                item.notes = f"{item.notes}\n\n{change_note}"
-            else:
-                item.notes = change_note
-        
-        # Update requires_unit_qc based on destination
-        item.requires_unit_qc = (destination == 'qc')
-        
-        # Save changes
-        item.save(update_fields=['destination', 'notes', 'requires_unit_qc'])
-        
-        return item
-          @staticmethod
-    def contains_only_skipped_inventory_items(batch):
+        )
+    
+    @staticmethod
+    def has_skipped_items_only(batch):
         """
         Check if this batch only has items that are marked to skip inventory receipt.
         

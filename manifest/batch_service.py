@@ -33,41 +33,45 @@ class ManifestBatchService:
             - The created ReceiptBatch object
             - List of validation issues/warnings encountered during batch creation
         """
-        validation_issues = []
-        
-        # Create a new receipt batch
+        validation_issues = []        # Create a new receipt batch
         batch = ReceiptBatch(
-            reference=f"Manifest #{manifest.manifest_number}",
+            reference=f"Manifest #{manifest.id}" if not manifest.reference else manifest.reference,
             receipt_date=timezone.now(),
             location_id=location_id,
-            notes=f"Auto-generated from Manifest: {manifest.manifest_number}",
+            notes=f"Auto-generated from Manifest: {manifest.name} (ID: {manifest.id})",
             created_by_id=user_id,
-            shipping_tracking=manifest.tracking_number,
-            shipping_carrier=manifest.carrier,
             seller_info={
-                "name": manifest.supplier_name,
+                "name": manifest.name,  # Use manifest name as seller name
                 "manifest_id": manifest.id,
-                "manifest_number": manifest.manifest_number,
-                "manifest_date": manifest.date.isoformat() if manifest.date else None,
+                "manifest_reference": manifest.reference or f"Manifest #{manifest.id}",
+                "manifest_uploaded_at": manifest.uploaded_at.isoformat() if manifest.uploaded_at else None,
             },
             status="pending"
         )
-        batch.save()
-        
-        # Process each manifest item into a batch item
+        batch.save()        # Process each manifest item into a batch item
         for manifest_item in manifest.items.all():
-            cls._create_batch_item_from_manifest_item(
-                batch, 
-                manifest_item, 
-                validation_issues
-            )
+            try:
+                batch_item = cls._create_batch_item_from_manifest_item(
+                    batch, 
+                    manifest_item, 
+                    validation_issues
+                )
+                # Only continue if batch item was successfully created
+                if batch_item is None:
+                    continue
+            except Exception as e:
+                # Log the error but don't break the transaction
+                validation_issues.append({
+                    "item_id": manifest_item.id,
+                    "severity": "error",
+                    "message": f"Failed to process manifest item: {str(e)}"
+                })
         
         # Update the manifest status
         manifest.status = "processing"
         manifest.save(update_fields=["status"])
         
         return batch, validation_issues
-    
     @classmethod
     def _create_batch_item_from_manifest_item(
         cls, 
@@ -85,65 +89,63 @@ class ManifestBatchService:
             
         Returns:
             The created BatchItem
-        """
-        # Get product family or report issue
+        """        # Get product family from the manifest item's group
         product_family = None
-        product = None
-        
-        if manifest_item.product:
-            product = manifest_item.product
-            product_family = product.family
-        elif manifest_item.product_family:
-            product_family = manifest_item.product_family
-        else:
-            # Try to find by SKU
-            if manifest_item.sku:
-                try:
-                    product = Product.objects.filter(sku=manifest_item.sku).first()
-                    if product:
-                        product_family = product.family
-                except Exception as e:
-                    validation_issues.append({
-                        "item_id": manifest_item.id,
-                        "severity": "warning",
-                        "message": f"Error looking up product by SKU: {str(e)}"
-                    })
-            
-            if not product_family and manifest_item.family_sku:
-                try:
-                    product_family = ProductFamily.objects.filter(sku=manifest_item.family_sku).first()
-                except Exception as e:
-                    validation_issues.append({
-                        "item_id": manifest_item.id,
-                        "severity": "warning",
-                        "message": f"Error looking up product family by SKU: {str(e)}"
-                    })
+        try:
+            # ManifestItem gets product family through its group
+            if hasattr(manifest_item, 'group') and manifest_item.group and hasattr(manifest_item.group, 'product_family') and manifest_item.group.product_family:
+                product_family = manifest_item.group.product_family
+            elif hasattr(manifest_item, 'family_mapped_group') and manifest_item.family_mapped_group and hasattr(manifest_item.family_mapped_group, 'product_family') and manifest_item.family_mapped_group.product_family:
+                product_family = manifest_item.family_mapped_group.product_family
+        except Exception as e:
+            validation_issues.append({
+                "item_id": manifest_item.id,
+                "severity": "warning",
+                "message": f"Error accessing product family relationships: {str(e)}"
+            })
         
         if not product_family:
             validation_issues.append({
                 "item_id": manifest_item.id,
                 "severity": "error",
-                "message": f"Could not determine product family for item {manifest_item.sku or manifest_item.family_sku or 'Unknown'}"
+                "message": f"Could not determine product family for item on row {manifest_item.row_number}. Item must be in a group with assigned product family."
             })
             return None
+              # Create the batch item
+        try:
+            batch_item = BatchItem(
+                batch=batch,
+                product_family=product_family,
+                product=None,  # ManifestItems don't have specific products, only families
+                quantity=1,  # ARCHITECTURAL FIX: Each ManifestItem = 1 BatchItem with quantity=1
+                unit_cost=manifest_item.unit_price if hasattr(manifest_item, 'unit_price') else None,  # Use unit_price field from ManifestItem
+                # Calculate total cost if unit cost available
+                total_cost=manifest_item.unit_price if hasattr(manifest_item, 'unit_price') and manifest_item.unit_price else None,
+                notes=manifest_item.condition_notes if hasattr(manifest_item, 'condition_notes') else "",
+                # Default settings
+                requires_unit_qc=True,  # Default to requiring QC for manifest items
+                create_product_units=True,
+                source_type="manifest",
+                source_id=str(manifest_item.id)
+            )
+        except Exception as e:
+            validation_issues.append({
+                "item_id": manifest_item.id,
+                "severity": "error",
+                "message": f"Failed to create BatchItem object: {str(e)}"
+            })
+            return None        # NEW: Preserve all ManifestItem details in item_details JSONField
+        try:
+            if hasattr(batch_item, 'set_details_from_manifest_item'):
+                batch_item.set_details_from_manifest_item(manifest_item)
+        except Exception as e:
+            validation_issues.append({
+                "item_id": manifest_item.id,
+                "severity": "warning", 
+                "message": f"Could not set item details: {str(e)}"
+            })
         
-        # Create the batch item
-        batch_item = BatchItem(
-            batch=batch,
-            product_family=product_family,
-            product=product,  # May be None, which is fine
-            quantity=manifest_item.quantity,
-            unit_cost=manifest_item.unit_cost,
-            # Calculate total cost if unit cost available
-            total_cost=manifest_item.unit_cost * manifest_item.quantity if manifest_item.unit_cost else None,
-            notes=manifest_item.notes,
-            # Default settings
-            requires_unit_qc=manifest_item.requires_qc,
-            create_product_units=True,
-            source_type="manifest",
-            source_id=str(manifest_item.id)
-        )
-        
+        # Save the batch item
         try:
             batch_item.save()
             return batch_item
@@ -151,7 +153,7 @@ class ManifestBatchService:
             validation_issues.append({
                 "item_id": manifest_item.id,
                 "severity": "error",
-                "message": f"Failed to create batch item: {str(e)}"
+                "message": f"Failed to save batch item: {str(e)}"
             })
             return None
     
