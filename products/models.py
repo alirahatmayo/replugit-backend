@@ -131,7 +131,7 @@ class ProductUnit(models.Model):
     status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='in_stock')
     is_serialized = models.BooleanField(default=True, help_text="Whether the product unit is serialized.")
     activation_code = models.CharField(max_length=4, unique=True, null=True, blank=True)
-    batch_code = models.CharField(max_length=20, blank=True, null=True, help_text="Batch identifier for grouped units")
+    batch_code = models.CharField(max_length=50, blank=True, null=True, help_text="Batch identifier for grouped units")
     order_item = models.ForeignKey('orders.OrderItem', on_delete=models.SET_NULL, null=True, blank=True, related_name="assigned_units_relation")
     location = models.ForeignKey('inventory.Location', on_delete=models.SET_NULL, null=True, blank=True, related_name='stored_units')
     location_details = models.JSONField(default=dict,blank=True,help_text="Detailed location information (shelf, bin, etc.)")

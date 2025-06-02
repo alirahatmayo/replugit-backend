@@ -261,13 +261,26 @@ class InventoryReceipt(models.Model):
     
     quantity = models.PositiveIntegerField()
     location = models.ForeignKey('Location', on_delete=models.CASCADE, null=True, blank=True)
-    
-    # Receipt metadata
+      # Receipt metadata
     receipt_date = models.DateTimeField(auto_now_add=True)
     reference = models.CharField(max_length=100, blank=True, null=True, help_text="PO number or reference")
     notes = models.TextField(blank=True, null=True)
-    batch_code = models.CharField(max_length=20, blank=True, null=True, help_text="Optional batch identifier")
+    batch_code = models.CharField(max_length=50, blank=True, null=True, help_text="Optional batch identifier")
     created_by = models.ForeignKey('auth.User', on_delete=models.SET_NULL, null=True)
+
+    @classmethod
+    def get_or_create_system_user(cls):
+        """Get or create a system user for automatic assignments"""
+        from django.contrib.auth.models import User
+        return User.objects.get_or_create(
+            username='system',
+            defaults={
+                'email': 'system@replugit.com',
+                'first_name': 'System',
+                'last_name': 'User',
+                'is_active': True
+            }
+        )[0]
     
     # Seller information stored as JSON
     seller_info = models.JSONField(
@@ -343,50 +356,172 @@ class InventoryReceipt(models.Model):
         
         # Only auto-process for new standalone receipts (not batch)
         if is_new and not self.batch and not self.is_processed:
-            self.process_receipt()
-            
-        # Only generate units for new receipts and if allowed
+            self.process_receipt()        # Only generate units for new receipts and if allowed
+        product_updated = False
         if is_new and self.should_create_product_units():
-            self.generate_product_units()
+            original_product = self.product
             
-            # Update inventory levels
+            # Generate units - this may resolve the product via get_or_create_family_product()
+            units = self.generate_product_units()
+            
+            # Check if product was updated during unit generation
+            if self.product != original_product:
+                product_updated = True
+            
+            # Update inventory levels - only if we have a resolved product and units were created
+            if self.product and len(units) > 0:
+                inventory, created = Inventory.objects.get_or_create(
+                    product=self.product,
+                    location=self.location,
+                    defaults={'quantity': 0}  # Start with 0, then add quantity
+                )
+                
+                if not created:
+                    inventory.quantity += self.quantity
+                else:
+                    inventory.quantity = self.quantity
+                inventory.save()
+        
+        # For new receipts that don't create units but still need inventory tracking
+        elif is_new and self.product:
             inventory, created = Inventory.objects.get_or_create(
                 product=self.product,
                 location=self.location,
-                defaults={'quantity': self.quantity}
+                defaults={'quantity': 0}
             )
             
             if not created:
                 inventory.quantity += self.quantity
-                inventory.save()
+            else:
+                inventory.quantity = self.quantity
+            inventory.save()
+        
+        # Save the receipt again if product was updated during generation
+        if product_updated:
+            super().save(update_fields=['product'])
     
+    def get_or_create_family_product(self):
+        """
+        Get or create a default product for the product family.
+        
+        This method handles the common scenario where we have a product family
+        but no specific product variant. It will:
+        1. Try to find an existing primary product in the family
+        2. Fall back to the first available product in the family
+        3. Create a new default product if none exist
+        
+        Returns:
+            Product: The product to use for inventory operations
+            
+        Raises:
+            ValueError: If neither product nor product_family is specified
+        """
+        # If we already have a specific product, use it
+        if self.product:
+            return self.product
+            
+        # Must have at least a product family
+        if not self.product_family:
+            raise ValueError("Either product or product_family must be specified")
+        
+        # Try to find existing products in the family
+        # Note: Removed is_active filter since Product model doesn't have this field
+        family_products = self.product_family.products.all()
+        
+        # Prefer primary listing, otherwise use the first available product
+        target_product = (
+            family_products.filter(is_primary_listing=True).first() or 
+            family_products.first()
+        )
+          # If no products exist in the family, create a default one
+        if not target_product:
+            from products.models import Product
+            
+            # Generate a unique SKU for the default product
+            default_sku = (
+                f"{self.product_family.sku}-DEF" 
+                if hasattr(self.product_family, 'sku') and self.product_family.sku
+                else f"DEF-{self.product_family.id}"
+            )
+            
+            # Create the default product
+            target_product = Product.objects.create(
+                name=f"{self.product_family.name} (Default)",
+                sku=default_sku,
+                family=self.product_family,
+                is_primary_listing=True,
+                # Note: Removed is_active=True since Product model doesn't have this field
+            )
+            
+            # Log the creation for audit purposes
+            creation_note = f"Created default product {target_product.sku} for family {self.product_family.name}."
+            self.notes = f"{self.notes or ''}. {creation_note}"
+            
+            print(f"✓ Created default product: {target_product.sku} for family: {self.product_family.name}")
+        
+        # Always update this receipt to reference the resolved product
+        # This ensures future operations use the same product
+        if target_product != self.product:
+            self.product = target_product
+            print(f"✓ Resolved product {target_product.sku} for receipt {self.id}")
+        
+        return target_product
+
+    def _get_safe_batch_code(self):
+        """
+        Generate a safe batch_code that fits within the 50-character limit for ProductUnit.
+        Priority order:
+        1. Use self.batch_code if set and within limit
+        2. Use truncated reference if available  
+        3. Generate default BATCH-{id} format
+        """
+        # First priority: use existing batch_code if it fits
+        if self.batch_code:
+            if len(self.batch_code) <= 50:
+                return self.batch_code
+            else:
+                # Truncate long batch_code
+                return self.batch_code[:47] + "..."
+        
+        # Second priority: use reference (truncated if needed)
+        if self.reference:
+            if len(self.reference) <= 50:
+                return self.reference
+            else:
+                return self.reference[:47] + "..."
+        
+        # Fallback: generate based on receipt ID
+        return f"BATCH-{self.id}"
+
     @transaction.atomic
     def generate_product_units(self):
-        """Generate individual product units for this receipt if allowed"""
+        """
+        Generate individual product units for this receipt if allowed.
+        
+        UPDATED: Now uses get_or_create_family_product() to handle
+        the case where no products exist in a family.
+        """
         from products.models import ProductUnit
         
         # Early return if units shouldn't be created
         if not self.create_product_units:
             return []
         
-        # Determine which product to use
-        if not self.product:
-            # Find an appropriate product from the family
-            family_products = self.product_family.products.filter(is_active=True)
-            target_product = family_products.filter(is_primary_listing=True).first() or family_products.first()
-            
-            if not target_product:
-                raise Exception(f"Cannot create units: No products found in family {self.product_family.name}")
-                
-            self.product = target_product
-            self.save(update_fields=['product'])
+        print(f"🔧 Generating product units for receipt {self.id}")
         
-        # Now we have a valid product to use
+        # UPDATED: Use the shared method instead of manual product resolution
+        # This ensures consistent behavior with inventory updates
+        try:
+            target_product = self.get_or_create_family_product()
+            print(f"✓ Using product: {target_product.sku} for unit generation")
+        except Exception as e:
+            error_msg = f"Cannot create units for receipt {self.id}: {str(e)}"
+            print(f"❌ {error_msg}")
+            raise Exception(error_msg)
+        
+        # Continue with the rest of your existing unit creation logic
         units_created = []
         qc_record = None
-        
-        # Rest of your existing generation code...
-        # But replace all instances of self.product with self.product
         
         # Try to get QC record through related name
         if hasattr(self, 'quality_control'):
@@ -394,7 +529,7 @@ class InventoryReceipt(models.Model):
                 qc_record = self.quality_control
             except Exception:
                 pass
-        
+    
         for i in range(self.quantity):
             # Prepare QC metadata
             qc_metadata = None
@@ -408,21 +543,19 @@ class InventoryReceipt(models.Model):
             
             # Set status based on whether it requires unit QC
             status = "pending_qc" if self.requires_unit_qc else "in_stock"
-            
-            # Create location details as a JSON object
+              # Create location details as a JSON object
             location_details = {}
             if hasattr(self.location, 'default_shelf'):
                 location_details['shelf'] = self.location.default_shelf
-                
             if hasattr(self.location, 'default_zone'):
                 location_details['zone'] = self.location.default_zone
             
             unit = ProductUnit.objects.create(
-                product=self.product,
+                product=target_product,  # UPDATED: Use target_product instead of self.product
                 status=status,
                 location=self.location,
                 location_details=location_details,
-                batch_code=self.reference if self.reference else f"BATCH-{self.id}",
+                batch_code=self._get_safe_batch_code(),
                 metadata={
                     "receipt_id": str(self.id),
                     "receipt_date": self.receipt_date.isoformat(),
@@ -430,9 +563,10 @@ class InventoryReceipt(models.Model):
                 }
             )
             units_created.append(unit)
-        
+    
+        print(f"✅ Successfully created {len(units_created)} product units")
         return units_created
-        
+
     def should_create_product_units(self):
         """Determine if product units should be created for this receipt"""
         # Basic check - does the flag allow it?
@@ -543,8 +677,7 @@ class InventoryReceipt(models.Model):
         """Inherit fields from batch to avoid duplication"""
         if not self.batch:
             return False
-            
-        # Copy fields from batch to receipt if not set
+              # Copy fields from batch to receipt if not set
         changed = False
         
         if not self.reference and self.batch.reference:
@@ -552,7 +685,8 @@ class InventoryReceipt(models.Model):
             changed = True
             
         if not self.batch_code and self.batch.batch_code:
-            self.batch_code = self.batch.batch_code
+            # Truncate inherited batch_code to fit field constraints
+            self.batch_code = self.batch.batch_code[:50] if len(self.batch.batch_code) > 50 else self.batch.batch_code
             changed = True
             
         if not self.shipping_tracking and self.batch.shipping_tracking:

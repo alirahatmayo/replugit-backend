@@ -149,45 +149,32 @@ class ReceiptBatch(models.Model):
 
 class BatchItem(models.Model):
     """Record of a product family in a receipt batch"""
-    DESTINATION_CHOICES = [
-        ('inventory', 'Direct to Inventory'),
-        ('qc', 'Quality Control'),
-        ('pending', 'Pending Decision')
-    ]
-    
     batch = models.ForeignKey(ReceiptBatch, on_delete=models.CASCADE, related_name='items')
     
     # Use only product_family (renamed from parent_product for clarity)
     product_family = models.ForeignKey('products.ProductFamily', on_delete=models.CASCADE, 
                                       verbose_name="Product Family", null=True, blank=True)
-    
-    # Optional field to specify which variant to use (if known)
+      # Optional field to specify which variant to use (if known)
     product = models.ForeignKey('products.Product', on_delete=models.SET_NULL,
                                          null=True, blank=True, related_name='+',
                                          help_text="Preferred product variant (optional)")
-    
     quantity = models.PositiveIntegerField()
     unit_cost = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
     total_cost = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
     notes = models.TextField(blank=True, null=True)
     
-    # New field to track destination
-    destination = models.CharField(
-        max_length=20, 
-        choices=DESTINATION_CHOICES, 
-        default='pending',
-        help_text="Where to send this item after receiving"
-    )
+    # Product details and specifications (varies by product type: laptops, phones, etc.)
+    item_details = models.JSONField(default=dict, blank=True,
+                                   help_text="Product specifications that vary by type - laptops: processor/RAM/storage, phones: storage/color, etc.")
     
     # Control flags
-    skip_inventory_receipt = models.BooleanField(default=False)
+    skip_inventory_receipt = models.BooleanField(default=True)  # Changed: Don't create inventory receipts by default
     requires_unit_qc = models.BooleanField(default=False)
     create_product_units = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
     inventory_receipt = models.OneToOneField('inventory.InventoryReceipt', on_delete=models.SET_NULL, 
                                            null=True, blank=True, related_name='from_batch_item')
-    
-    # Optional source tracking - which manifest this came from, if any
+      # Optional source tracking - which manifest this came from, if any
     source_type = models.CharField(max_length=50, blank=True, null=True, 
                                   help_text="Source system type (e.g., 'manifest')")
     source_id = models.CharField(max_length=100, blank=True, null=True,
@@ -195,26 +182,22 @@ class BatchItem(models.Model):
     
     class Meta:
         ordering = ['created_at']
-        constraints = [
-            models.UniqueConstraint(
-                fields=['batch', 'product_family'],
-                name='unique_batch_family'
-            )
-        ]
-    
+        
     def __str__(self):
         # Check which type of product reference we have
         if self.product_family:
             product_text = self.product_family.sku
-            variant_text = f" (via {self.preferred_variant.sku})" if hasattr(self, 'preferred_variant') and self.preferred_variant else ""
+            variant_text = f" (via {self.product.sku})" if self.product and self.product.sku else ""
         elif self.product:
-            product_text = self.product.sku
+            product_text = self.product.sku or f"Product #{self.product.id}"
             variant_text = ""
         else:
             product_text = "Unknown Product"
             variant_text = ""
         
         batch_text = self.batch.batch_code if self.batch and self.batch.batch_code else f"Batch #{self.batch.id}" if self.batch else "No Batch"
+        
+        return f"{product_text}{variant_text} x {self.quantity} in {batch_text}"
         
         return f"{product_text}{variant_text} x {self.quantity} in {batch_text}"
     
@@ -229,11 +212,94 @@ class BatchItem(models.Model):
                 raise ValueError("Preferred variant must belong to the specified product family")
             
         super().save(*args, **kwargs)
-    
     @property
     def is_processed(self):
         """Check if this item has been processed"""
         if self.skip_inventory_receipt:
             return True
         return self.inventory_receipt and self.inventory_receipt.is_processed
+    def get_item_detail(self, key, default=None):
+        """Get a specific item detail from metadata"""
+        return self.item_details.get(key, default)
+    
+    def set_item_detail(self, key, value):
+        """Set a specific item detail in metadata"""
+        if self.item_details is None:
+            self.item_details = {}
+        self.item_details[key] = value
+    
+    def set_details_from_manifest_item(self, manifest_item):
+        """Populate item details from a ManifestItem - works for any product type"""
+        if not manifest_item:
+            return
+            
+        # Start with common fields that apply to all product types
+        item_data = {}
+        
+        # Map all ManifestItem fields to preserve complete data
+        field_mappings = {
+            'manufacturer': manifest_item.manufacturer,
+            'model': manifest_item.model,
+            'processor': manifest_item.processor,
+            'memory': manifest_item.memory,
+            'storage': manifest_item.storage,
+            'serial': manifest_item.serial,
+            'barcode': manifest_item.barcode,
+            'condition_grade': manifest_item.condition_grade,
+            'condition_notes': manifest_item.condition_notes,
+            'has_battery': manifest_item.has_battery,
+            'battery': manifest_item.battery,
+            'unit_price': str(manifest_item.unit_price) if manifest_item.unit_price else None,
+        }
+        
+        # Add any additional mapped data (preserves custom/unknown fields)
+        if manifest_item.mapped_data:
+            item_data.update(manifest_item.mapped_data)
+            
+        # Add core fields, overwriting any duplicates from mapped_data with explicit values
+        item_data.update(field_mappings)
+            
+        # Store source reference for traceability
+        item_data['source_manifest_item_id'] = manifest_item.id
+        item_data['source_row_number'] = manifest_item.row_number
+        
+        # Filter out None values to keep metadata clean
+        self.item_details = {k: v for k, v in item_data.items() if v is not None}
+    
+    @property 
+    def item_summary(self):
+        """Return a human-readable summary of item specifications (works for any product type)"""
+        if not self.item_details:
+            return "No item details"
+            
+        # Build summary based on what data is available - flexible approach
+        parts = []
+        
+        # Always include manufacturer/model if available (applies to all product types)
+        if self.item_details.get('manufacturer'):
+            parts.append(self.item_details['manufacturer'])
+        if self.item_details.get('model'):
+            parts.append(self.item_details['model'])
+            
+        # Technical specifications (primarily for electronics)
+        if self.item_details.get('processor'):
+            parts.append(f"CPU: {self.item_details['processor']}")
+        if self.item_details.get('memory'):
+            parts.append(f"RAM: {self.item_details['memory']}")
+        if self.item_details.get('storage'):
+            parts.append(f"Storage: {self.item_details['storage']}")
+            
+        # Condition and identifiers (universal)
+        if self.item_details.get('condition_grade'):
+            parts.append(f"Grade: {self.item_details['condition_grade']}")
+        if self.item_details.get('serial'):
+            parts.append(f"S/N: {self.item_details['serial']}")
+            
+        # For other product types, show any other meaningful fields
+        other_fields = ['color', 'size', 'capacity', 'brand', 'variant']
+        for field in other_fields:
+            if self.item_details.get(field):
+                parts.append(f"{field.title()}: {self.item_details[field]}")
+            
+        return " | ".join(parts) if parts else "Item details available"
 
