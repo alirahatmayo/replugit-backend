@@ -26,9 +26,7 @@ def handle_product_unit_assignment(sender, instance, created, **kwargs):
                 for unit in assigned_units:
                     if unit.is_serialized and unit.status == 'in_stock':
                         unit.status = 'shipped'
-                        unit.save()
-
-                        # Create or update warranty for each ProductUnit
+                        unit.save()                        # Create or update warranty for each ProductUnit
                         warranty, created = Warranty.objects.get_or_create(
                             product_unit=unit,
                             defaults={
@@ -36,12 +34,12 @@ def handle_product_unit_assignment(sender, instance, created, **kwargs):
                                 'order': instance.order,
                                 'warranty_period': 3,
                                 'status': 'active',
-                                'warranty_expiration_date': now() + timedelta(days=90),
+                                'warranty_expiration_date': now().date() + timedelta(days=90),
                             },
                         )
                         if not created:
                             warranty.status = 'active'
-                            warranty.warranty_expiration_date = now() + timedelta(days=90)
+                            warranty.warranty_expiration_date = now().date() + timedelta(days=90)
                             warranty.save()
 
                         logger.info(f"Created/Updated warranty for unit {unit.serial_number}")
